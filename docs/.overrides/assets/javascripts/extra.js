@@ -1,3 +1,17 @@
+// Configure MathJax for pymdownx.arithmatex
+window.MathJax = {
+  tex: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    ignoreHtmlClass: ".*|",
+    processHtmlClass: "arithmatex"
+  }
+};
+
 // Auto-collapse inactive course sections when a course is selected
 (function() {
   'use strict';
