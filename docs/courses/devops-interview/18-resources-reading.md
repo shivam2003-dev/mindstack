@@ -593,53 +593,194 @@ This chapter compiles comprehensive resources including books, articles, researc
 </details>
 
 <details>
-<summary><strong>🔗 Official Documentation</strong></summary>
+<summary><strong>⭐ Best GitHub Repositories</strong></summary>
 
-### Must-Read Docs
+### DevOps Learning & Roadmaps
 
-1. **Docker Documentation**
-   - Complete reference
-   - Best practices
-   - **Link**: [docs.docker.com](https://docs.docker.com)
-   - **Get Started**: [docs.docker.com/get-started/](https://docs.docker.com/get-started/)
-   - **Best Practices**: [docs.docker.com/develop/dev-best-practices/](https://docs.docker.com/develop/dev-best-practices/)
-   - **Security**: [docs.docker.com/engine/security/](https://docs.docker.com/engine/security/)
+1. **DevOps Roadmap**
+   - Comprehensive DevOps learning path
+   - Visual roadmap with technologies
+   - **Link**: [github.com/milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap)
+   - **Stars**: 10k+
 
-2. **Kubernetes Documentation**
-   - Concepts and tutorials
-   - API reference
-   - **Link**: [kubernetes.io/docs](https://kubernetes.io/docs)
-   - **Tutorials**: [kubernetes.io/docs/tutorials/](https://kubernetes.io/docs/tutorials/)
-   - **Concepts**: [kubernetes.io/docs/concepts/](https://kubernetes.io/docs/concepts/)
-   - **API Reference**: [kubernetes.io/docs/reference/kubernetes-api/](https://kubernetes.io/docs/reference/kubernetes-api/)
+2. **Awesome DevOps**
+   - Curated list of DevOps tools and resources
+   - **Link**: [github.com/devopsbookmarks/devopsbookmarks.com](https://github.com/devopsbookmarks/devopsbookmarks.com)
+   - **Stars**: 5k+
 
-3. **AWS Documentation**
-   - Service guides
-   - Architecture patterns
-   - **Link**: [docs.aws.amazon.com](https://docs.aws.amazon.com)
-   - **AWS Services**: [aws.amazon.com/products/](https://aws.amazon.com/products/)
-   - **Architecture Center**: [aws.amazon.com/architecture/](https://aws.amazon.com/architecture/)
-   - **Whitepapers**: [aws.amazon.com/whitepapers/](https://aws.amazon.com/whitepapers/)
+3. **DevOps Exercises**
+   - Hands-on DevOps exercises and challenges
+   - **Link**: [github.com/bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
+   - **Stars**: 50k+
 
-4. **Terraform Documentation**
-   - Provider guides
-   - Best practices
-   - **Link**: [terraform.io/docs](https://www.terraform.io/docs)
-   - **Learn**: [learn.hashicorp.com/terraform](https://learn.hashicorp.com/terraform)
-   - **Provider Docs**: [registry.terraform.io/browse/providers](https://registry.terraform.io/browse/providers)
-   - **Best Practices**: [terraform.io/docs/language/best-practices](https://www.terraform.io/docs/language/best-practices)
+### Docker & Containerization
 
-5. **Ansible Documentation**
-   - Configuration management
-   - **Link**: [docs.ansible.com](https://docs.ansible.com)
-   - **User Guide**: [docs.ansible.com/ansible/latest/user_guide/index.html](https://docs.ansible.com/ansible/latest/user_guide/index.html)
-   - **Best Practices**: [docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html)
+4. **Awesome Docker**
+   - Curated list of Docker resources and tools
+   - **Link**: [github.com/veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker)
+   - **Stars**: 25k+
 
-6. **Git Documentation**
-   - Version control
-   - **Link**: [git-scm.com/doc](https://git-scm.com/doc)
-   - **Book**: [git-scm.com/book](https://git-scm.com/book) (Free online)
-   - **Reference**: [git-scm.com/docs](https://git-scm.com/docs)
+5. **Docker Compose Examples**
+   - Real-world Docker Compose configurations
+   - **Link**: [github.com/docker/awesome-compose](https://github.com/docker/awesome-compose)
+   - **Stars**: 25k+
+
+### Kubernetes
+
+6. **Kubernetes The Hard Way**
+   - Step-by-step guide to Kubernetes from scratch
+   - **Link**: [github.com/kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+   - **Stars**: 40k+
+
+7. **Awesome Kubernetes**
+   - Curated list of Kubernetes resources
+   - **Link**: [github.com/ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
+   - **Stars**: 15k+
+
+8. **Kubernetes Examples**
+   - Official Kubernetes examples and tutorials
+   - **Link**: [github.com/kubernetes/examples](https://github.com/kubernetes/examples)
+   - **Stars**: 5k+
+
+### CI/CD & Automation
+
+9. **Awesome CI/CD**
+   - Curated list of CI/CD tools and resources
+   - **Link**: [github.com/cicdops/awesome-ciandcd](https://github.com/cicdops/awesome-ciandcd)
+   - **Stars**: 2k+
+
+10. **GitHub Actions Examples**
+    - Collection of GitHub Actions workflows
+    - **Link**: [github.com/actions/starter-workflows](https://github.com/actions/starter-workflows)
+    - **Stars**: 8k+
+
+11. **Jenkins Pipeline Examples**
+    - Jenkins pipeline examples and best practices
+    - **Link**: [github.com/jenkinsci/pipeline-examples](https://github.com/jenkinsci/pipeline-examples)
+    - **Stars**: 5k+
+
+### Infrastructure as Code
+
+12. **Awesome Terraform**
+    - Curated list of Terraform resources
+    - **Link**: [github.com/shuaibiyy/awesome-terraform](https://github.com/shuaibiyy/awesome-terraform)
+    - **Stars**: 5k+
+
+13. **Terraform AWS Modules**
+    - Reusable Terraform modules for AWS
+    - **Link**: [github.com/terraform-aws-modules](https://github.com/terraform-aws-modules)
+    - **Stars**: 10k+
+
+14. **Awesome Ansible**
+    - Curated list of Ansible resources
+    - **Link**: [github.com/ansible-community/awesome-ansible](https://github.com/ansible-community/awesome-ansible)
+    - **Stars**: 3k+
+
+### Cloud & AWS
+
+15. **Awesome AWS**
+    - Curated list of AWS resources and tools
+    - **Link**: [github.com/donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws)
+    - **Stars**: 12k+
+
+16. **AWS Well-Architected Labs**
+    - Hands-on labs for AWS Well-Architected Framework
+    - **Link**: [github.com/awslabs/aws-well-architected-labs](https://github.com/awslabs/aws-well-architected-labs)
+    - **Stars**: 5k+
+
+17. **Cloud Architecture Patterns**
+    - Cloud architecture patterns and examples
+    - **Link**: [github.com/aws-samples/aws-refarch-cloudformation](https://github.com/aws-samples/aws-refarch-cloudformation)
+    - **Stars**: 1k+
+
+### Monitoring & Observability
+
+18. **Awesome Prometheus**
+    - Curated list of Prometheus resources
+    - **Link**: [github.com/roaldnefs/awesome-prometheus](https://github.com/roaldnefs/awesome-prometheus)
+    - **Stars**: 2k+
+
+19. **Grafana Dashboards**
+    - Collection of Grafana dashboards
+    - **Link**: [github.com/grafana/grafana](https://github.com/grafana/grafana)
+    - **Stars**: 60k+
+
+20. **ELK Stack Examples**
+    - Elasticsearch, Logstash, Kibana examples
+    - **Link**: [github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk)
+    - **Stars**: 15k+
+
+### Security & DevSecOps
+
+21. **Awesome DevSecOps**
+    - Curated list of DevSecOps resources
+    - **Link**: [github.com/TaptuIT/awesome-devsecops](https://github.com/TaptuIT/awesome-devsecops)
+    - **Stars**: 2k+
+
+22. **Security Best Practices**
+    - Security best practices for DevOps
+    - **Link**: [github.com/FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)
+    - **Stars**: 25k+
+
+### System Design & Architecture
+
+23. **System Design Primer**
+    - Learn how to design large-scale systems
+    - **Link**: [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+    - **Stars**: 250k+
+
+24. **Awesome Scalability**
+    - Curated list of scalability resources
+    - **Link**: [github.com/binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
+    - **Stars**: 50k+
+
+### Interview Preparation
+
+25. **DevOps Interview Questions**
+    - Comprehensive DevOps interview questions
+    - **Link**: [github.com/bregman-arie/devops-interview-questions](https://github.com/bregman-arie/devops-interview-questions)
+    - **Stars**: 15k+
+
+26. **System Design Interview**
+    - System design interview preparation
+    - **Link**: [github.com/checkcheckzz/system-design-interview](https://github.com/checkcheckzz/system-design-interview)
+    - **Stars**: 25k+
+
+### Tools & Utilities
+
+27. **Awesome Shell**
+    - Curated list of shell tools and resources
+    - **Link**: [github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
+    - **Stars**: 30k+
+
+28. **Linux Command Line Tools**
+    - Essential Linux command line tools
+    - **Link**: [github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
+    - **Stars**: 140k+
+
+29. **Awesome Bash**
+    - Curated list of Bash resources
+    - **Link**: [github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
+    - **Stars**: 6k+
+
+### Complete DevOps Stacks
+
+30. **Production Ready Kubernetes**
+    - Production-ready Kubernetes configurations
+    - **Link**: [github.com/kubernetes/examples](https://github.com/kubernetes/examples)
+    - **Stars**: 5k+
+
+31. **Homelab Projects**
+    - Self-hosted homelab projects
+    - **Link**: [github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+    - **Stars**: 150k+
+
+!!! tip "How to Use These Repositories"
+    - Star repositories you find useful for easy access
+    - Fork repositories to customize for your needs
+    - Contribute to open source projects
+    - Follow repository owners for updates
+    - Explore related repositories through GitHub's recommendations
 
 </details>
 
