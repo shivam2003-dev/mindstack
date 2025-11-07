@@ -30,10 +30,11 @@ docker run nginx
 ```
 
 **What this does:**
-- Downloads the `nginx` image if not present locally
-- Creates a new container from the image
-- Starts the nginx web server
-- **Important:** The container runs in the foreground, blocking your terminal
+
+1. Downloads the `nginx` image if not present locally
+2. Creates a new container from the image
+3. Starts the nginx web server
+4. **Important:** The container runs in the foreground, blocking your terminal
 
 **Problem:** Your terminal is now blocked. Press `Ctrl+C` to stop the container.
 
@@ -206,9 +207,10 @@ docker run -e MY_VAR=value ubuntu env
 ```
 
 **What this does:**
-- `-e MY_VAR=value`: Sets environment variable `MY_VAR` to `value`
-- `env`: Command that prints all environment variables
-- You'll see `MY_VAR=value` in the output along with other system variables
+
+1. `-e MY_VAR=value`: Sets environment variable `MY_VAR` to `value`
+2. `env`: Command that prints all environment variables
+3. You'll see `MY_VAR=value` in the output along with other system variables
 
 **Real-world example - Database connection:**
 ```bash
@@ -364,9 +366,10 @@ docker rm my-nginx
 ```
 
 **What this does:**
-- Permanently deletes the container
-- **Warning:** All data in the container (not in volumes) is lost
-- Container ID and name become available for reuse
+
+1. Permanently deletes the container
+2. **Warning:** All data in the container (not in volumes) is lost
+3. Container ID and name become available for reuse
 
 **Removing running containers:**
 ```bash
@@ -386,10 +389,11 @@ docker container prune
 ```
 
 **What this does:**
-- Shows list of stopped containers
-- Asks for confirmation (unless `-f` flag used)
-- Removes all stopped containers
-- Frees up disk space
+
+1. Shows list of stopped containers
+2. Asks for confirmation (unless `-f` flag used)
+3. Removes all stopped containers
+4. Frees up disk space
 
 **Example output:**
 ```

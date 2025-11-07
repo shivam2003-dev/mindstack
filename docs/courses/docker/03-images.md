@@ -197,10 +197,11 @@ docker tag nginx:latest my-nginx:v1.0
 ```
 
 **What this does:**
-- Creates a new tag pointing to the same image
-- Doesn't duplicate the image (tags are just pointers)
-- Image ID remains the same
-- Now you can reference it as `my-nginx:v1.0`
+
+1. Creates a new tag pointing to the same image
+2. Doesn't duplicate the image (tags are just pointers)
+3. Image ID remains the same
+4. Now you can reference it as `my-nginx:v1.0`
 
 **Verify the tag:**
 ```bash
@@ -222,9 +223,10 @@ docker tag nginx:latest myregistry.com/nginx:latest
 ```
 
 **What this does:**
-- Prepares image for pushing to `myregistry.com`
-- Format: `registry/username/image:tag`
-- Required before `docker push`
+
+1. Prepares image for pushing to `myregistry.com`
+2. Format: `registry/username/image:tag`
+3. Required before `docker push`
 
 **Common tagging patterns:**
 ```bash
@@ -266,24 +268,30 @@ CMD ["python", "app.py"]
 ```
 
 **Line-by-line explanation:**
-- `FROM python:3.9-slim`: Start with Python 3.9 slim image (base image)
-  - `slim` variant is smaller than full Python image
-  - This becomes the foundation for your image
-- `WORKDIR /app`: Set working directory inside container to `/app`
-  - All subsequent commands run from this directory
-  - Creates the directory if it doesn't exist
-- `COPY requirements.txt .`: Copy `requirements.txt` from your computer to `/app` in container
-  - First `.` is source (your computer), second `.` is destination (current WORKDIR)
-  - Copy dependencies file first for better caching
-- `RUN pip install -r requirements.txt`: Install Python packages
-  - Runs during image build (not at container runtime)
-  - Creates a new layer in the image
-- `COPY . .`: Copy all files from current directory to `/app`
-  - Copies your application code
-  - Done after installing dependencies (better cache usage)
-- `CMD ["python", "app.py"]`: Default command to run when container starts
-  - Can be overridden when running container
-  - Uses exec form (recommended)
+
+1. **`FROM python:3.9-slim`**: Start with Python 3.9 slim image (base image)
+   - The `slim` variant is smaller than full Python image
+   - This becomes the foundation for your image
+
+2. **`WORKDIR /app`**: Set working directory inside container to `/app`
+   - All subsequent commands run from this directory
+   - Creates the directory if it doesn't exist
+
+3. **`COPY requirements.txt .`**: Copy `requirements.txt` from your computer to `/app` in container
+   - First `.` is source (your computer), second `.` is destination (current WORKDIR)
+   - Copy dependencies file first for better caching
+
+4. **`RUN pip install -r requirements.txt`**: Install Python packages
+   - Runs during image build (not at container runtime)
+   - Creates a new layer in the image
+
+5. **`COPY . .`**: Copy all files from current directory to `/app`
+   - Copies your application code
+   - Done after installing dependencies (better cache usage)
+
+6. **`CMD ["python", "app.py"]`**: Default command to run when container starts
+   - Can be overridden when running container
+   - Uses exec form (recommended)
 
 **Build the image:**
 
@@ -293,13 +301,16 @@ docker build -t my-app:latest .
 ```
 
 **Breaking down the command:**
-- `docker build`: Command to build an image
-- `-t my-app:latest`: Tag the image with name `my-app` and tag `latest`
-  - `-t` stands for "tag"
-  - Format: `name:tag`
-- `.`: Build context (current directory)
-  - Docker sends all files in this directory to the build process
-  - The `.` means "current directory"
+
+1. **`docker build`**: Command to build an image
+
+2. **`-t my-app:latest`**: Tag the image with name `my-app` and tag `latest`
+   - `-t` stands for "tag"
+   - Format: `name:tag`
+
+3. **`.`**: Build context (current directory)
+   - Docker sends all files in this directory to the build process
+   - The `.` means "current directory"
 
 **What happens during build:**
 1. Docker reads the Dockerfile
@@ -356,9 +367,10 @@ docker build -t my-app /path/to/build/context
 ```
 
 **What this does:**
-- Uses `/path/to/build/context` as the build context
-- All files in that directory are available to COPY commands
-- Dockerfile should be in that directory (or use `-f` flag)
+
+1. Uses `/path/to/build/context` as the build context
+2. All files in that directory are available to COPY commands
+3. Dockerfile should be in that directory (or use `-f` flag)
 
 **Important:** The build context can be large. Docker sends everything to the daemon, which can be slow.
 
@@ -495,9 +507,10 @@ docker rmi nginx:latest
 ```
 
 **What this does:**
-- Deletes the image from local storage
-- **Note:** Can't remove if containers are using it
-- Frees up disk space
+
+1. Deletes the image from local storage
+2. **Note:** Can't remove if containers are using it
+3. Frees up disk space
 
 **Remove by ID:**
 ```bash
@@ -526,10 +539,11 @@ docker image prune
 ```
 
 **What this does:**
-- Shows dangling images (untagged)
-- Asks for confirmation
-- Removes only dangling images
-- Safe operation
+
+1. Shows dangling images (untagged)
+2. Asks for confirmation
+3. Removes only dangling images
+4. Safe operation
 
 **Remove all unused images:**
 ```bash

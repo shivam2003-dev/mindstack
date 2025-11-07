@@ -144,10 +144,11 @@ FROM node:${NODE_VERSION}
 ```
 
 **What this does:**
-- `ARG NODE_VERSION=16`: Defines a build argument with default value 16
-- `FROM node:${NODE_VERSION}`: Uses the argument in the FROM statement
-- Default: Uses Node.js 16 if not specified
-- Can override: Use `--build-arg NODE_VERSION=18` to use Node.js 18
+
+1. `ARG NODE_VERSION=16`: Defines a build argument with default value 16
+2. `FROM node:${NODE_VERSION}`: Uses the argument in the FROM statement
+3. Default: Uses Node.js 16 if not specified
+4. Can override: Use `--build-arg NODE_VERSION=18` to use Node.js 18
 
 **Advanced example with metadata:**
 ```dockerfile
@@ -158,12 +159,13 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 ```
 
 **What this does:**
-- `ARG BUILD_DATE`: Accepts build date as argument
-- `ARG VCS_REF`: Accepts git commit hash as argument
-- `LABEL`: Adds metadata to the image
-  - Labels are visible in `docker inspect`
-  - Useful for tracking image versions
-  - Common practice for production images
+
+1. `ARG BUILD_DATE`: Accepts build date as argument
+2. `ARG VCS_REF`: Accepts git commit hash as argument
+3. `LABEL`: Adds metadata to the image
+   - Labels are visible in `docker inspect`
+   - Useful for tracking image versions
+   - Common practice for production images
 
 **Build with arguments:**
 ```bash
@@ -175,12 +177,16 @@ docker build \
 ```
 
 **Breaking down the command:**
-- `--build-arg NODE_VERSION=18`: Override default, use Node.js 18
-- `--build-arg BUILD_DATE=$(date ...)`: Pass current date/time
-  - `$(date -u +'%Y-%m-%dT%H:%M:%SZ')`: Gets current UTC time in ISO format
-- `--build-arg VCS_REF=$(git rev-parse --short HEAD)`: Pass git commit hash
-  - `git rev-parse --short HEAD`: Gets short version of current commit
-- `-t myapp .`: Tag and build
+
+1. **`--build-arg NODE_VERSION=18`**: Override default, use Node.js 18
+
+2. **`--build-arg BUILD_DATE=$(date ...)`**: Pass current date/time
+   - `$(date -u +'%Y-%m-%dT%H:%M:%SZ')`: Gets current UTC time in ISO format
+
+3. **`--build-arg VCS_REF=$(git rev-parse --short HEAD)`**: Pass git commit hash
+   - `git rev-parse --short HEAD`: Gets short version of current commit
+
+4. **`-t myapp .`**: Tag and build
 
 **Use cases for ARG:**
 - Different base image versions

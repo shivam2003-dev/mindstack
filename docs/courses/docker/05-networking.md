@@ -130,10 +130,11 @@ docker network create mynetwork
 ```
 
 **What this does:**
-- Creates a new bridge network named `mynetwork`
-- Uses bridge driver (default)
-- Gets its own subnet (usually 172.18.0.0/16, 172.19.0.0/16, etc.)
-- Isolated from default bridge network
+
+1. Creates a new bridge network named `mynetwork`
+2. Uses bridge driver (default)
+3. Gets its own subnet (usually 172.18.0.0/16, 172.19.0.0/16, etc.)
+4. Isolated from default bridge network
 
 **Run containers on custom network:**
 ```bash
@@ -154,9 +155,10 @@ docker exec web1 ping web2
 ```
 
 **What this does:**
-- `web1` can resolve `web2` by name (not just IP)
-- Docker's built-in DNS resolves `web2` to its IP address
-- Ping works using the container name
+
+1. `web1` can resolve `web2` by name (not just IP)
+2. Docker's built-in DNS resolves `web2` to its IP address
+3. Ping works using the container name
 
 **Example output:**
 ```
