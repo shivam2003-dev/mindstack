@@ -131,6 +131,7 @@ nav:
       - Security Best Practices: courses/devops-interview/15-security.md
       - Troubleshooting: courses/devops-interview/16-troubleshooting.md
       - Interview Questions: courses/devops-interview/17-interview-questions.md
+      - Resources & Reading: courses/devops-interview/18-resources-reading.md
   - eBPF Practical Course:
     - Overview: courses/ebpf/README.md
     - Fundamentals:

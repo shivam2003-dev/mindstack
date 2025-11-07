@@ -259,32 +259,210 @@ fi
 npm run lint
 ```
 
-## Interview Questions
+## Comprehensive Interview Questions
 
-### Q: Explain the difference between `git pull` and `git fetch`
+### Q1: Explain the difference between `git pull` and `git fetch`
 
 **Answer:**
-- **`git fetch`**: Downloads changes but doesn't merge
+- **`git fetch`**: Downloads changes from remote but doesn't merge
+  ```bash
+  git fetch origin  # Downloads but doesn't merge
+  git merge origin/main  # Merge manually after review
+  ```
 - **`git pull`**: Fetches and merges in one step
-- Use `fetch` to review changes before merging
+  ```bash
+  git pull origin main  # Fetch + merge
+  ```
+- **When to use**: Use `fetch` to review changes before merging, use `pull` when you're confident
 
-### Q: How do you revert a commit?
+### Q2: How do you revert a commit?
+
+**Answer:**
+
+**Method 1: Revert (creates new commit, safe for shared branches)**
+```bash
+git revert <commit-hash>  # Creates new commit undoing changes
+```
+
+**Method 2: Reset (removes commit, use carefully)**
+```bash
+git reset --soft HEAD~1   # Keep changes staged
+git reset --mixed HEAD~1  # Keep changes unstaged
+git reset --hard HEAD~1   # Discard changes (dangerous!)
+```
+
+**When to use:**
+- Use `revert` for commits already pushed (safe)
+- Use `reset` only for local commits (dangerous if pushed)
+
+### Q3: Explain Git branching strategies
+
+**Answer:**
+
+**Git Flow:**
+- `main`: Production code
+- `develop`: Development branch
+- `feature/*`: Feature branches
+- `release/*`: Release preparation
+- `hotfix/*`: Production fixes
+
+**GitHub Flow:**
+- `main`: Production code
+- `feature/*`: Feature branches
+- Simple, continuous deployment
+
+**GitLab Flow:**
+- Environment branches: `staging`, `production`
+- Feature branches merge to staging first
+
+### Q4: How do you resolve merge conflicts?
 
 **Answer:**
 ```bash
-# Revert (creates new commit)
-git revert <commit-hash>
+# When conflict occurs
+git status  # See conflicted files
 
-# Reset (removes commit)
-git reset --hard <commit-hash>
+# Edit files, look for conflict markers:
+# <<<<<<< HEAD
+# your changes
+# =======
+# incoming changes
+# >>>>>>> branch-name
+
+# After resolving:
+git add resolved-file.txt
+git commit  # Complete merge
 ```
 
-### Q: Explain Git branching strategy
+### Q5: What is the difference between `git merge` and `git rebase`?
 
 **Answer:**
-- **Git Flow**: Main, develop, feature, release, hotfix branches
-- **GitHub Flow**: Simple, feature branches merge to main
-- **GitLab Flow**: Environment branches (staging, production)
+- **`git merge`**: Creates merge commit, preserves history
+  ```bash
+  git checkout main
+  git merge feature-branch  # Creates merge commit
+  ```
+- **`git rebase`**: Replays commits, linear history
+  ```bash
+  git checkout feature-branch
+  git rebase main  # Replays commits on top of main
+  ```
+
+**When to use:**
+- Use `merge` for shared/public branches
+- Use `rebase` for local/feature branches
+
+### Q6: Explain Git hooks and give examples
+
+**Answer:**
+Git hooks are scripts that run automatically at certain points in Git workflow.
+
+**Pre-commit hook:**
+```bash
+#!/bin/bash
+# .git/hooks/pre-commit
+npm test
+if [ $? -ne 0 ]; then
+    echo "Tests failed. Commit aborted."
+    exit 1
+fi
+```
+
+**Pre-push hook:**
+```bash
+#!/bin/bash
+# .git/hooks/pre-push
+npm run lint
+```
+
+### Q7: How do you find which commit introduced a bug?
+
+**Answer:**
+```bash
+# Binary search with git bisect
+git bisect start
+git bisect bad  # Mark current commit as bad
+git bisect good <commit-hash>  # Mark known good commit
+# Git checks out middle commit, test it
+git bisect good  # or git bisect bad
+# Repeat until found
+git bisect reset
+```
+
+### Q8: Explain Git stash and when to use it
+
+**Answer:**
+Stash temporarily saves uncommitted changes.
+
+```bash
+# Save changes
+git stash
+git stash save "Work in progress"
+
+# List stashes
+git stash list
+
+# Apply stash
+git stash apply  # Keeps stash
+git stash pop    # Applies and removes
+
+# Drop stash
+git stash drop
+```
+
+**When to use:**
+- Switch branches with uncommitted changes
+- Pull changes with local modifications
+- Temporarily save work
+
+### Q9: How do you rewrite Git history?
+
+**Answer:**
+```bash
+# Interactive rebase
+git rebase -i HEAD~3  # Edit last 3 commits
+
+# Amend last commit
+git commit --amend
+
+# Squash commits
+git rebase -i HEAD~5
+# Change 'pick' to 'squash' for commits to combine
+```
+
+!!! warning "History Rewriting"
+    Never rewrite history of shared/public branches. Only rewrite local commits.
+
+### Q10: Explain Git submodules
+
+**Answer:**
+Submodules allow including one Git repository in another.
+
+```bash
+# Add submodule
+git submodule add https://github.com/user/repo.git path/to/submodule
+
+# Clone repository with submodules
+git clone --recursive https://github.com/user/main-repo.git
+
+# Update submodules
+git submodule update --init --recursive
+```
+
+## Recommended Resources
+
+### Books
+- **"Pro Git" by Scott Chacon** - Free online, comprehensive Git guide
+- **"Git Pocket Guide"** - Quick reference guide
+
+### Articles
+- [Git SCM Official Documentation](https://git-scm.com/doc)
+- [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+- [GitHub Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+### Practice
+- [Learn Git Branching](https://learngitbranching.js.org/) - Interactive Git tutorial
+- [GitHub Learning Lab](https://lab.github.com/) - Hands-on Git practice
 
 ---
 

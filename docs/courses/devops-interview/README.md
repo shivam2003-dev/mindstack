@@ -65,6 +65,7 @@ Welcome to the **most comprehensive DevOps Interview course**! This course is de
 15. **[Security Best Practices](15-security)** - DevSecOps and security
 16. **[Troubleshooting](16-troubleshooting)** - Debug production issues
 17. **[Interview Questions](17-interview-questions)** - 200+ questions with answers
+18. **[Resources & Reading](18-resources-reading)** - Books, articles, papers, tools
 
 ## 🚀 Quick Start
 
@@ -132,10 +133,18 @@ By the end of this course, you will be able to:
 
 ## 📚 Additional Resources
 
-- [DevOps Roadmap](https://roadmap.sh/devops)
-- [AWS Documentation](https://docs.aws.amazon.com/)
-- [Kubernetes Documentation](https://kubernetes.io/docs/)
-- [Docker Documentation](https://docs.docker.com/)
+### Essential Documentation
+- [DevOps Roadmap](https://roadmap.sh/devops) - Complete DevOps learning path
+- [AWS Documentation](https://docs.aws.amazon.com/) - Comprehensive AWS guides
+- [Kubernetes Documentation](https://kubernetes.io/docs/) - Official K8s docs
+- [Docker Documentation](https://docs.docker.com/) - Docker guides and references
+
+### Recommended Reading
+- See [Resources & Recommended Reading](18-resources-reading.md) chapter for comprehensive list
+- Research papers on DevOps practices
+- Industry articles and blog posts
+- Books and comprehensive guides
+- Tools and community resources
 
 ---
 

@@ -345,36 +345,287 @@ echo 'export VAR=value' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## Common Interview Questions
+## Comprehensive Interview Questions
 
-### Q: Explain the difference between `kill` and `killall`
-
-**Answer:**
-- `kill` requires a Process ID (PID)
-- `killall` uses process name
-- Example: `kill 1234` vs `killall nginx`
-
-### Q: What does `grep -r` do?
+### Q1: Explain the difference between `kill`, `killall`, and `pkill`
 
 **Answer:**
-- `-r` means recursive
-- Searches in all files in directory and subdirectories
-- Example: `grep -r "error" /var/log/`
+- **`kill`**: Requires a Process ID (PID), sends signal to specific process
+  ```bash
+  kill -9 1234  # Kill process with PID 1234
+  ```
+- **`killall`**: Uses process name, kills all matching processes
+  ```bash
+  killall nginx  # Kill all nginx processes
+  ```
+- **`pkill`**: Pattern-based, more flexible matching
+  ```bash
+  pkill -f "python script.py"  # Kill by pattern
+  ```
 
-### Q: How do you find large files?
+**When to use:**
+- Use `kill` when you know the exact PID
+- Use `killall` for processes with known names
+- Use `pkill` for pattern matching
+
+### Q2: What does `grep -r` do and what are other useful grep options?
+
+**Answer:**
+- **`-r`**: Recursive search in directories and subdirectories
+  ```bash
+  grep -r "error" /var/log/
+  ```
+- **Other useful options:**
+  - `-i`: Case-insensitive search
+  - `-n`: Show line numbers
+  - `-v`: Invert match (show non-matching lines)
+  - `-l`: Show only filenames
+  - `-c`: Count matches
+  ```bash
+  grep -rin "error" /var/log/  # Case-insensitive, recursive, with line numbers
+  ```
+
+### Q3: How do you find large files and directories?
+
+**Answer:**
+
+**Find files larger than 100MB:**
+```bash
+find / -type f -size +100M 2>/dev/null
+find / -type f -size +100M -exec ls -lh {} \;
+```
+
+**Find top 10 largest files:**
+```bash
+find / -type f -exec du -h {} + 2>/dev/null | sort -h | tail -10
+```
+
+**Find top 10 largest directories:**
+```bash
+du -h /path | sort -h | tail -10
+du -sh /path/* | sort -h | tail -10
+```
+
+**Using ncdu (interactive):**
+```bash
+ncdu /path
+```
+
+### Q4: Explain file permissions 755 in detail
+
+**Answer:**
+- **First digit (7)**: Owner permissions
+  - 4 (read) + 2 (write) + 1 (execute) = 7
+  - Owner can read, write, and execute
+- **Second digit (5)**: Group permissions
+  - 4 (read) + 1 (execute) = 5
+  - Group can read and execute, but not write
+- **Third digit (5)**: Others permissions
+  - 4 (read) + 1 (execute) = 5
+  - Others can read and execute, but not write
+
+**Common permission patterns:**
+- `755`: Executable files (scripts, binaries)
+- `644`: Regular files (readable by all, writable by owner)
+- `600`: Private files (readable/writable by owner only)
+- `777`: Full permissions (not recommended for security)
+
+### Q5: What is the difference between `restart` and `reload` for services?
+
+**Answer:**
+- **`restart`**: Stops the service completely, then starts it again
+  - Causes brief downtime
+  - All connections are dropped
+  - Use when configuration changes require full restart
+  ```bash
+  systemctl restart nginx
+  ```
+- **`reload`**: Applies new configuration without stopping the service
+  - No downtime
+  - Existing connections are maintained
+  - Use when service supports graceful reload
+  ```bash
+  systemctl reload nginx
+  ```
+
+**When to use:**
+- Use `reload` when possible to avoid service interruption
+- Use `restart` if service doesn't support reload or after major changes
+
+### Q6: Explain the difference between `ps aux` and `ps -ef`
+
+**Answer:**
+- **`ps aux`**: BSD-style syntax
+  - Shows: USER, PID, %CPU, %MEM, VSZ, RSS, TTY, STAT, START, TIME, COMMAND
+  - More detailed memory and CPU information
+- **`ps -ef`**: Unix-style syntax
+  - Shows: UID, PID, PPID, C, STIME, TTY, TIME, CMD
+  - Shows parent process ID (PPID)
+  - More compact output
+
+**When to use:**
+- Use `ps aux` for detailed resource usage
+- Use `ps -ef` to see process hierarchy (parent-child relationships)
+
+### Q7: How do you monitor system resources in real-time?
+
+**Answer:**
+
+**Using `top`:**
+```bash
+top  # Interactive process viewer
+```
+
+**Using `htop` (more user-friendly):**
+```bash
+htop  # Enhanced version of top
+```
+
+**Using `vmstat`:**
+```bash
+vmstat 1  # Update every 1 second
+```
+
+**Using `iostat` (for I/O):**
+```bash
+iostat -x 1  # Extended I/O statistics
+```
+
+**Using `free` (for memory):**
+```bash
+free -h  # Human-readable memory info
+free -h -s 1  # Update every second
+```
+
+### Q8: How do you find and kill a process using a specific port?
+
+**Answer:**
+
+**Find process using port:**
+```bash
+# Method 1: Using lsof
+lsof -i :8080
+
+# Method 2: Using netstat
+netstat -tulpn | grep :8080
+
+# Method 3: Using ss (modern)
+ss -tulpn | grep :8080
+```
+
+**Kill process using port:**
+```bash
+# Get PID and kill
+lsof -ti :8080 | xargs kill -9
+
+# Or in one command
+kill -9 $(lsof -ti :8080)
+```
+
+### Q9: Explain the difference between `>` and `>>` in redirection
+
+**Answer:**
+- **`>`**: Overwrites the file (truncates if exists)
+  ```bash
+  echo "Hello" > file.txt  # Creates or overwrites file.txt
+  ```
+- **`>>`**: Appends to the file (creates if doesn't exist)
+  ```bash
+  echo "World" >> file.txt  # Appends to file.txt
+  ```
+
+**Examples:**
+```bash
+# Overwrite
+ls > files.txt
+
+# Append
+ls >> files.txt
+
+# Redirect both stdout and stderr
+command > output.txt 2>&1
+command &> output.txt  # Shorthand
+```
+
+### Q10: How do you check disk space and inode usage?
+
+**Answer:**
+
+**Check disk space:**
+```bash
+df -h  # Human-readable format
+df -h /  # Specific filesystem
+```
+
+**Check inode usage:**
+```bash
+df -i  # Show inode usage
+df -ih /  # Human-readable inode usage
+```
+
+**Find directories using most space:**
+```bash
+du -h --max-depth=1 / | sort -h
+du -sh /path/* | sort -h | tail -10
+```
+
+### Q11: What is the difference between `su` and `sudo`?
+
+**Answer:**
+- **`su`**: Switch user (requires target user's password)
+  ```bash
+  su - username  # Switch to username (needs their password)
+  su -  # Switch to root (needs root password)
+  ```
+- **`sudo`**: Execute command as another user (uses your password)
+  ```bash
+  sudo command  # Execute as root (uses your password)
+  sudo -u username command  # Execute as specific user
+  ```
+
+**Best practices:**
+- Use `sudo` instead of `su` for better audit trails
+- Configure `sudoers` file for granular permissions
+- Never share root password, use `sudo` instead
+
+### Q12: How do you find files modified in the last 24 hours?
 
 **Answer:**
 ```bash
-find / -type f -size +100M
-du -h /path | sort -h | tail -10
+# Files modified in last 24 hours
+find /path -type f -mtime -1
+
+# Files modified in last 7 days
+find /path -type f -mtime -7
+
+# Files modified in last hour (using -mmin)
+find /path -type f -mmin -60
 ```
 
-### Q: Explain file permissions 755
+**Time modifiers:**
+- `-mtime -1`: Modified less than 1 day ago
+- `-mtime +7`: Modified more than 7 days ago
+- `-mmin -60`: Modified less than 60 minutes ago
+
+### Q13: Explain the difference between `systemctl` and `service` commands
 
 **Answer:**
-- First digit (7): Owner - read, write, execute (4+2+1)
-- Second digit (5): Group - read, execute (4+1)
-- Third digit (5): Others - read, execute (4+1)
+- **`systemctl`**: Modern systemd command (preferred)
+  ```bash
+  systemctl start nginx
+  systemctl status nginx
+  systemctl enable nginx
+  ```
+- **`service`**: Legacy SysV init command (still works for compatibility)
+  ```bash
+  service nginx start
+  service nginx status
+  ```
+
+**When to use:**
+- Always use `systemctl` on systemd-based systems (most modern Linux)
+- `service` is a wrapper that calls `systemctl` on systemd systems
+- Use `systemctl` for more features and better control
 
 ## Practice Exercises
 
