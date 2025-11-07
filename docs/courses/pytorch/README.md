@@ -23,56 +23,56 @@ Welcome to the **most comprehensive PyTorch course** available! This course will
 !!! tip "Start Here"
     Perfect for beginners! Learn the core concepts that form the foundation of PyTorch.
 
-1. **[Introduction & Installation](01-introduction.md)** - Get started with PyTorch
-2. **[Tensors Basics](02-tensors-basics.md)** - Understanding the fundamental data structure
-3. **[Tensor Operations](03-tensor-operations.md)** - Manipulating and transforming tensors
-4. **[Autograd & Gradients](04-autograd.md)** - Automatic differentiation
+1. **[Introduction & Installation](01-introduction)** - Get started with PyTorch
+2. **[Tensors Basics](02-tensors-basics)** - Understanding the fundamental data structure
+3. **[Tensor Operations](03-tensor-operations)** - Manipulating and transforming tensors
+4. **[Autograd & Gradients](04-autograd)** - Automatic differentiation
 
 ### Part 2: Neural Networks (Chapters 5-8)
 
 !!! note "Core Concepts"
     Learn to build and train neural networks from scratch.
 
-5. **[Building Neural Networks](05-neural-networks.md)** - Creating models with `nn.Module`
-6. **[Loss Functions](06-loss-functions.md)** - Measuring model performance
-7. **[Optimizers](07-optimizers.md)** - Training algorithms
-8. **[Training Loop](08-training-loop.md)** - Complete training pipeline
+5. **[Building Neural Networks](05-neural-networks)** - Creating models with `nn.Module`
+6. **[Loss Functions](06-loss-functions)** - Measuring model performance
+7. **[Optimizers](07-optimizers)** - Training algorithms
+8. **[Training Loop](08-training-loop)** - Complete training pipeline
 
 ### Part 3: Data Handling (Chapters 9-11)
 
 !!! info "Data is Key"
     Master data loading, preprocessing, and augmentation.
 
-9. **[Datasets & DataLoaders](09-datasets-dataloaders.md)** - Efficient data loading
-10. **[Data Transformations](10-data-transformations.md)** - Preprocessing and augmentation
-11. **[Custom Datasets](11-custom-datasets.md)** - Building your own data loaders
+9. **[Datasets & DataLoaders](09-datasets-dataloaders)** - Efficient data loading
+10. **[Data Transformations](10-data-transformations)** - Preprocessing and augmentation
+11. **[Custom Datasets](11-custom-datasets)** - Building your own data loaders
 
 ### Part 4: Advanced Architectures (Chapters 12-13)
 
 !!! warning "Advanced Content"
     These chapters require solid understanding of fundamentals.
 
-12. **[Convolutional Neural Networks (CNNs)](12-cnns.md)** - Image processing
-13. **[Recurrent Neural Networks (RNNs)](13-rnns.md)** - Sequence modeling
+12. **[Convolutional Neural Networks (CNNs)](12-cnns)** - Image processing
+13. **[Recurrent Neural Networks (RNNs)](13-rnns)** - Sequence modeling
 
 ### Part 5: Optimization & Deployment (Chapters 14-17)
 
 !!! success "Production Ready"
     Learn to optimize and deploy models in production.
 
-14. **[Transfer Learning](14-transfer-learning.md)** - Leveraging pre-trained models
-15. **[Model Saving & Loading](15-model-saving.md)** - Persistence and checkpointing
-16. **[GPU Acceleration](16-gpu-acceleration.md)** - Harnessing GPU power
-17. **[Model Deployment](17-deployment.md)** - Deploying to production
+14. **[Transfer Learning](14-transfer-learning)** - Leveraging pre-trained models
+15. **[Model Saving & Loading](15-model-saving)** - Persistence and checkpointing
+16. **[GPU Acceleration](16-gpu-acceleration)** - Harnessing GPU power
+17. **[Model Deployment](17-deployment)** - Deploying to production
 
 ### Part 6: Advanced Topics (Chapters 18-20)
 
 !!! tip "Expert Level"
     Advanced techniques for experienced practitioners.
 
-18. **[Debugging & Visualization](18-debugging-visualization.md)** - Tools and techniques
-19. **[Advanced Topics](19-advanced-topics.md)** - Cutting-edge techniques
-20. **[Best Practices](20-best-practices.md)** - Industry standards
+18. **[Debugging & Visualization](18-debugging-visualization)** - Tools and techniques
+19. **[Advanced Topics](19-advanced-topics)** - Cutting-edge techniques
+20. **[Best Practices](20-best-practices)** - Industry standards
 
 ## 🚀 Quick Start
 
@@ -118,7 +118,7 @@ print(f"Result: {y}")
 ## 📖 How to Use This Course
 
 ### For Beginners
-Start from [Chapter 1](01-introduction.md) and progress sequentially. Don't skip ahead - each concept builds on the previous one.
+Start from [Chapter 1](01-introduction) and progress sequentially. Don't skip ahead - each concept builds on the previous one.
 
 ### For Intermediate Learners
 Review fundamentals (Chapters 1-4), then focus on areas you need to strengthen. Use as a reference guide.
@@ -195,7 +195,7 @@ Found an error or want to improve the course? Contributions are welcome!
 <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f5f5f5; border-radius: 8px;">
   <h2 style="margin-bottom: 1rem;">Ready to Start Learning?</h2>
   <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">Begin your PyTorch journey with Chapter 1</p>
-  <a href="01-introduction.md" style="display: inline-block; padding: 0.75rem 2rem; background: #ee4c2c; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Start Chapter 1 →</a>
+  <a href="01-introduction" style="display: inline-block; padding: 0.75rem 2rem; background: #ee4c2c; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Start Chapter 1 →</a>
 </div>
 
 ---
