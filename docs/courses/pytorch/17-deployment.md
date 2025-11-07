@@ -1,6 +1,25 @@
 # Chapter 17: Model Deployment & Production
 
+<div style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); padding: 2rem; border-radius: 10px; color: #333; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: #333;">🚢 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem; color: #333;">
+    <li>Export models to different formats (TorchScript, ONNX)</li>
+    <li>Deploy models to production environments</li>
+    <li>Optimize models for inference</li>
+    <li>Build production-ready inference pipelines</li>
+  </ul>
+</div>
+
 Learn how to deploy PyTorch models for real-world applications.
+
+!!! tip "Export Format Selection"
+    - **TorchScript**: Best for PyTorch-only deployments, supports control flow
+    - **ONNX**: Cross-platform, works with TensorRT, OpenVINO, etc.
+    - **TensorFlow Lite**: For mobile deployment
+    - **CoreML**: For iOS/macOS apps
+
+!!! note "Model Optimization for Production"
+    Before deployment: convert to eval mode, use TorchScript/ONNX, enable optimizations (quantization, pruning), and test inference speed. Production models should be fast, small, and accurate.
 
 ## Model Export Formats
 

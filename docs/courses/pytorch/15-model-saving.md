@@ -1,6 +1,22 @@
 # Chapter 15: Model Saving & Loading
 
+<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 2rem; border-radius: 10px; color: #333; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: #333;">💾 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem; color: #333;">
+    <li>Save and load model weights correctly</li>
+    <li>Implement checkpointing for training</li>
+    <li>Save complete training state</li>
+    <li>Export models for deployment</li>
+  </ul>
+</div>
+
 Proper model saving and loading is crucial for resuming training, deployment, and sharing models.
+
+!!! warning "Never Save Entire Model"
+    Avoid `torch.save(model, ...)` - it saves the entire Python object including class structure. Use `model.state_dict()` instead for portability and flexibility.
+
+!!! tip "Checkpointing Best Practices"
+    Save checkpoints regularly during training: model weights, optimizer state, epoch number, and best validation score. This allows you to resume training and track your best model.
 
 ## Save/Load Entire Model (Not Recommended)
 

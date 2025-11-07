@@ -1,6 +1,23 @@
 # Chapter 14: Transfer Learning
 
+<div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2rem; border-radius: 10px; color: #333; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: #333;">🚀 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem; color: #333;">
+    <li>Understand transfer learning concepts</li>
+    <li>Implement feature extraction and fine-tuning</li>
+    <li>Choose the right pre-trained models</li>
+    <li>Optimize transfer learning workflows</li>
+  </ul>
+</div>
+
 Transfer learning leverages knowledge from pre-trained models to solve new tasks with less data and training time.
+
+!!! tip "When to Use Transfer Learning"
+    Use transfer learning when: you have limited data (< 10k samples), your task is similar to ImageNet (classification), or you need quick results. For very different tasks or large datasets, training from scratch might be better.
+
+!!! note "Feature Extraction vs Fine-tuning"
+    - **Feature Extraction**: Freeze backbone, train only classifier. Faster, less memory, good for very small datasets.
+    - **Fine-tuning**: Update all/some layers. Slower, more memory, better for larger datasets or different domains.
 
 ## Why Transfer Learning?
 

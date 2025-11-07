@@ -1,6 +1,25 @@
 # Chapter 16: GPU Acceleration & Distributed Training
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">⚡ Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Move models and data to GPU efficiently</li>
+    <li>Optimize GPU memory usage</li>
+    <li>Implement multi-GPU training</li>
+    <li>Use distributed training strategies</li>
+  </ul>
+</div>
+
 Learn how to leverage GPUs and multiple devices for faster training.
+
+!!! tip "GPU Memory Management"
+    - Use `torch.cuda.empty_cache()` to free unused GPU memory
+    - Set `pin_memory=True` in DataLoader for faster CPU→GPU transfer
+    - Use gradient accumulation for large batch sizes
+    - Monitor GPU memory with `nvidia-smi` or `torch.cuda.memory_allocated()`
+
+!!! note "Device Consistency"
+    Always ensure model and data are on the same device. Use `.to(device)` pattern consistently. Mixing CPU and GPU tensors will cause errors.
 
 ## GPU Basics
 

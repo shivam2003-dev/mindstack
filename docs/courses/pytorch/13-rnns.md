@@ -1,6 +1,24 @@
 # Chapter 13: Recurrent Neural Networks (RNNs)
 
+<div style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🔄 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Understand RNN architecture and concepts</li>
+    <li>Master LSTM and GRU implementations</li>
+    <li>Build sequence-to-sequence models</li>
+    <li>Handle variable-length sequences</li>
+  </ul>
+</div>
+
 RNNs are designed for sequential data like text, time series, and audio. This chapter covers vanilla RNNs, LSTMs, and GRUs.
+
+!!! note "When to Use RNNs"
+    RNNs are great for sequential data: text, time series, speech. However, for many NLP tasks, Transformers have largely replaced RNNs. Use RNNs when you need to process sequences step-by-step or when memory efficiency is important.
+
+!!! tip "LSTM vs GRU"
+    - **LSTM**: More parameters, better for long sequences, slower training
+    - **GRU**: Fewer parameters, faster training, often similar performance
+    - **Vanilla RNN**: Simple but suffers from vanishing gradients - rarely used in practice
 
 ## Basics of RNNs
 

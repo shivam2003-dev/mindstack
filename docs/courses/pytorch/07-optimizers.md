@@ -1,5 +1,15 @@
 # Chapter 7: Optimizers
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🎯 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Understand how optimizers update model parameters</li>
+    <li>Learn different optimization algorithms (SGD, Adam, etc.)</li>
+    <li>Master learning rate scheduling</li>
+    <li>Choose the right optimizer for your task</li>
+  </ul>
+</div>
+
 ## What are Optimizers?
 
 Optimizers update model parameters (weights and biases) to minimize the loss function. They implement various algorithms to find the optimal parameters efficiently.
@@ -11,6 +21,15 @@ Where:
 - $\theta$ = parameters
 - $\eta$ = learning rate
 - $\nabla_\theta L$ = gradient of loss
+
+!!! note "Optimizer's Role"
+    Optimizers are crucial for training neural networks. They determine how quickly and effectively your model learns. The choice of optimizer can significantly impact training time and final model performance.
+
+!!! tip "Choosing an Optimizer"
+    - **SGD with momentum**: Good for large datasets, requires tuning
+    - **Adam**: Great default choice, adaptive learning rates, works well out of the box
+    - **AdamW**: Better weight decay handling, often outperforms Adam
+    - **RMSprop**: Good for RNNs and non-stationary objectives
 
 ## Basic Usage
 
@@ -38,6 +57,14 @@ for epoch in range(100):
 ```
 
 ## Common Optimizers
+
+!!! success "Optimizer Comparison"
+    | Optimizer | Best For | Learning Rate | Memory |
+    |-----------|----------|---------------|--------|
+    | SGD | Large datasets, convex problems | Manual tuning | Low |
+    | Adam | Most tasks, default choice | Adaptive | Medium |
+    | AdamW | Transformers, better weight decay | Adaptive | Medium |
+    | RMSprop | RNNs, non-stationary | Adaptive | Medium |
 
 ### 1. Stochastic Gradient Descent (SGD)
 

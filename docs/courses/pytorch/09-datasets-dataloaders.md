@@ -1,5 +1,15 @@
 # Chapter 9: Datasets & DataLoaders
 
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">📊 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Understand PyTorch's data loading pipeline</li>
+    <li>Work with built-in and custom datasets</li>
+    <li>Master DataLoader configuration</li>
+    <li>Optimize data loading performance</li>
+  </ul>
+</div>
+
 ## PyTorch Data Loading Pipeline
 
 PyTorch provides a powerful and flexible data loading system:
@@ -8,6 +18,15 @@ PyTorch provides a powerful and flexible data loading system:
 
 - **Dataset**: Stores samples and labels
 - **DataLoader**: Wraps dataset for batching, shuffling, parallel loading
+
+!!! tip "Data Loading Best Practices"
+    - Use `num_workers > 0` for parallel data loading (typically 4-8 workers)
+    - Set `pin_memory=True` when using GPU for faster data transfer
+    - Use `persistent_workers=True` to keep workers alive between epochs
+    - Shuffle training data but not validation/test data
+
+!!! note "Dataset vs DataLoader"
+    `Dataset` defines what data to load and how to load it. `DataLoader` handles batching, shuffling, and parallel loading. Always use DataLoader for training - it's much more efficient than manual batching.
 
 ## Dataset Class
 

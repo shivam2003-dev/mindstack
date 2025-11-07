@@ -1,6 +1,25 @@
 # Chapter 18: Debugging & Visualization
 
+<div style="background: linear-gradient(135deg, #ff6e7f 0%, #bfe9ff 100%); padding: 2rem; border-radius: 10px; color: #333; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: #333;">🔍 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem; color: #333;">
+    <li>Debug common PyTorch errors</li>
+    <li>Visualize model architecture and training</li>
+    <li>Monitor training with TensorBoard</li>
+    <li>Analyze model behavior and performance</li>
+  </ul>
+</div>
+
 Master debugging techniques and visualization tools for PyTorch models.
+
+!!! tip "Debugging Strategy"
+    When debugging: 1) Check tensor shapes at each step, 2) Verify gradients are flowing, 3) Monitor loss values, 4) Use print statements or debugger, 5) Visualize intermediate outputs. Start simple and add complexity gradually.
+
+!!! warning "Common Pitfalls"
+    - Shape mismatches: Always print shapes before operations
+    - CUDA OOM: Reduce batch size or use gradient accumulation
+    - NaN values: Check learning rate, data normalization, and loss function
+    - Frozen gradients: Verify `requires_grad=True` and `optimizer.zero_grad()`
 
 ## Common Errors & Solutions
 

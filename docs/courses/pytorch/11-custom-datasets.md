@@ -1,6 +1,22 @@
 # Chapter 11: Custom Datasets
 
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🔧 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Create custom Dataset classes</li>
+    <li>Handle various data formats (images, text, audio)</li>
+    <li>Implement efficient data loading</li>
+    <li>Build reusable dataset patterns</li>
+  </ul>
+</div>
+
 Creating custom datasets allows you to work with any data format. This chapter covers advanced dataset patterns and best practices.
+
+!!! tip "Dataset Implementation Checklist"
+    Your custom Dataset must implement: `__init__()` to load metadata, `__len__()` to return dataset size, and `__getitem__()` to return a sample. Keep `__getitem__()` fast - load data lazily, not in `__init__()`.
+
+!!! note "Lazy Loading"
+    Don't load all data in `__init__()`. Instead, load file paths/metadata and load actual data in `__getitem__()`. This saves memory and speeds up dataset creation.
 
 ## Basic Custom Dataset
 

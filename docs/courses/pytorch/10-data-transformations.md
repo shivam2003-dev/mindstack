@@ -1,6 +1,22 @@
 # Chapter 10: Data Transformations & Augmentation
 
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🎨 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Master image preprocessing and normalization</li>
+    <li>Implement data augmentation strategies</li>
+    <li>Create training and validation transform pipelines</li>
+    <li>Apply custom transformations</li>
+  </ul>
+</div>
+
 Data transformations prepare and augment your data for training. PyTorch's `torchvision.transforms` module provides powerful tools for image preprocessing and augmentation.
+
+!!! tip "Transform Order Matters"
+    Always apply transforms in this order: geometric transforms (resize, crop, flip) → color transforms → ToTensor → Normalize. ToTensor converts PIL images to tensors and scales to [0,1], so it must come before Normalize.
+
+!!! note "Training vs Validation Transforms"
+    Use aggressive augmentation (random crops, flips, color jitter) for training to improve generalization. Use only deterministic transforms (resize, center crop, normalize) for validation/test to ensure consistent evaluation.
 
 ## Basic Transformations
 

@@ -1,6 +1,22 @@
 # Chapter 19: Advanced Topics & Modern Techniques
 
+<div style="background: linear-gradient(135deg, #c471ed 0%, #f64f59 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">⚡ Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Explore PyTorch Lightning for faster development</li>
+    <li>Implement custom layers and functions</li>
+    <li>Use advanced optimization techniques</li>
+    <li>Apply modern deep learning patterns</li>
+  </ul>
+</div>
+
 Explore cutting-edge PyTorch techniques and modern best practices.
+
+!!! tip "When to Use PyTorch Lightning"
+    Use Lightning when: building complex training loops, need multi-GPU/distributed training, want automatic logging, or need reproducible experiments. For simple projects, vanilla PyTorch is fine.
+
+!!! note "Custom Operations"
+    PyTorch allows custom autograd functions and layers. Use `Function` for stateless operations and `Module` for stateful layers. Always test custom operations thoroughly as they can affect gradients.
 
 ## PyTorch Lightning
 
