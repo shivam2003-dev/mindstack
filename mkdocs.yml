@@ -87,9 +87,24 @@ nav:
       - Performance Tips: courses/pytorch/performance-tips.md
       - Complete Guide: courses/pytorch/GUIDE.md
   - Docker Course:
-    - Introduction: courses/docker/01-intro.md
-    - Working with Containers: courses/docker/02-containers.md
-    - Docker Images: courses/docker/03-images.md
+    - Overview: courses/docker/README.md
+    - Fundamentals:
+      - Introduction: courses/docker/01-intro.md
+      - Working with Containers: courses/docker/02-containers.md
+      - Docker Images: courses/docker/03-images.md
+      - Advanced Dockerfiles: courses/docker/04-dockerfiles-advanced.md
+    - Core Concepts:
+      - Docker Networking: courses/docker/05-networking.md
+      - Volumes and Data Management: courses/docker/06-volumes.md
+      - Docker Compose: courses/docker/07-docker-compose.md
+    - Production Ready:
+      - Security: courses/docker/08-security.md
+      - Performance Optimization: courses/docker/09-performance.md
+      - Production Deployment: courses/docker/10-production.md
+    - Advanced Topics:
+      - System Troubleshooting: courses/docker/11-troubleshooting.md
+      - Advanced Topics: courses/docker/12-advanced.md
+      - Best Practices: courses/docker/13-best-practices.md
   - Kubernetes Course:
     - Introduction: courses/kubernetes/01-intro.md
     - Understanding Pods: courses/kubernetes/02-pods.md
