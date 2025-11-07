@@ -50,7 +50,7 @@ DevOps is a set of practices that combines software development (Dev) and IT ope
 
 3. **CI/CD & Automation**
    - Pipeline design
-   - Jenkins, GitLab CI, GitHub Actions
+   - GitHub Actions, GitLab CI
    - Infrastructure as Code (Terraform, Ansible)
 
 4. **Cloud & Infrastructure**
@@ -122,7 +122,7 @@ This course is structured to cover:
    - Docker, Kubernetes, Orchestration
 
 3. **CI/CD & Automation** (Chapters 8-10)
-   - Pipelines, Jenkins, Infrastructure as Code
+   - Pipelines, GitHub Actions, Infrastructure as Code
 
 4. **Cloud & Infrastructure** (Chapters 11-13)
    - AWS, Architecture, Monitoring

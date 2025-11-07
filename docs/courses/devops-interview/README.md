@@ -12,7 +12,7 @@ Welcome to the **most comprehensive DevOps Interview course**! This course is de
 !!! success "Complete Interview Preparation"
     - **Fundamentals**: Linux, Shell Scripting, Git - Master the basics
     - **Container Technologies**: Docker, Kubernetes - Deep dive with practical examples
-    - **CI/CD & Automation**: Jenkins, GitLab CI, Infrastructure as Code
+    - **CI/CD & Automation**: GitHub Actions, GitLab CI, Infrastructure as Code
     - **Cloud & Infrastructure**: AWS, Cloud Architecture, Monitoring
     - **Advanced Topics**: System Design, Security, Troubleshooting
     - **Interview Questions**: Real questions from top companies with detailed answers
@@ -44,7 +44,7 @@ Welcome to the **most comprehensive DevOps Interview course**! This course is de
     Learn to build robust CI/CD pipelines and automate infrastructure.
 
 8. **[CI/CD Pipelines](08-cicd-pipelines)** - Pipeline design and best practices
-9. **[Jenkins & GitLab CI](09-jenkins-gitlab)** - Hands-on CI/CD tools
+9. **[GitHub Actions & GitLab CI](09-github-actions-gitlab)** - Modern CI/CD with GitHub Actions and GitLab CI
 10. **[Infrastructure as Code](10-infrastructure-as-code)** - Terraform, Ansible, CloudFormation
 
 ### Part 4: Cloud & Infrastructure (Chapters 11-13)
