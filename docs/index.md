@@ -78,11 +78,13 @@
 
 ### Quick Start Guide
 
-1. **Browse Courses**: Use the navigation menu on the left to explore available courses
-2. **Choose Your Path**: Select a course that matches your learning goals
-3. **Start Learning**: Begin with the first lesson and follow the sequential structure
-4. **Practice**: Work through examples and exercises to reinforce your learning
-5. **Build Projects**: Apply your knowledge by building real-world projects
+<ol style="margin: 1rem 0; padding-left: 1.5rem;">
+<li><strong>Browse Courses</strong>: Use the navigation menu on the left to explore available courses</li>
+<li><strong>Choose Your Path</strong>: Select a course that matches your learning goals</li>
+<li><strong>Start Learning</strong>: Begin with the first lesson and follow the sequential structure</li>
+<li><strong>Practice</strong>: Work through examples and exercises to reinforce your learning</li>
+<li><strong>Build Projects</strong>: Apply your knowledge by building real-world projects</li>
+</ol>
 
 </div>
 
@@ -135,19 +137,23 @@
 
 ### Core Technologies
 
-- **Machine Learning**: Deep learning with PyTorch, neural networks, and advanced ML techniques
-- **Containerization**: Docker, Kubernetes, container orchestration, and production deployment
-- **DevOps**: CI/CD, Infrastructure as Code, Cloud platforms, monitoring, and automation
-- **System Programming**: eBPF, kernel programming, system monitoring, and performance optimization
-- **Performance Engineering**: System optimization, troubleshooting, and database performance
+<ul style="margin: 1rem 0; padding-left: 1.5rem;">
+<li><strong>Machine Learning</strong>: Deep learning with PyTorch, neural networks, and advanced ML techniques</li>
+<li><strong>Containerization</strong>: Docker, Kubernetes, container orchestration, and production deployment</li>
+<li><strong>DevOps</strong>: CI/CD, Infrastructure as Code, Cloud platforms, monitoring, and automation</li>
+<li><strong>System Programming</strong>: eBPF, kernel programming, system monitoring, and performance optimization</li>
+<li><strong>Performance Engineering</strong>: System optimization, troubleshooting, and database performance</li>
+</ul>
 
 ### Advanced Topics
 
-- **Site Reliability Engineering (SRE)**: Reliability patterns, incident response, and production systems
-- **Platform Engineering**: Internal developer platforms, tooling, and developer experience
-- **System Design**: Scalable architectures, distributed systems, and design patterns
-- **Security**: DevSecOps, container security, and best practices
-- **Troubleshooting**: System debugging, performance analysis, and problem-solving methodologies
+<ul style="margin: 1rem 0; padding-left: 1.5rem;">
+<li><strong>Site Reliability Engineering (SRE)</strong>: Reliability patterns, incident response, and production systems</li>
+<li><strong>Platform Engineering</strong>: Internal developer platforms, tooling, and developer experience</li>
+<li><strong>System Design</strong>: Scalable architectures, distributed systems, and design patterns</li>
+<li><strong>Security</strong>: DevSecOps, container security, and best practices</li>
+<li><strong>Troubleshooting</strong>: System debugging, performance analysis, and problem-solving methodologies</li>
+</ul>
 
 </div>
 
@@ -172,6 +178,9 @@ Our **Resources Hub** provides curated collections of:
     - Security
     - Data Engineering
     - AI & ML Graduate Studies
+    - Databases
+    - Troubleshooting
+    - Performance Engineering
 
 ## 🤝 Contributing
 
