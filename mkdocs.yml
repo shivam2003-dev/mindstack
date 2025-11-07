@@ -1,0 +1,78 @@
+site_name: mindstack
+site_description: A comprehensive learning platform for modern technologies
+site_author: mindstack
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Courses:
+    - PyTorch:
+      - courses/pytorch/01-intro.md
+      - courses/pytorch/02-tensors.md
+      - courses/pytorch/03-autograd.md
+    - Docker:
+      - courses/docker/01-intro.md
+      - courses/docker/02-containers.md
+      - courses/docker/03-images.md
+    - Kubernetes:
+      - courses/kubernetes/01-intro.md
+      - courses/kubernetes/02-pods.md
+      - courses/kubernetes/03-deployments.md
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+repo_url: https://github.com/shivam2003-dev/mindstack
+repo_name: mindstack
+edit_uri: edit/main/docs/
+
