@@ -312,7 +312,7 @@ This chapter compiles comprehensive resources including books, articles, researc
 <details>
 <summary><strong>🛠️ Essential Tools</strong></summary>
 
-### CI/CD Tools
+#### CI/CD Tools
 
 - **GitHub Actions**: Integrated CI/CD for GitHub
   - **Link**: [github.com/features/actions](https://github.com/features/actions)
@@ -336,7 +336,7 @@ This chapter compiles comprehensive resources including books, articles, researc
   - **Link**: [travis-ci.com](https://www.travis-ci.com/)
   - **Documentation**: [docs.travis-ci.com](https://docs.travis-ci.com/)
 
-### Infrastructure as Code
+#### Infrastructure as Code
 
 - **Terraform**: Infrastructure provisioning
   - **Link**: [terraform.io](https://www.terraform.io/)
@@ -360,7 +360,7 @@ This chapter compiles comprehensive resources including books, articles, researc
   - **Documentation**: [pulumi.com/docs](https://www.pulumi.com/docs)
   - **Examples**: [github.com/pulumi/examples](https://github.com/pulumi/examples)
 
-### Container Tools
+#### Container Tools
 
 - **Docker**: Container platform
   - **Link**: [docker.com](https://www.docker.com/)
@@ -383,7 +383,7 @@ This chapter compiles comprehensive resources including books, articles, researc
   - **Link**: [docs.docker.com/compose/](https://docs.docker.com/compose/)
   - **Documentation**: [docs.docker.com/compose/gettingstarted/](https://docs.docker.com/compose/gettingstarted/)
 
-### Monitoring & Observability
+#### Monitoring & Observability
 
 - **Prometheus**: Metrics collection
   - **Link**: [prometheus.io](https://prometheus.io/)
@@ -411,7 +411,7 @@ This chapter compiles comprehensive resources including books, articles, researc
   - **Link**: [newrelic.com](https://newrelic.com/)
   - **Documentation**: [docs.newrelic.com](https://docs.newrelic.com/)
 
-### Cloud Platforms
+#### Cloud Platforms
 
 - **AWS**: Amazon Web Services
   - **Link**: [aws.amazon.com](https://aws.amazon.com/)
