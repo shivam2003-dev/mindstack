@@ -18,7 +18,8 @@ This chapter compiles comprehensive resources including books, articles, researc
     - Follow blogs for latest trends
     - Join communities for networking and learning
 
-## 📚 Recommended Books
+<details>
+<summary><strong>📚 Recommended Books</strong></summary>
 
 ### DevOps Fundamentals
 
@@ -102,7 +103,10 @@ This chapter compiles comprehensive resources including books, articles, researc
     - Modern architectures
     - **Purchase**: [Amazon](https://www.amazon.com/Cloud-Native-Patterns-Designing-Change-tolerant/dp/1614294296) | [Manning](https://www.manning.com/books/cloud-native-patterns)
 
-## 📖 Research Papers
+</details>
+
+<details>
+<summary><strong>📖 Research Papers</strong></summary>
 
 ### DevOps & Software Engineering
 
@@ -188,7 +192,10 @@ This chapter compiles comprehensive resources including books, articles, researc
     - Cloud computing concepts
     - **Paper**: [Communications of the ACM](https://cacm.acm.org/magazines/2010/4/81493-a-view-of-cloud-computing/fulltext)
 
-## 📰 Essential Articles & Blog Posts
+</details>
+
+<details>
+<summary><strong>📰 Essential Articles & Blog Posts</strong></summary>
 
 ### DevOps Culture & Practices
 
@@ -300,7 +307,10 @@ This chapter compiles comprehensive resources including books, articles, researc
     - **Link**: [highscalability.com](http://highscalability.com/)
     - **Real-World Examples**: [highscalability.com/all-time-favorites/](http://highscalability.com/all-time-favorites/)
 
-## 🛠️ Essential Tools
+</details>
+
+<details>
+<summary><strong>🛠️ Essential Tools</strong></summary>
 
 ### CI/CD Tools
 
@@ -427,7 +437,10 @@ This chapter compiles comprehensive resources including books, articles, researc
   - **Documentation**: [docs.digitalocean.com](https://docs.digitalocean.com/)
   - **Community Tutorials**: [digitalocean.com/community/tutorials](https://www.digitalocean.com/community/tutorials)
 
-## 🌐 Communities & Forums
+</details>
+
+<details>
+<summary><strong>🌐 Communities & Forums</strong></summary>
 
 ### Online Communities
 
@@ -470,7 +483,10 @@ This chapter compiles comprehensive resources including books, articles, researc
    - Training and certification
    - Community events
 
-## 📺 Video Resources
+</details>
+
+<details>
+<summary><strong>📺 Video Resources</strong></summary>
 
 ### YouTube Channels
 
@@ -539,7 +555,10 @@ This chapter compiles comprehensive resources including books, articles, researc
     - **Link**: [kodekloud.com](https://kodekloud.com/)
     - **Kubernetes Course**: [kodekloud.com/courses/certified-kubernetes-administrator-with-practice-tests](https://kodekloud.com/courses/certified-kubernetes-administrator-with-practice-tests)
 
-## 📊 Industry Reports
+</details>
+
+<details>
+<summary><strong>📊 Industry Reports</strong></summary>
 
 1. **State of DevOps Report (Annual)**
    - DORA research
@@ -571,7 +590,10 @@ This chapter compiles comprehensive resources including books, articles, researc
    - Open source adoption
    - **Link**: [redhat.com/en/resources/enterprise-open-source-report](https://www.redhat.com/en/resources/enterprise-open-source-report)
 
-## 🔗 Official Documentation
+</details>
+
+<details>
+<summary><strong>🔗 Official Documentation</strong></summary>
 
 ### Must-Read Docs
 
@@ -619,7 +641,10 @@ This chapter compiles comprehensive resources including books, articles, researc
    - **Book**: [git-scm.com/book](https://git-scm.com/book) (Free online)
    - **Reference**: [git-scm.com/docs](https://git-scm.com/docs)
 
-## 📝 Interview Preparation Resources
+</details>
+
+<details>
+<summary><strong>📝 Interview Preparation Resources</strong></summary>
 
 ### Practice Platforms
 
@@ -675,7 +700,10 @@ This chapter compiles comprehensive resources including books, articles, researc
    - Anonymous company discussions
    - **Link**: [teamblind.com](https://www.teamblind.com/)
 
-## 🎓 Learning Paths
+</details>
+
+<details>
+<summary><strong>🎓 Learning Paths</strong></summary>
 
 ### Beginner Path
 
@@ -700,6 +728,8 @@ This chapter compiles comprehensive resources including books, articles, researc
 3. Multi-cloud architecture
 4. Security and compliance
 5. Performance optimization
+
+</details>
 
 ## 💡 Tips for Using Resources
 
