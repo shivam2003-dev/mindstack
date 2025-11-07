@@ -156,6 +156,16 @@ nav:
       - Articles & Blogs: courses/ebpf/15-articles-blogs.md
       - Recommended Reading: courses/ebpf/16-recommended-reading.md
       - Tools & Libraries: courses/ebpf/17-tools-libraries.md
+  - Resources Hub:
+      - Overview: courses/resources-hub/README.md
+      - Machine Learning: courses/resources-hub/01-machine-learning.md
+      - DevOps: courses/resources-hub/02-devops.md
+      - Site Reliability Engineering (SRE): courses/resources-hub/03-sre.md
+      - Platform Engineering: courses/resources-hub/04-platform-engineering.md
+      - Cloud Computing: courses/resources-hub/05-cloud-computing.md
+      - System Design: courses/resources-hub/06-system-design.md
+      - Security: courses/resources-hub/07-security.md
+      - Data Engineering: courses/resources-hub/08-data-engineering.md
 
 plugins:
   - search

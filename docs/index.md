@@ -20,6 +20,9 @@ Comprehensive DevOps interview preparation course. Master Linux, Docker, Kuberne
 ### 🔬 eBPF Practical
 Learn eBPF through hands-on code examples, practical use cases, and extensive resources. Includes research papers, articles, tools, and real-world applications.
 
+### 📚 Resources Hub
+Comprehensive resource collection organized by subject. Find books, research papers, GitHub repositories, videos, articles, and recommended reading for Machine Learning, DevOps, SRE, Platform Engineering, Cloud Computing, System Design, Security, and Data Engineering.
+
 ## Getting Started
 
 1. Browse the courses using the navigation menu
