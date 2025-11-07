@@ -8,6 +8,12 @@ Tensors are multi-dimensional arrays that are the fundamental building blocks of
 - Automatic differentiation (autograd)
 - Optimized for deep learning operations
 
+!!! note "Tensors vs NumPy Arrays"
+    While tensors are similar to NumPy arrays, they have key advantages: automatic differentiation for gradients, GPU acceleration, and optimized operations for deep learning. You can easily convert between them using `torch.from_numpy()` and `.numpy()`.
+
+!!! tip "Understanding Dimensions"
+    Think of tensor dimensions as nested lists. A 2D tensor is like a matrix (rows × columns), a 3D tensor is like a stack of matrices, and so on. The first dimension is often the batch size in deep learning.
+
 ### Tensor Dimensions
 
 | Dimension | Name | Example Shape | Use Case |
@@ -156,6 +162,13 @@ int_tensor = torch.tensor([1, 2, 3], dtype=torch.int32)
 float_tensor = torch.tensor([1.0, 2.0, 3.0], dtype=torch.float32)
 double_tensor = torch.tensor([1.0, 2.0, 3.0], dtype=torch.float64)
 bool_tensor = torch.tensor([True, False, True], dtype=torch.bool)
+```
+
+!!! tip "Choosing Data Types"
+    Use `float32` for most deep learning tasks - it's the default and provides good precision with memory efficiency. Use `float64` only when you need extra precision. Use `float16` or `bfloat16` for memory-constrained scenarios or mixed precision training.
+
+!!! note "Memory Considerations"
+    `float32` uses 4 bytes per element, while `float64` uses 8 bytes. For large tensors, this difference can be significant. Most neural networks work fine with `float32`.
 
 print(f"Int32: {int_tensor.dtype}")
 print(f"Float32: {float_tensor.dtype}")
@@ -211,6 +224,13 @@ import torch
 # Check CUDA availability
 print(f"CUDA available: {torch.cuda.is_available()}")
 print(f"CUDA device count: {torch.cuda.device_count()}")
+```
+
+!!! tip "Device Management Best Practice"
+    Always use the device-agnostic pattern: `device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')`. This makes your code work on both CPU and GPU without modification.
+
+!!! warning "Device Mismatch"
+    Operations between tensors on different devices will fail. Always ensure tensors are on the same device before operations. Use `.to(device)` to move tensors.
 
 # Create tensor on CPU
 cpu_tensor = torch.tensor([1, 2, 3])

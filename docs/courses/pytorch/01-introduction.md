@@ -9,6 +9,12 @@ PyTorch is an open-source machine learning library developed by Facebook's AI Re
 - **GPU Acceleration**: Easy transfer between CPU and GPU
 - **Strong Community**: Extensive ecosystem and support
 
+!!! note "Why PyTorch?"
+    PyTorch's dynamic computation graph makes it ideal for research and experimentation. Unlike static graph frameworks, you can modify your network architecture during runtime, making debugging much easier.
+
+!!! tip "Getting Started"
+    If you're new to deep learning, PyTorch is an excellent choice because of its intuitive API and excellent documentation. Start with simple examples and gradually build complexity.
+
 ## Why PyTorch?
 
 ### Advantages
@@ -54,6 +60,12 @@ python --version
     ```bash
     pip install torch torchvision torchaudio
     ```
+
+!!! tip "Installation Tip"
+    For the best performance, use GPU-enabled PyTorch if you have an NVIDIA GPU. Check your CUDA version with `nvidia-smi` before installing. For Apple Silicon Macs, PyTorch automatically uses MPS (Metal Performance Shaders) for acceleration.
+
+!!! note "Virtual Environments"
+    Always install PyTorch in a virtual environment to avoid conflicts with other packages. Use `venv` or `conda` to create isolated environments.
 
 ### Verify Installation
 
@@ -115,6 +127,12 @@ print(f"Shape: {x.shape}")
 print(f"Data type: {x.dtype}")
 print(f"Device: {x.device}")
 ```
+
+!!! tip "Understanding Tensor Properties"
+    Always check `shape`, `dtype`, and `device` when working with tensors. These properties determine how operations behave and where computations run.
+
+!!! note "Default Behavior"
+    By default, tensors are created on CPU with `float32` dtype. You can move them to GPU later with `.to('cuda')` or `.cuda()`.
 
 **Output:**
 ```
@@ -178,6 +196,12 @@ Output shape: torch.Size([5, 1])
 3. **PyCharm** - Professional Python IDE
    - Configure PyTorch as a library
 
+!!! tip "IDE Recommendation"
+    For learning and experimentation, Jupyter Notebooks are excellent. For larger projects, VS Code or PyCharm provide better code organization and debugging tools.
+
+!!! note "Interactive Development"
+    PyTorch's dynamic nature makes it perfect for interactive development. Use Jupyter notebooks to experiment with different architectures and see results immediately.
+
 ### Useful Packages
 
 ```bash
@@ -228,6 +252,13 @@ torch.manual_seed(42)
 # Set device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Using device: {device}")
+```
+
+!!! tip "Reproducibility"
+    Always set random seeds (`torch.manual_seed()`) for reproducibility. Also set seeds for NumPy and Python's random module if you use them. This ensures your experiments are reproducible.
+
+!!! note "Device Management"
+    The `device` variable pattern is a best practice. It allows your code to work on both CPU and GPU without modification. Always move models and data to the same device.
 
 # Define model
 class MyModel(nn.Module):

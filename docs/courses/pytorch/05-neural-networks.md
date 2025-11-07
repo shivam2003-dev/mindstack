@@ -8,6 +8,12 @@ Every PyTorch model inherits from `nn.Module`. This provides:
 - Training/evaluation modes
 - State saving/loading
 
+!!! tip "Always Inherit from nn.Module"
+    All your custom models must inherit from `nn.Module` and call `super().__init__()`. This gives you access to powerful features like automatic parameter registration, `.to(device)`, and model saving.
+
+!!! note "Forward vs __call__"
+    You define `forward()`, but call the model with `model(x)`. PyTorch's `__call__` method handles hooks and other features before calling your `forward()` method.
+
 ### Basic Structure
 
 ```python

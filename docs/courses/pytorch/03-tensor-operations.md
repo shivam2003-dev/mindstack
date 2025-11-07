@@ -1,5 +1,8 @@
 # Chapter 3: Tensor Operations
 
+!!! note "Tensor Operations Overview"
+    Tensor operations are the building blocks of all PyTorch computations. Understanding element-wise operations, matrix operations, and reshaping is crucial for building neural networks.
+
 ## Mathematical Operations
 
 ### Element-wise Operations
@@ -60,6 +63,12 @@ print(f"After sqrt_(): {x}")
 
 # Warning: In-place operations save memory but modify original tensor
 ```
+
+!!! tip "In-place Operations"
+    Use in-place operations (ending with `_`) to save memory, but be careful - they modify the original tensor and can break gradient computation. Avoid them when `requires_grad=True`.
+
+!!! warning "Gradient Tracking"
+    In-place operations on tensors with `requires_grad=True` can cause issues during backpropagation. Use regular operations instead when gradients are needed.
 
 ### Comparison Operations
 

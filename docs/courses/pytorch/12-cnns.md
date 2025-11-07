@@ -4,6 +4,12 @@ Convolutional Neural Networks are specialized neural networks for processing gri
 
 ## Why CNNs for Images?
 
+!!! note "Why CNNs Work for Images"
+    CNNs are designed to capture spatial hierarchies in images. Convolutional layers detect local patterns (edges, textures), pooling layers reduce spatial dimensions, and deeper layers combine these into complex features (objects, scenes).
+
+!!! tip "CNN Architecture Tips"
+    Start with a simple CNN (2-3 conv layers) and gradually add complexity. Use padding='same' to preserve spatial dimensions, and add pooling layers to reduce computational cost. Batch normalization after convolutions often improves training stability.
+
 **Problems with Fully Connected Networks:**
 - Too many parameters (28×28 image = 784 parameters per neuron)
 - No spatial information preservation

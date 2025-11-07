@@ -4,6 +4,12 @@
 
 The training loop is the heart of deep learning. It involves forward pass, loss calculation, backward pass, and parameter updates.
 
+!!! tip "Training Loop Pattern"
+    The standard pattern is: zero gradients → forward pass → compute loss → backward pass → optimizer step. Always call `optimizer.zero_grad()` before each backward pass to avoid gradient accumulation.
+
+!!! note "Training vs Evaluation Mode"
+    Use `model.train()` during training and `model.eval()` during validation/testing. This affects layers like Dropout and BatchNorm that behave differently in training vs inference.
+
 ## Basic Training Loop
 
 ### Minimal Example

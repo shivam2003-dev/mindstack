@@ -9,6 +9,12 @@ Loss functions (also called cost functions or objective functions) measure how w
 - Different tasks require different loss functions
 - Loss guides the gradient descent optimization
 
+!!! tip "Choosing the Right Loss Function"
+    Select loss functions based on your task: MSE/MAE for regression, CrossEntropy for classification, BCE for binary classification. The wrong loss function can prevent your model from learning effectively.
+
+!!! note "Loss vs Metrics"
+    Loss functions are used for training (must be differentiable), while metrics (accuracy, F1-score) are used for evaluation. Sometimes they differ - you might train with CrossEntropy but evaluate with accuracy.
+
 ## Regression Loss Functions
 
 ### 1. Mean Squared Error (MSE)

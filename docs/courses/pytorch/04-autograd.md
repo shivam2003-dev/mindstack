@@ -4,6 +4,12 @@
 
 **Autograd** is PyTorch's automatic differentiation engine that powers neural network training. It automatically computes gradients (derivatives) of tensor operations, which are essential for optimization algorithms like gradient descent.
 
+!!! note "Why Autograd is Powerful"
+    Autograd eliminates the need to manually compute derivatives, which is error-prone and time-consuming. It automatically builds a computation graph and computes gradients using the chain rule.
+
+!!! tip "Understanding the Computation Graph"
+    PyTorch builds a dynamic computation graph as you perform operations. When you call `.backward()`, it traverses this graph in reverse to compute gradients using backpropagation.
+
 ### Why Autograd Matters
 
 - 🎯 **Automatic**: No manual derivative calculations
