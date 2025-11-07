@@ -594,6 +594,59 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 ## ⭐ Best GitHub Repositories
 
+??? "📚 Learning & Roadmaps"
+    1. [DevOps Roadmap](https://github.com/milanm/DevOps-Roadmap)
+    2. [DevOps Exercises](https://github.com/bregman-arie/devops-exercises)
+    3. [Awesome DevOps](https://github.com/devopsbookmarks/devopsbookmarks.com)
+
+??? "🔄 CI/CD & Automation"
+    1. [Awesome CI/CD](https://github.com/cicdops/awesome-ciandcd)
+    2. [GitHub Actions Examples](https://github.com/actions/starter-workflows)
+    3. [Jenkins Pipeline Examples](https://github.com/jenkinsci/pipeline-examples)
+
+??? "🏗️ Infrastructure & Cloud"
+    1. [Awesome Terraform](https://github.com/shuaibiyy/awesome-terraform)
+    2. [Terraform AWS Modules](https://github.com/terraform-aws-modules)
+    3. [Awesome Ansible](https://github.com/ansible-community/awesome-ansible)
+    4. [AWS Well-Architected Labs](https://github.com/awslabs/aws-well-architected-labs)
+    5. [Awesome AWS](https://github.com/donnemartin/awesome-aws)
+
+??? "🐳 Containers & Orchestration"
+    1. [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+    2. [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
+    3. [Kubernetes Examples](https://github.com/kubernetes/examples)
+    4. [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
+    5. [Docker Compose Examples](https://github.com/docker/awesome-compose)
+
+??? "📊 Monitoring & Observability"
+    1. [Awesome Prometheus](https://github.com/roaldnefs/awesome-prometheus)
+    2. [Grafana](https://github.com/grafana/grafana)
+    3. [ELK Stack Examples](https://github.com/deviantony/docker-elk)
+
+??? "🔒 Security & DevSecOps"
+    1. [Awesome DevSecOps](https://github.com/TaptuIT/awesome-devsecops)
+    2. [Security Best Practices](https://github.com/FallibleInc/security-guide-for-developers)
+
+??? "⚙️ Site Reliability Engineering (SRE)"
+    1. [Google SRE Book](https://github.com/google/sre-book)
+    2. [Awesome SRE](https://github.com/dastergon/awesome-sre)
+    3. [SRE Resources](https://github.com/bregman-arie/sre-interview-prep)
+    4. [Production Engineering](https://github.com/facebook/production-engineering)
+
+??? "🚀 Platform Engineering"
+    1. [Platform Engineering Guide](https://github.com/platform-engineering)
+    2. [Internal Developer Platforms](https://github.com/orgs/internal-developer-platforms)
+    3. [Platform Engineering Resources](https://github.com/platform-engineering-resources)
+
+??? "🏛️ System Design & Architecture"
+    1. [System Design Primer](https://github.com/donnemartin/system-design-primer)
+    2. [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
+
+??? "💼 Interview Preparation"
+    1. [DevOps Interview Questions](https://github.com/bregman-arie/devops-interview-questions)
+    2. [System Design Interview](https://github.com/checkcheckzz/system-design-interview)
+    3. [SRE Interview Prep](https://github.com/bregman-arie/sre-interview-prep)
+
 ### DevOps Learning & Roadmaps
 
 
