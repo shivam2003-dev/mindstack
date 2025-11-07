@@ -1,5 +1,15 @@
 # Chapter 3: Tensor Operations
 
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">⚙️ Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Perform mathematical operations on tensors</li>
+    <li>Understand matrix operations</li>
+    <li>Reshape and manipulate tensor dimensions</li>
+    <li>Use broadcasting effectively</li>
+  </ul>
+</div>
+
 !!! note "Tensor Operations Overview"
     Tensor operations are the building blocks of all PyTorch computations. Understanding element-wise operations, matrix operations, and reshaping is crucial for building neural networks.
 

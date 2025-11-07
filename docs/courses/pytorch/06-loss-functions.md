@@ -1,5 +1,15 @@
 # Chapter 6: Loss Functions
 
+<div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2rem; border-radius: 10px; color: #333; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: #333;">📉 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem; color: #333;">
+    <li>Understand different loss functions</li>
+    <li>Choose the right loss for your task</li>
+    <li>Implement custom loss functions</li>
+    <li>Handle class imbalance</li>
+  </ul>
+</div>
+
 ## What are Loss Functions?
 
 Loss functions (also called cost functions or objective functions) measure how well your model's predictions match the actual targets. The goal of training is to minimize the loss.

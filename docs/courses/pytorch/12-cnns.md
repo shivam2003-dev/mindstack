@@ -1,5 +1,15 @@
 # Chapter 12: Convolutional Neural Networks (CNNs)
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🖼️ Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Understand CNN architecture</li>
+    <li>Implement convolutional and pooling layers</li>
+    <li>Build complete CNN models</li>
+    <li>Apply CNNs to image tasks</li>
+  </ul>
+</div>
+
 Convolutional Neural Networks are specialized neural networks for processing grid-like data, especially images.
 
 ## Why CNNs for Images?

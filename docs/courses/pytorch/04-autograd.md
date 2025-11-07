@@ -1,5 +1,15 @@
 # Chapter 4: Autograd & Gradients
 
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🔢 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Understand automatic differentiation</li>
+    <li>Compute gradients automatically</li>
+    <li>Control gradient computation</li>
+    <li>Debug gradient flow</li>
+  </ul>
+</div>
+
 ## What is Autograd?
 
 **Autograd** is PyTorch's automatic differentiation engine that powers neural network training. It automatically computes gradients (derivatives) of tensor operations, which are essential for optimization algorithms like gradient descent.

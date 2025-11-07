@@ -1,5 +1,15 @@
 # Chapter 2: Tensors Basics
 
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">📦 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Understand tensors and their properties</li>
+    <li>Create tensors in various ways</li>
+    <li>Manipulate tensor shapes and types</li>
+    <li>Work with CPU and GPU tensors</li>
+  </ul>
+</div>
+
 ## What are Tensors?
 
 Tensors are multi-dimensional arrays that are the fundamental building blocks of PyTorch. They are similar to NumPy arrays but with additional capabilities:

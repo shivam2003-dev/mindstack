@@ -1,5 +1,15 @@
 # Chapter 5: Building Neural Networks
 
+<div style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🧠 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Build neural networks with nn.Module</li>
+    <li>Understand common layer types</li>
+    <li>Create custom architectures</li>
+    <li>Implement activation functions</li>
+  </ul>
+</div>
+
 ## nn.Module - The Foundation
 
 Every PyTorch model inherits from `nn.Module`. This provides:

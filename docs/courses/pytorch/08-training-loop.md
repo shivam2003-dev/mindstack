@@ -1,5 +1,15 @@
 # Chapter 8: Training Loop
 
+<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 2rem; border-radius: 10px; color: #333; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: #333;">🔄 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem; color: #333;">
+    <li>Implement complete training loops</li>
+    <li>Add validation and testing</li>
+    <li>Monitor training progress</li>
+    <li>Handle early stopping and checkpoints</li>
+  </ul>
+</div>
+
 ## Complete Training Pipeline
 
 The training loop is the heart of deep learning. It involves forward pass, loss calculation, backward pass, and parameter updates.

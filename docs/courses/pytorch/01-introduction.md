@@ -1,5 +1,15 @@
 # Chapter 1: Introduction & Installation
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🎓 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Understand what PyTorch is and why it's popular</li>
+    <li>Install PyTorch correctly for your system</li>
+    <li>Set up your development environment</li>
+    <li>Write your first PyTorch program</li>
+  </ul>
+</div>
+
 ## What is PyTorch?
 
 PyTorch is an open-source machine learning library developed by Facebook's AI Research lab (FAIR). It provides:
