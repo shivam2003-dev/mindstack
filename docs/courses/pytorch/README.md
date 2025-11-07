@@ -195,7 +195,7 @@ Found an error or want to improve the course? Contributions are welcome!
 <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f5f5f5; border-radius: 8px;">
   <h2 style="margin-bottom: 1rem;">Ready to Start Learning?</h2>
   <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">Begin your PyTorch journey with Chapter 1</p>
-  <a href="01-introduction" style="display: inline-block; padding: 0.75rem 2rem; background: #ee4c2c; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Start Chapter 1 →</a>
+  <a href="01-introduction/" style="display: inline-block; padding: 0.75rem 2rem; background: #ee4c2c; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Start Chapter 1 →</a>
 </div>
 
 ---
