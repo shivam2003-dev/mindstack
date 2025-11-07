@@ -167,6 +167,9 @@ nav:
       - Security: courses/resources-hub/07-security.md
       - Data Engineering: courses/resources-hub/08-data-engineering.md
       - AI & ML Graduate Studies: courses/resources-hub/09-ai-ml-graduate-studies.md
+      - Databases: courses/resources-hub/10-databases.md
+      - Troubleshooting: courses/resources-hub/11-troubleshooting.md
+      - Performance Engineering: courses/resources-hub/12-performance-engineering.md
 
 plugins:
   - search

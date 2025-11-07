@@ -28,6 +28,10 @@ This hub provides comprehensive resources organized by subject, each containing:
 6. **System Design** - Architecture patterns, scalability
 7. **Security** - DevSecOps, cybersecurity, best practices
 8. **Data Engineering** - Data pipelines, ETL, big data
+9. **AI & ML Graduate Studies** - MTech, Master's, and PhD resources
+10. **Databases** - Relational, NoSQL, database design, optimization
+11. **Troubleshooting** - System debugging, diagnostic tools, methodologies
+12. **Performance Engineering** - System optimization, profiling, benchmarking
 
 ## 💡 How to Use
 
