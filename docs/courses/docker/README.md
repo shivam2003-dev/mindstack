@@ -9,25 +9,25 @@ This course covers everything you need to know about Docker, from fundamental co
 ## 🎯 Learning Path
 
 ### Part 1: Fundamentals
-1. [Introduction to Docker](01-intro.md) - Get started with Docker
-2. [Working with Containers](02-containers.md) - Container basics
-3. [Docker Images](03-images.md) - Image management
-4. [Advanced Dockerfiles](04-dockerfiles-advanced.md) - Writing efficient Dockerfiles
+1. [Introduction to Docker](01-intro) - Get started with Docker
+2. [Working with Containers](02-containers) - Container basics
+3. [Docker Images](03-images) - Image management
+4. [Advanced Dockerfiles](04-dockerfiles-advanced) - Writing efficient Dockerfiles
 
 ### Part 2: Core Concepts
-5. [Docker Networking](05-networking.md) - Network configuration
-6. [Volumes and Data Management](06-volumes.md) - Persistent data
-7. [Docker Compose](07-docker-compose.md) - Multi-container applications
+5. [Docker Networking](05-networking) - Network configuration
+6. [Volumes and Data Management](06-volumes) - Persistent data
+7. [Docker Compose](07-docker-compose) - Multi-container applications
 
 ### Part 3: Production Ready
-8. [Security](08-security.md) - Securing containers
-9. [Performance Optimization](09-performance.md) - Optimizing Docker
-10. [Production Deployment](10-production.md) - Deploying to production
+8. [Security](08-security) - Securing containers
+9. [Performance Optimization](09-performance) - Optimizing Docker
+10. [Production Deployment](10-production) - Deploying to production
 
 ### Part 4: Advanced Topics
-11. [System Troubleshooting](11-troubleshooting.md) - Comprehensive troubleshooting guide
-12. [Advanced Topics](12-advanced.md) - Advanced Docker features
-13. [Best Practices](13-best-practices.md) - Production best practices
+11. [System Troubleshooting](11-troubleshooting) - Comprehensive troubleshooting guide
+12. [Advanced Topics](12-advanced) - Advanced Docker features
+13. [Best Practices](13-best-practices) - Production best practices
 
 ## 🚀 Quick Start
 
@@ -92,7 +92,7 @@ By the end of this course, you will be able to:
 
 If you encounter issues:
 
-1. Check the [System Troubleshooting](11-troubleshooting.md) guide
+1. Check the [System Troubleshooting](11-troubleshooting) guide
 2. Review Docker logs: `docker logs <container>`
 3. Inspect containers: `docker inspect <container>`
 4. Check system resources: `docker stats`
@@ -105,7 +105,7 @@ If you encounter issues:
 
 ## 🎯 Next Steps
 
-Start with [Introduction to Docker](01-intro.md) and work through each lesson systematically.
+Start with [Introduction to Docker](01-intro) and work through each lesson systematically.
 
 Happy learning! 🐳
 
