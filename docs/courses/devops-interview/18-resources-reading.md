@@ -24,19 +24,19 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"The Phoenix Project" by Gene Kim, Kevin Behr, George Spafford**
-   - DevOps culture and principles
+      - DevOps culture and principles
    - Real-world scenarios
    - Essential for understanding DevOps mindset
    - **Purchase**: [Amazon](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592) | [Audiobook](https://www.audible.com/pd/The-Phoenix-Project-Audiobook/B00HZ3UX3I)
 
     2. **"The DevOps Handbook" by Gene Kim, Jez Humble, Patrick Debois, John Willis**
-   - Comprehensive DevOps guide
+      - Comprehensive DevOps guide
    - Best practices and patterns
    - Implementation strategies
    - **Purchase**: [Amazon](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002) | [O'Reilly](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
 
     3. **"Accelerate" by Nicole Forsgren, Jez Humble, Gene Kim**
-   - Research-based DevOps practices
+      - Research-based DevOps practices
    - Metrics and measurements
    - Performance improvement
    - **Purchase**: [Amazon](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339) | [Free PDF Summary](https://itrevolution.com/book/accelerate/)
@@ -45,13 +45,13 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"Linux Command Line and Shell Scripting Bible" by Richard Blum, Christine Bresnahan**
-   - Complete Linux command reference
+      - Complete Linux command reference
    - Shell scripting mastery
    - Practical examples
    - **Purchase**: [Amazon](https://www.amazon.com/Linux-Command-Shell-Scripting-Bible/dp/111898384X) | [Wiley](https://www.wiley.com/en-us/Linux+Command+Line+and+Shell+Scripting+Bible%2C+4th+Edition-p-9781118983843)
 
     2. **"UNIX and Linux System Administration Handbook" by Evi Nemeth, Garth Snyder, Trent R. Hein**
-   - Comprehensive system administration
+      - Comprehensive system administration
    - Production-ready knowledge
    - Troubleshooting guide
    - **Purchase**: [Amazon](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554) | [Prentice Hall](https://www.pearson.com/en-us/subject-catalog/p/unix-and-linux-system-administration-handbook/P200000003360)
@@ -60,19 +60,19 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"Docker Deep Dive" by Nigel Poulton**
-   - Complete Docker guide
+      - Complete Docker guide
    - Advanced concepts
    - Production practices
    - **Purchase**: [Amazon](https://www.amazon.com/Docker-Deep-Dive-Nigel-Poulton/dp/1916585244) | [Nigel Poulton's Site](https://nigelpoulton.com/docker-deep-dive/)
 
     2. **"Kubernetes: Up and Running" by Kelsey Hightower, Brendan Burns, Joe Beda**
-   - Kubernetes fundamentals
+      - Kubernetes fundamentals
    - Practical examples
    - Production deployment
    - **Purchase**: [Amazon](https://www.amazon.com/Kubernetes-Running-Dive-Future-Containers/dp/1492046531) | [O'Reilly](https://www.oreilly.com/library/view/kubernetes-up-and/9781492046523/)
 
     3. **"The Kubernetes Book" by Nigel Poulton**
-   - Comprehensive K8s guide
+      - Comprehensive K8s guide
    - Clear explanations
    - Real-world scenarios
    - **Purchase**: [Amazon](https://www.amazon.com/Kubernetes-Book-Nigel-Poulton/dp/B09QH7F6GX) | [Nigel Poulton's Site](https://nigelpoulton.com/the-kubernetes-book/)
@@ -81,13 +81,13 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"Continuous Delivery" by Jez Humble, David Farley**
-   - CI/CD principles
+      - CI/CD principles
    - Deployment strategies
    - Automation best practices
    - **Purchase**: [Amazon](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) | [O'Reilly](https://www.oreilly.com/library/view/continuous-delivery/9780321601919/)
 
     2. **"Infrastructure as Code" by Kief Morris**
-- IaC patterns and practices
+      - IaC patterns and practices
 - Terraform, Ansible, CloudFormation
 - Infrastructure management
 - **Purchase**: [Amazon](https://www.amazon.com/Infrastructure-Code-Dynamic-Systems-Cloud/dp/1491924357) | [O'Reilly](https://www.oreilly.com/library/view/infrastructure-as-code/9781491924354/)
@@ -96,13 +96,13 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"AWS Certified Solutions Architect Study Guide" by Ben Piper, David Clinton**
-- AWS services deep dive
+      - AWS services deep dive
 - Architecture patterns
 - Certification prep
 - **Purchase**: [Amazon](https://www.amazon.com/AWS-Certified-Solutions-Architect-Study/dp/1119504219) | [Wiley](https://www.wiley.com/en-us/AWS+Certified+Solutions+Architect+Study+Guide%3A+Associate+SAA-C03+Exam%2C+4th+Edition-p-9781119504217)
 
     2. **"Cloud Native Patterns" by Cornelia Davis**
-- Cloud-native design
+      - Cloud-native design
 - Microservices patterns
 - Modern architectures
 - **Purchase**: [Amazon](https://www.amazon.com/Cloud-Native-Patterns-Designing-Change-tolerant/dp/1614294296) | [Manning](https://www.manning.com/books/cloud-native-patterns)
@@ -113,14 +113,14 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"The State of DevOps Report" (Annual)**
-   - DORA (DevOps Research and Assessment)
+      - DORA (DevOps Research and Assessment)
    - Industry metrics and trends
    - Performance benchmarks
    - **Link**: [dora.dev](https://www.dora.dev/) | [Latest Report](https://www.dora.dev/reports/)
    - **Key Findings**: [2023 Report](https://www.dora.dev/reports/accelerate-state-of-devops-2023/)
 
     2. **"Accelerate: The Science of Lean Software and DevOps"**
-   - Authors: Nicole Forsgren, Jez Humble, Gene Kim
+      - Authors: Nicole Forsgren, Jez Humble, Gene Kim
    - Research on DevOps practices
    - Performance metrics
    - Best practices validation
@@ -128,19 +128,19 @@ This chapter compiles comprehensive resources including books, articles, researc
    - **Research Paper**: [Google Scholar](https://scholar.google.com/scholar?q=Accelerate+Nicole+Forsgren)
 
     3. **"Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation"**
-   - Authors: Jez Humble, David Farley
+      - Authors: Jez Humble, David Farley
    - CI/CD principles
    - Deployment automation
    - **Book**: [O'Reilly](https://www.oreilly.com/library/view/continuous-delivery/9780321601919/)
    - **Related Papers**: [Jez Humble's Publications](https://www.thoughtworks.com/profiles/jez-humble)
 
     4. **"The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win"**
-   - Research-backed DevOps transformation
+      - Research-backed DevOps transformation
    - **Book**: [Amazon](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)
    - **Case Studies**: [IT Revolution](https://itrevolution.com/the-phoenix-project/)
 
     5. **"Site Reliability Engineering: How Google Runs Production Systems"**
-   - Authors: Google SRE Team
+      - Authors: Google SRE Team
    - Production system design
    - Reliability engineering
    - **Free Book**: [sre.google/books](https://sre.google/books/)
@@ -150,7 +150,7 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"Borg, Omega, and Kubernetes: Lessons Learned from Three Container-Management Systems over a Decade"**
-   - Authors: Brendan Burns, Brian Grant, David Oppenheimer, Eric Brewer, John Wilkes
+      - Authors: Brendan Burns, Brian Grant, David Oppenheimer, Eric Brewer, John Wilkes
    - Google's container orchestration evolution
    - Kubernetes design principles
    - Large-scale system design
@@ -158,19 +158,19 @@ This chapter compiles comprehensive resources including books, articles, researc
    - **Summary**: [Kubernetes Blog](https://kubernetes.io/blog/2015/04/borg-predecessor-to-kubernetes/)
 
     2. **"Containers vs. Virtual Machines: A Performance Comparison"**
-   - Performance comparison studies
+      - Performance comparison studies
    - Use case analysis
    - Resource efficiency
    - **Paper**: [IEEE Xplore](https://ieeexplore.ieee.org/document/7163027)
    - **Related**: [Docker Performance Study](https://www.docker.com/blog/containers-vs-virtual-machines/)
 
     3. **"Large-scale Cluster Management at Google with Borg"**
-   - Authors: Abhishek Verma, Luis Pedrosa, Madhukar Korupolu, David Oppenheimer, Eric Tune, John Wilkes
+      - Authors: Abhishek Verma, Luis Pedrosa, Madhukar Korupolu, David Oppenheimer, Eric Tune, John Wilkes
    - Google's cluster management system
    - **Paper**: [ACM Digital Library](https://dl.acm.org/doi/10.1145/2741970.2741979) | [PDF](https://research.google/pubs/pub43438/)
 
     4. **"Omega: Flexible, Scalable Schedulers for Large Compute Clusters"**
-   - Authors: Malte Schwarzkopf, Andy Konwinski, Michael Abd-El-Malek, John Wilkes
+      - Authors: Malte Schwarzkopf, Andy Konwinski, Michael Abd-El-Malek, John Wilkes
    - Kubernetes scheduler design
    - **Paper**: [ACM Digital Library](https://dl.acm.org/doi/10.1145/2465351.2465356) | [PDF](https://research.google/pubs/pub41684/)
 
@@ -178,21 +178,21 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"Above the Clouds: A Berkeley View of Cloud Computing"**
-   - Authors: Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy Katz, Andy Konwinski, Gunho Lee, David Patterson, Ariel Rabkin, Ion Stoica, Matei Zaharia
+      - Authors: Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy Katz, Andy Konwinski, Gunho Lee, David Patterson, Ariel Rabkin, Ion Stoica, Matei Zaharia
    - Cloud computing fundamentals
    - Economics and architecture
    - Future trends
    - **Paper**: [UC Berkeley](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.html) | [PDF](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf)
 
     2. **"The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines"**
-   - Authors: Luiz André Barroso, Urs Hölzle, Parthasarathy Ranganathan
+      - Authors: Luiz André Barroso, Urs Hölzle, Parthasarathy Ranganathan
    - Large-scale infrastructure design
    - Datacenter architecture
    - Resource management
    - **Free Book**: [sites.google.com](https://sites.google.com/site/datacenterasacomputer/) | [PDF](https://www.morganclaypool.com/doi/abs/10.2200/S00516ED2V01Y201306CAC024)
 
     3. **"A View of Cloud Computing"**
-- Authors: Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy Katz, Andy Konwinski, Gunho Lee, David Patterson, Ariel Rabkin, Ion Stoica, Matei Zaharia
+      - Authors: Michael Armbrust, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy Katz, Andy Konwinski, Gunho Lee, David Patterson, Ariel Rabkin, Ion Stoica, Matei Zaharia
 - Cloud computing concepts
 - **Paper**: [Communications of the ACM](https://cacm.acm.org/magazines/2010/4/81493-a-view-of-cloud-computing/fulltext)
 
@@ -202,56 +202,56 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"What is DevOps?" - AWS Blog**
-   - Comprehensive DevOps overview
+      - Comprehensive DevOps overview
    - Best practices
    - **Link**: [aws.amazon.com/devops/what-is-devops/](https://aws.amazon.com/devops/what-is-devops/)
    - **Related**: [AWS DevOps Blog](https://aws.amazon.com/blogs/devops/)
 
     2. **"The Three Ways: The Principles Underpinning DevOps"**
-   - Author: Gene Kim
+      - Author: Gene Kim
    - Flow, Feedback, Continuous Learning
    - **Link**: [IT Revolution](https://itrevolution.com/the-three-ways-principles-underpinning-devops/)
    - **Book Chapter**: [The DevOps Handbook](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002)
 
     3. **"10+ Deploys Per Day: Dev and Ops Cooperation at Flickr"**
-   - Authors: John Allspaw, Paul Hammond
+      - Authors: John Allspaw, Paul Hammond
    - Classic DevOps case study
    - High-frequency deployments
    - **Link**: [Velocity Conference 2009](https://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr)
    - **Video**: [YouTube](https://www.youtube.com/watch?v=LdOe18KhtT4)
 
     4. **"The DevOps Transformation" - Google Cloud Blog**
-   - DevOps transformation strategies
+      - DevOps transformation strategies
    - **Link**: [cloud.google.com/blog/products/devops-sre](https://cloud.google.com/blog/products/devops-sre)
 
     5. **"How Netflix Thinks About DevOps"**
-   - Netflix's DevOps practices
+      - Netflix's DevOps practices
    - **Link**: [netflixtechblog.com](https://netflixtechblog.com/)
 
 ### Container Technologies
 
 
     1. **"Docker Best Practices" - Docker Blog**
-   - Image optimization
+      - Image optimization
    - Security practices
    - **Link**: [docs.docker.com/develop/dev-best-practices/](https://docs.docker.com/develop/dev-best-practices/)
    - **Security Guide**: [docs.docker.com/engine/security/](https://docs.docker.com/engine/security/)
    - **Docker Blog**: [docker.com/blog](https://www.docker.com/blog/)
 
     2. **"Kubernetes Architecture Explained"**
-   - Component deep dive
+      - Component deep dive
    - Design principles
    - **Link**: [kubernetes.io/docs/concepts/architecture/](https://kubernetes.io/docs/concepts/architecture/)
    - **Kubernetes Blog**: [kubernetes.io/blog](https://kubernetes.io/blog/)
    - **Kubernetes Components**: [kubernetes.io/docs/concepts/overview/components/](https://kubernetes.io/docs/concepts/overview/components/)
 
     3. **"Kubernetes Networking Deep Dive"**
-   - Network architecture
+      - Network architecture
    - **Link**: [kubernetes.io/docs/concepts/cluster-administration/networking/](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
    - **CNI Plugins**: [kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/](https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/)
 
     4. **"Docker Security Best Practices"**
-   - Container security
+      - Container security
    - **Link**: [docs.docker.com/engine/security/](https://docs.docker.com/engine/security/)
    - **CIS Docker Benchmark**: [www.cisecurity.org/benchmark/docker](https://www.cisecurity.org/benchmark/docker)
 
@@ -259,56 +259,56 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **"GitHub Actions Documentation"**
-- Complete workflow guide
+      - Complete workflow guide
 - Examples and patterns
 - **Link**: [docs.github.com/en/actions](https://docs.github.com/en/actions)
 - **Workflow Examples**: [github.com/actions/starter-workflows](https://github.com/actions/starter-workflows)
 - **Best Practices**: [docs.github.com/en/actions/learn-github-actions/best-practices](https://docs.github.com/en/actions/learn-github-actions/best-practices)
 
     2. **"GitLab CI/CD Best Practices"**
-- Pipeline optimization
+      - Pipeline optimization
 - Security practices
 - **Link**: [docs.gitlab.com/ee/ci/pipelines/](https://docs.gitlab.com/ee/ci/pipelines/)
 - **CI/CD Guide**: [docs.gitlab.com/ee/ci/](https://docs.gitlab.com/ee/ci/)
 - **GitLab Blog**: [about.gitlab.com/blog/topics/ci-cd/](https://about.gitlab.com/blog/topics/ci-cd/)
 
     3. **"Continuous Integration" - Martin Fowler**
-- CI fundamentals
+      - CI fundamentals
 - **Link**: [martinfowler.com/articles/continuousIntegration.html](https://martinfowler.com/articles/continuousIntegration.html)
 - **Continuous Delivery**: [martinfowler.com/bliki/ContinuousDelivery.html](https://martinfowler.com/bliki/ContinuousDelivery.html)
 
     4. **"The Deployment Production Line" - ThoughtWorks**
-- Deployment automation
+      - Deployment automation
 - **Link**: [martinfowler.com/bliki/DeploymentPipeline.html](https://martinfowler.com/bliki/DeploymentPipeline.html)
 
 ### Cloud & Infrastructure
 
 
     1. **"AWS Well-Architected Framework"**
-- Architecture best practices
+      - Architecture best practices
 - Cost optimization
 - **Link**: [aws.amazon.com/architecture/well-architected/](https://aws.amazon.com/architecture/well-architected/)
 - **Framework PDF**: [d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 - **Labs**: [wellarchitectedlabs.com](https://www.wellarchitectedlabs.com/)
 
     2. **"Google Cloud Architecture Center"**
-- Reference architectures
+      - Reference architectures
 - Best practices
 - **Link**: [cloud.google.com/architecture](https://cloud.google.com/architecture)
 - **Reference Architectures**: [cloud.google.com/architecture/framework](https://cloud.google.com/architecture/framework)
 
     3. **"Azure Architecture Center"**
-- Microsoft Azure best practices
+      - Microsoft Azure best practices
 - **Link**: [docs.microsoft.com/azure/architecture/](https://docs.microsoft.com/azure/architecture/)
 - **Reference Architectures**: [docs.microsoft.com/azure/architecture/browse/](https://docs.microsoft.com/azure/architecture/browse/)
 
     4. **"AWS Architecture Blog"**
-- Real-world architectures
+      - Real-world architectures
 - **Link**: [aws.amazon.com/blogs/architecture/](https://aws.amazon.com/blogs/architecture/)
 - **Case Studies**: [aws.amazon.com/solutions/case-studies/](https://aws.amazon.com/solutions/case-studies/)
 
     5. **"High Scalability Blog"**
-- Large-scale system architectures
+      - Large-scale system architectures
 - **Link**: [highscalability.com](http://highscalability.com/)
 - **Real-World Examples**: [highscalability.com/all-time-favorites/](http://highscalability.com/all-time-favorites/)
 
@@ -450,42 +450,42 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Reddit - r/devops**
-   - Discussions and Q&A
+      - Discussions and Q&A
    - Job postings
    - **Link**: [reddit.com/r/devops](https://www.reddit.com/r/devops)
    - **Related**: [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes), [reddit.com/r/docker](https://www.reddit.com/r/docker), [reddit.com/r/aws](https://www.reddit.com/r/aws)
 
     2. **DevOps Stack Exchange**
-   - Technical Q&A
+      - Technical Q&A
    - Best practices
    - **Link**: [devops.stackexchange.com](https://devops.stackexchange.com)
    - **Popular Questions**: [devops.stackexchange.com/questions?sort=votes](https://devops.stackexchange.com/questions?sort=votes)
 
     3. **HackerNews**
-   - Tech news and discussions
+      - Tech news and discussions
    - DevOps articles
    - **Link**: [news.ycombinator.com](https://news.ycombinator.com)
    - **Search DevOps**: [hn.algolia.com/?q=devops](https://hn.algolia.com/?q=devops)
 
     4. **Dev.to DevOps Tag**
-   - Developer articles
+      - Developer articles
    - **Link**: [dev.to/t/devops](https://dev.to/t/devops)
    - **Popular Posts**: [dev.to/t/devops/top/week](https://dev.to/t/devops/top/week)
 
     5. **Stack Overflow DevOps Tag**
-   - Technical questions
+      - Technical questions
    - **Link**: [stackoverflow.com/questions/tagged/devops](https://stackoverflow.com/questions/tagged/devops)
 
 ### Professional Networks
 
 
     1. **LinkedIn DevOps Groups**
-   - Professional networking
+      - Professional networking
    - Industry discussions
    - Job opportunities
 
     2. **DevOps Institute**
-   - [devopsinstitute.com](https://devopsinstitute.com)
+      - [devopsinstitute.com](https://devopsinstitute.com)
    - Training and certification
    - Community events
 
@@ -495,75 +495,75 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **TechWorld with Nana**
-   - DevOps tutorials
+      - DevOps tutorials
    - Kubernetes and Docker
    - Practical examples
    - **Link**: [youtube.com/c/TechWorldwithNana](https://www.youtube.com/c/TechWorldwithNana)
    - **Playlists**: [Kubernetes](https://www.youtube.com/playlist?list=PLy7NrYWoggjwPggqtFsI_zajw9B1C_FCq), [Docker](https://www.youtube.com/playlist?list=PLy7NrYWoggjw4r8j75CS6l2gN2y1-7gcy)
 
     2. **Bret Fisher - Docker & DevOps**
-   - Docker deep dives
+      - Docker deep dives
    - Best practices
    - Production tips
    - **Link**: [youtube.com/c/BretFisher](https://www.youtube.com/c/BretFisher)
    - **Docker Mastery Course**: [bretfisher.com/courses](https://www.bretfisher.com/courses)
 
     3. **Kubernetes Official Channel**
-   - K8s tutorials
+      - K8s tutorials
    - Community talks
    - Best practices
    - **Link**: [youtube.com/c/KubernetesCommunity](https://www.youtube.com/c/KubernetesCommunity)
    - **KubeCon Talks**: [youtube.com/playlist?list=PLj6h78yzYM2PZf9eA7bhWnIh_mK1vyOfU](https://www.youtube.com/playlist?list=PLj6h78yzYM2PZf9eA7bhWnIh_mK1vyOfU)
 
     4. **AWS Official Channel**
-   - AWS tutorials
+      - AWS tutorials
    - Architecture patterns
    - **Link**: [youtube.com/c/AmazonWebServices](https://www.youtube.com/c/AmazonWebServices)
    - **AWS re:Invent**: [youtube.com/c/AmazonWebServices/search?query=reinvent](https://www.youtube.com/c/AmazonWebServices/search?query=reinvent)
 
     5. **Google Cloud Tech**
-   - GCP tutorials
+      - GCP tutorials
    - **Link**: [youtube.com/c/googlecloudtech](https://www.youtube.com/c/googlecloudtech)
 
     6. **CNCF (Cloud Native Computing Foundation)**
-   - Cloud native technologies
+      - Cloud native technologies
    - **Link**: [youtube.com/c/cloudnativefdn](https://www.youtube.com/c/cloudnativefdn)
 
 ### Online Courses
 
 
     1. **Linux Academy / A Cloud Guru**
-   - Comprehensive DevOps courses
+      - Comprehensive DevOps courses
    - Hands-on labs
    - Certification prep
    - **Link**: [acloudguru.com](https://acloudguru.com/)
    - **DevOps Path**: [acloudguru.com/learning-paths/devops](https://acloudguru.com/learning-paths/devops)
 
     2. **Udemy DevOps Courses**
-   - Various instructors
+      - Various instructors
    - Practical projects
    - Lifetime access
    - **Link**: [udemy.com/topic/devops/](https://www.udemy.com/topic/devops/)
    - **Popular**: [udemy.com/courses/search/?q=devops](https://www.udemy.com/courses/search/?q=devops)
 
     3. **Coursera DevOps Courses**
-   - University-level courses
+      - University-level courses
    - **Link**: [coursera.org/courses?query=devops](https://www.coursera.org/courses?query=devops)
    - **Google Cloud DevOps**: [coursera.org/professional-certificates/google-cloud-devops-engineer](https://www.coursera.org/professional-certificates/google-cloud-devops-engineer)
 
     4. **Pluralsight DevOps Path**
-- Comprehensive learning paths
+      - Comprehensive learning paths
 - **Link**: [pluralsight.com/paths/devops](https://www.pluralsight.com/paths/devops)
 
     5. **KodeKloud**
-- Hands-on DevOps labs
+      - Hands-on DevOps labs
 - **Link**: [kodekloud.com](https://kodekloud.com/)
 - **Kubernetes Course**: [kodekloud.com/courses/certified-kubernetes-administrator-with-practice-tests](https://kodekloud.com/courses/certified-kubernetes-administrator-with-practice-tests)
 
 ## 📊 Industry Reports
 
     6. **State of DevOps Report (Annual)**
-   - DORA research
+      - DORA research
    - Industry benchmarks
    - Trends and insights
    - **Link**: [dora.dev/reports](https://www.dora.dev/reports/)
@@ -571,25 +571,25 @@ This chapter compiles comprehensive resources including books, articles, researc
    - **Previous Reports**: [dora.dev/reports/](https://www.dora.dev/reports/)
 
     7. **CNCF Cloud Native Survey**
-   - Container adoption
+      - Container adoption
    - Kubernetes usage
    - Tool preferences
    - **Link**: [cncf.io/blog/category/survey/](https://www.cncf.io/blog/category/survey/)
    - **Latest Survey**: [cncf.io/blog/2023/11/15/cloud-native-survey-2023/](https://www.cncf.io/blog/2023/11/15/cloud-native-survey-2023/)
 
     8. **GitLab DevOps Report**
-   - Development practices
+      - Development practices
    - Tool usage
    - Team collaboration
    - **Link**: [about.gitlab.com/developer-survey/](https://about.gitlab.com/developer-survey/)
    - **Latest Report**: [about.gitlab.com/resources/ebooks/gitlab-devsecops-report/](https://about.gitlab.com/resources/ebooks/gitlab-devsecops-report/)
 
     9. **Puppet State of DevOps Report**
-   - DevOps practices and trends
+      - DevOps practices and trends
    - **Link**: [puppet.com/resources/report/state-of-devops-report/](https://puppet.com/resources/report/state-of-devops-report/)
 
     10. **Red Hat Enterprise Open Source Report**
-   - Open source adoption
+      - Open source adoption
    - **Link**: [redhat.com/en/resources/enterprise-open-source-report](https://www.redhat.com/en/resources/enterprise-open-source-report)
 
 ## ⭐ Best GitHub Repositories
@@ -598,18 +598,18 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **DevOps Roadmap**
-   - Comprehensive DevOps learning path
+      - Comprehensive DevOps learning path
    - Visual roadmap with technologies
    - **Link**: [github.com/milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap)
    - **Stars**: 10k+
 
     2. **Awesome DevOps**
-   - Curated list of DevOps tools and resources
+      - Curated list of DevOps tools and resources
    - **Link**: [github.com/devopsbookmarks/devopsbookmarks.com](https://github.com/devopsbookmarks/devopsbookmarks.com)
    - **Stars**: 5k+
 
     3. **DevOps Exercises**
-   - Hands-on DevOps exercises and challenges
+      - Hands-on DevOps exercises and challenges
    - **Link**: [github.com/bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
    - **Stars**: 50k+
 
@@ -617,12 +617,12 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Awesome Docker**
-   - Curated list of Docker resources and tools
+      - Curated list of Docker resources and tools
    - **Link**: [github.com/veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker)
    - **Stars**: 25k+
 
     2. **Docker Compose Examples**
-   - Real-world Docker Compose configurations
+      - Real-world Docker Compose configurations
    - **Link**: [github.com/docker/awesome-compose](https://github.com/docker/awesome-compose)
    - **Stars**: 25k+
 
@@ -630,17 +630,17 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Kubernetes The Hard Way**
-   - Step-by-step guide to Kubernetes from scratch
+      - Step-by-step guide to Kubernetes from scratch
    - **Link**: [github.com/kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
    - **Stars**: 40k+
 
     2. **Awesome Kubernetes**
-   - Curated list of Kubernetes resources
+      - Curated list of Kubernetes resources
    - **Link**: [github.com/ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
    - **Stars**: 15k+
 
     3. **Kubernetes Examples**
-   - Official Kubernetes examples and tutorials
+      - Official Kubernetes examples and tutorials
    - **Link**: [github.com/kubernetes/examples](https://github.com/kubernetes/examples)
    - **Stars**: 5k+
 
@@ -648,17 +648,17 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Awesome CI/CD**
-   - Curated list of CI/CD tools and resources
+      - Curated list of CI/CD tools and resources
    - **Link**: [github.com/cicdops/awesome-ciandcd](https://github.com/cicdops/awesome-ciandcd)
    - **Stars**: 2k+
 
     2. **GitHub Actions Examples**
-- Collection of GitHub Actions workflows
+      - Collection of GitHub Actions workflows
 - **Link**: [github.com/actions/starter-workflows](https://github.com/actions/starter-workflows)
 - **Stars**: 8k+
 
     3. **Jenkins Pipeline Examples**
-- Jenkins pipeline examples and best practices
+      - Jenkins pipeline examples and best practices
 - **Link**: [github.com/jenkinsci/pipeline-examples](https://github.com/jenkinsci/pipeline-examples)
 - **Stars**: 5k+
 
@@ -666,17 +666,17 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Awesome Terraform**
-- Curated list of Terraform resources
+      - Curated list of Terraform resources
 - **Link**: [github.com/shuaibiyy/awesome-terraform](https://github.com/shuaibiyy/awesome-terraform)
 - **Stars**: 5k+
 
     2. **Terraform AWS Modules**
-- Reusable Terraform modules for AWS
+      - Reusable Terraform modules for AWS
 - **Link**: [github.com/terraform-aws-modules](https://github.com/terraform-aws-modules)
 - **Stars**: 10k+
 
     3. **Awesome Ansible**
-- Curated list of Ansible resources
+      - Curated list of Ansible resources
 - **Link**: [github.com/ansible-community/awesome-ansible](https://github.com/ansible-community/awesome-ansible)
 - **Stars**: 3k+
 
@@ -684,17 +684,17 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Awesome AWS**
-- Curated list of AWS resources and tools
+      - Curated list of AWS resources and tools
 - **Link**: [github.com/donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws)
 - **Stars**: 12k+
 
     2. **AWS Well-Architected Labs**
-- Hands-on labs for AWS Well-Architected Framework
+      - Hands-on labs for AWS Well-Architected Framework
 - **Link**: [github.com/awslabs/aws-well-architected-labs](https://github.com/awslabs/aws-well-architected-labs)
 - **Stars**: 5k+
 
     3. **Cloud Architecture Patterns**
-- Cloud architecture patterns and examples
+      - Cloud architecture patterns and examples
 - **Link**: [github.com/aws-samples/aws-refarch-cloudformation](https://github.com/aws-samples/aws-refarch-cloudformation)
 - **Stars**: 1k+
 
@@ -702,17 +702,17 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Awesome Prometheus**
-- Curated list of Prometheus resources
+      - Curated list of Prometheus resources
 - **Link**: [github.com/roaldnefs/awesome-prometheus](https://github.com/roaldnefs/awesome-prometheus)
 - **Stars**: 2k+
 
     2. **Grafana Dashboards**
-- Collection of Grafana dashboards
+      - Collection of Grafana dashboards
 - **Link**: [github.com/grafana/grafana](https://github.com/grafana/grafana)
 - **Stars**: 60k+
 
     3. **ELK Stack Examples**
-- Elasticsearch, Logstash, Kibana examples
+      - Elasticsearch, Logstash, Kibana examples
 - **Link**: [github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk)
 - **Stars**: 15k+
 
@@ -720,12 +720,12 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Awesome DevSecOps**
-- Curated list of DevSecOps resources
+      - Curated list of DevSecOps resources
 - **Link**: [github.com/TaptuIT/awesome-devsecops](https://github.com/TaptuIT/awesome-devsecops)
 - **Stars**: 2k+
 
     2. **Security Best Practices**
-- Security best practices for DevOps
+      - Security best practices for DevOps
 - **Link**: [github.com/FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)
 - **Stars**: 25k+
 
@@ -733,12 +733,12 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **System Design Primer**
-- Learn how to design large-scale systems
+      - Learn how to design large-scale systems
 - **Link**: [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
 - **Stars**: 250k+
 
     2. **Awesome Scalability**
-- Curated list of scalability resources
+      - Curated list of scalability resources
 - **Link**: [github.com/binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
 - **Stars**: 50k+
 
@@ -746,12 +746,12 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **DevOps Interview Questions**
-- Comprehensive DevOps interview questions
+      - Comprehensive DevOps interview questions
 - **Link**: [github.com/bregman-arie/devops-interview-questions](https://github.com/bregman-arie/devops-interview-questions)
 - **Stars**: 15k+
 
     2. **System Design Interview**
-- System design interview preparation
+      - System design interview preparation
 - **Link**: [github.com/checkcheckzz/system-design-interview](https://github.com/checkcheckzz/system-design-interview)
 - **Stars**: 25k+
 
@@ -759,17 +759,17 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Awesome Shell**
-- Curated list of shell tools and resources
+      - Curated list of shell tools and resources
 - **Link**: [github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 - **Stars**: 30k+
 
     2. **Linux Command Line Tools**
-- Essential Linux command line tools
+      - Essential Linux command line tools
 - **Link**: [github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
 - **Stars**: 140k+
 
     3. **Awesome Bash**
-- Curated list of Bash resources
+      - Curated list of Bash resources
 - **Link**: [github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
 - **Stars**: 6k+
 
@@ -777,12 +777,12 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **Production Ready Kubernetes**
-- Production-ready Kubernetes configurations
+      - Production-ready Kubernetes configurations
 - **Link**: [github.com/kubernetes/examples](https://github.com/kubernetes/examples)
 - **Stars**: 5k+
 
     2. **Homelab Projects**
-- Self-hosted homelab projects
+      - Self-hosted homelab projects
 - **Link**: [github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - **Stars**: 150k+
 
@@ -799,14 +799,14 @@ This chapter compiles comprehensive resources including books, articles, researc
 
 
     1. **LeetCode**
-   - Algorithm problems
+      - Algorithm problems
    - System design
    - Coding interviews
    - **Link**: [leetcode.com](https://leetcode.com/)
    - **System Design**: [leetcode.com/explore/interview/card/system-design/](https://leetcode.com/explore/interview/card/system-design/)
 
     2. **HackerRank**
-   - DevOps challenges
+      - DevOps challenges
    - Shell scripting
    - Linux commands
    - **Link**: [hackerrank.com](https://www.hackerrank.com/)
@@ -814,41 +814,41 @@ This chapter compiles comprehensive resources including books, articles, researc
    - **DevOps**: [hackerrank.com/domains/devops](https://www.hackerrank.com/domains/devops)
 
     3. **InterviewBit**
-   - DevOps interview prep
+      - DevOps interview prep
    - Mock interviews
    - Company-specific questions
    - **Link**: [interviewbit.com](https://www.interviewbit.com/)
 
     4. **Pramp**
-   - Mock interviews
+      - Mock interviews
    - **Link**: [pramp.com](https://www.pramp.com/)
 
     5. **Interviewing.io**
-   - Anonymous mock interviews
+      - Anonymous mock interviews
    - **Link**: [interviewing.io](https://interviewing.io/)
 
 ### Interview Question Banks
 
 
     1. **Glassdoor**
-   - Company interview questions
+      - Company interview questions
    - Salary information
    - Company reviews
    - **Link**: [glassdoor.com](https://www.glassdoor.com/)
    - **Interview Questions**: [glassdoor.com/Interview/index.htm](https://www.glassdoor.com/Interview/index.htm)
 
     2. **Interview Query**
-   - DevOps interview questions
+      - DevOps interview questions
    - System design practice
    - Mock interviews
    - **Link**: [interviewquery.com](https://www.interviewquery.com/)
 
     3. **LeetCode Discuss**
-   - Interview experiences
+      - Interview experiences
    - **Link**: [leetcode.com/discuss/interview-question](https://leetcode.com/discuss/interview-question)
 
     4. **Blind**
-   - Anonymous company discussions
+      - Anonymous company discussions
    - **Link**: [teamblind.com](https://www.teamblind.com/)
 
 ## 🎓 Learning Paths
