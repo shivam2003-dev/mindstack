@@ -7,7 +7,7 @@
 
 ## 📖 Books
 
-??? "Essential Security Books"
+???+ "Essential Security Books"
     1. [The Web Application Hacker's Handbook](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470) - Web security
     2. [Security Engineering by Ross Anderson](https://www.cl.cam.ac.uk/~rja14/book.html) - Security engineering (Free)
     3. [The Art of Exploitation by Jon Erickson](https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441) - Exploitation
@@ -15,7 +15,7 @@
 
 ## 📄 Research Papers
 
-??? "Security Research"
+???+ "Security Research"
     1. [OWASP Top 10](https://owasp.org/www-project-top-ten/) - Web vulnerabilities
     2. [Security Research Papers](https://www.usenix.org/conferences) - USENIX security papers
     3. [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/) - Security benchmarks
@@ -23,7 +23,7 @@
 
 ## ⭐ GitHub Repositories
 
-??? "Important Security Repos"
+???+ "Important Security Repos"
     1. [Awesome DevSecOps](https://github.com/TaptuIT/awesome-devsecops) - DevSecOps resources
     2. [Security Best Practices](https://github.com/FallibleInc/security-guide-for-developers) - Developer security
     3. [OWASP Cheat Sheet Series](https://github.com/OWASP/CheatSheetSeries) - Security cheat sheets
@@ -32,7 +32,7 @@
 
 ## 🎥 Videos & Courses
 
-??? "Video Resources"
+???+ "Video Resources"
     1. [OWASP Videos](https://www.youtube.com/c/OWASPGLOBAL) - Security talks
     2. [Black Hat Conference](https://www.youtube.com/c/BlackHatOfficialYT) - Security conference
     3. [DEF CON](https://www.youtube.com/c/DEFCONConference) - Hacking conference
@@ -40,7 +40,7 @@
 
 ## 📰 Articles & Blogs
 
-??? "Recommended Blogs"
+???+ "Recommended Blogs"
     1. [Schneier on Security](https://www.schneier.com/) - Bruce Schneier's blog
     2. [Krebs on Security](https://krebsonsecurity.com/) - Security news
     3. [The Hacker News](https://thehackernews.com/) - Security updates
@@ -48,7 +48,7 @@
 
 ## 🔗 Recommended Reading
 
-??? "Additional Resources"
+???+ "Additional Resources"
     1. [OWASP](https://owasp.org/) - Security organization
     2. [CVE Database](https://cve.mitre.org/) - Vulnerability database
     3. [Security Advisories](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) - CISA advisories

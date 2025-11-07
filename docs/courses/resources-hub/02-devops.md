@@ -7,7 +7,7 @@
 
 ## 📖 Books
 
-??? "Essential DevOps Books"
+???+ "Essential DevOps Books"
     1. [The Phoenix Project by Gene Kim](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592) - DevOps culture
     2. [The DevOps Handbook by Gene Kim](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002) - Comprehensive guide
     3. [Accelerate by Nicole Forsgren](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339) - Research-based practices
@@ -16,7 +16,7 @@
 
 ## 📄 Research Papers
 
-??? "DevOps Research"
+???+ "DevOps Research"
     1. [State of DevOps Report (DORA)](https://www.dora.dev/reports/) - Annual industry report
     2. [Borg, Omega, and Kubernetes](https://research.google/pubs/pub44843/) - Container orchestration
     3. [Large-scale Cluster Management at Google](https://research.google/pubs/pub43438/) - Borg system
@@ -24,7 +24,7 @@
 
 ## ⭐ GitHub Repositories
 
-??? "Important DevOps Repos"
+???+ "Important DevOps Repos"
     1. [DevOps Roadmap](https://github.com/milanm/DevOps-Roadmap) - Learning path
     2. [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) - Hands-on practice
     3. [Awesome DevOps](https://github.com/devopsbookmarks/devopsbookmarks.com) - Curated resources
@@ -33,7 +33,7 @@
 
 ## 🎥 Videos & Courses
 
-??? "Video Resources"
+???+ "Video Resources"
     1. [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana) - DevOps tutorials
     2. [Bret Fisher Docker & DevOps](https://www.youtube.com/c/BretFisher) - Docker deep dives
     3. [Kubernetes Official Channel](https://www.youtube.com/c/KubernetesCommunity) - K8s tutorials
@@ -42,7 +42,7 @@
 
 ## 📰 Articles & Blogs
 
-??? "Recommended Blogs"
+???+ "Recommended Blogs"
     1. [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/) - AWS patterns
     2. [Google Cloud Blog](https://cloud.google.com/blog) - GCP updates
     3. [Docker Blog](https://www.docker.com/blog/) - Container news
@@ -51,7 +51,7 @@
 
 ## 🔗 Recommended Reading
 
-??? "Additional Resources"
+???+ "Additional Resources"
     1. [DevOps Roadmap](https://roadmap.sh/devops) - Visual learning path
     2. [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/) - Best practices
     3. [CNCF Landscape](https://landscape.cncf.io/) - Cloud native tools

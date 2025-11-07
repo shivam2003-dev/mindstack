@@ -7,7 +7,7 @@
 
 ## 📖 Books
 
-??? "Essential SRE Books"
+???+ "Essential SRE Books"
     1. [Site Reliability Engineering Book](https://sre.google/books/) - Google SRE Team (Free)
     2. [The Site Reliability Workbook](https://sre.google/workbook/) - Google SRE Team (Free)
     3. [Seeking SRE by David Blank-Edelman](https://www.oreilly.com/library/view/seeking-sre/9781491978856/) - O'Reilly
@@ -16,7 +16,7 @@
 
 ## 📄 Research Papers
 
-??? "SRE Research"
+???+ "SRE Research"
     1. [Google SRE Papers](https://sre.google/sre-book/table-of-contents/) - Google research
     2. [The Datacenter as a Computer](https://sites.google.com/site/datacenterasacomputer/) - Warehouse-scale machines
     3. [Borg: Large-scale Cluster Management](https://research.google/pubs/pub43438/) - Google's system
@@ -24,7 +24,7 @@
 
 ## ⭐ GitHub Repositories
 
-??? "Important SRE Repos"
+???+ "Important SRE Repos"
     1. [Google SRE Book](https://github.com/google/sre-book) - Official SRE book
     2. [Awesome SRE](https://github.com/dastergon/awesome-sre) - Curated SRE resources
     3. [SRE Interview Prep](https://github.com/bregman-arie/sre-interview-prep) - Interview questions
@@ -33,7 +33,7 @@
 
 ## 🎥 Videos & Courses
 
-??? "Video Resources"
+???+ "Video Resources"
     1. [Google SRE Talks](https://www.youtube.com/results?search_query=google+sre) - SRE conference talks
     2. [SREcon](https://www.usenix.org/conferences/byname/srecon) - SRE conference videos
     3. [Reliability Engineering](https://www.coursera.org/learn/site-reliability-engineering-slos) - Coursera course
@@ -41,7 +41,7 @@
 
 ## 📰 Articles & Blogs
 
-??? "Recommended Blogs"
+???+ "Recommended Blogs"
     1. [Google SRE Blog](https://sre.google/blog/) - Google SRE updates
     2. [PagerDuty Blog](https://www.pagerduty.com/blog/) - Incident management
     3. [Honeycomb Blog](https://www.honeycomb.io/blog/) - Observability
@@ -50,7 +50,7 @@
 
 ## 🔗 Recommended Reading
 
-??? "Additional Resources"
+???+ "Additional Resources"
     1. [SRE Google Site](https://sre.google/) - Official SRE resources
     2. [SRE Principles](https://sre.google/sre-book/introduction/) - Core principles
     3. [SLI/SLO/SLA Guide](https://sre.google/workbook/sli-slo/) - Service level objectives

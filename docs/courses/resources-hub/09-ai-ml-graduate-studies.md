@@ -7,7 +7,7 @@
 
 ## 📖 Essential Textbooks
 
-??? "Core ML/AI Textbooks"
+???+ "Core ML/AI Textbooks"
     1. [Pattern Recognition and Machine Learning by Christopher Bishop](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) - Springer (Free PDF)
     2. [Deep Learning by Ian Goodfellow, Yoshua Bengio, Aaron Courville](https://www.deeplearningbook.org/) - MIT Press (Free online)
     3. [Machine Learning: A Probabilistic Perspective by Kevin Murphy](https://www.cs.ubc.ca/~murphyk/MLbook/) - MIT Press
@@ -16,7 +16,7 @@
 
 ## 📄 Research Papers & Journals
 
-??? "Top ML/AI Journals & Conferences"
+???+ "Top ML/AI Journals & Conferences"
     1. [NeurIPS (NIPS) Proceedings](https://papers.nips.cc/) - Neural Information Processing Systems
     2. [ICML Proceedings](https://proceedings.mlr.press/) - International Conference on Machine Learning
     3. [ICLR Proceedings](https://openreview.net/group?id=ICLR.cc) - International Conference on Learning Representations
@@ -26,7 +26,7 @@
 
 ## ⭐ Important GitHub Repositories
 
-??? "Academic ML Repos"
+???+ "Academic ML Repos"
     1. [Papers With Code](https://github.com/paperswithcode/paperswithcode-data) - Papers with implementations
     2. [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) - Curated ML resources
     3. [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) - Reading guide
@@ -36,7 +36,7 @@
 
 ## 🎥 University Courses & Lectures
 
-??? "Top University ML/AI Courses"
+???+ "Top University ML/AI Courses"
     1. [Stanford CS229: Machine Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3W8hdxj9SAMFUClYI) - Andrew Ng (Stanford)
     2. [MIT 6.034: Artificial Intelligence](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi) - MIT OpenCourseWare
     3. [Stanford CS231n: Convolutional Neural Networks](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) - Fei-Fei Li (Stanford)
@@ -46,7 +46,7 @@
 
 ## 📚 Graduate Program Resources
 
-??? "MTech/Master's Resources"
+???+ "MTech/Master's Resources"
     1. [MIT EECS Graduate Courses](https://www.eecs.mit.edu/academics/graduate-programs/) - MIT programs
     2. [Stanford CS Graduate Courses](https://cs.stanford.edu/degrees/ms) - Stanford MS program
     3. [CMU ML Department](https://www.ml.cmu.edu/) - Carnegie Mellon ML program
@@ -55,7 +55,7 @@
 
 ## 🎓 PhD Resources
 
-??? "PhD Research Resources"
+???+ "PhD Research Resources"
     1. [PhD Research Topics in ML](https://www.cs.ox.ac.uk/people/andrew.zisserman/teaching/ML/) - Oxford resources
     2. [PhD Application Guide](https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf) - CMU guide (PDF)
     3. [ML PhD Reading List](https://github.com/changliu00/PhD-Reading-List) - Comprehensive reading list
@@ -64,7 +64,7 @@
 
 ## 📰 Research Blogs & Articles
 
-??? "Academic Research Blogs"
+???+ "Academic Research Blogs"
     1. [Distill.pub](https://distill.pub/) - Interactive ML research explanations
     2. [The Gradient](https://thegradient.pub/) - ML research blog
     3. [Lil'Log](https://lilianweng.github.io/) - Research summaries
@@ -74,7 +74,7 @@
 
 ## 🔬 Research Tools & Platforms
 
-??? "Academic Research Tools"
+???+ "Academic Research Tools"
     1. [Papers With Code](https://paperswithcode.com/) - Papers with code implementations
     2. [Google Scholar](https://scholar.google.com/) - Academic search
     3. [Semantic Scholar](https://www.semanticscholar.org/) - AI-powered research
@@ -84,7 +84,7 @@
 
 ## 🏛️ University Research Labs
 
-??? "Top ML/AI Research Labs"
+???+ "Top ML/AI Research Labs"
     1. [Stanford AI Lab](https://ai.stanford.edu/) - Stanford research
     2. [MIT CSAIL](https://www.csail.mit.edu/) - MIT Computer Science
     3. [Berkeley AI Research](https://bair.berkeley.edu/) - BAIR lab
@@ -94,7 +94,7 @@
 
 ## 📝 Thesis & Dissertation Resources
 
-??? "Thesis Writing Resources"
+???+ "Thesis Writing Resources"
     1. [LaTeX Thesis Templates](https://www.overleaf.com/latex/templates/tagged/thesis) - Thesis templates
     2. [Writing a PhD Thesis in ML](https://www.cs.ubc.ca/~murphyk/Thesis/thesis.html) - Guide by Kevin Murphy
     3. [Research Paper Writing](https://www.cs.columbia.edu/~hgs/etc/writing-style.html) - Writing style guide
@@ -102,7 +102,7 @@
 
 ## 🔗 Additional Academic Resources
 
-??? "More Resources"
+???+ "More Resources"
     1. [ML Course Syllabi Collection](https://github.com/prakhar1989/awesome-courses) - University course lists
     2. [ML Research Communities](https://www.reddit.com/r/MachineLearning/) - Reddit ML community
     3. [Academic Twitter ML](https://twitter.com/search?q=machine%20learning%20research) - ML researchers

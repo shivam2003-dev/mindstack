@@ -7,7 +7,7 @@
 
 ## 📖 Books
 
-??? "Essential System Design Books"
+???+ "Essential System Design Books"
     1. [Designing Data-Intensive Applications by Martin Kleppmann](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) - Data systems
     2. [System Design Interview by Alex Xu](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF) - Interview prep
     3. [Building Microservices by Sam Newman](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358) - Microservices
@@ -15,7 +15,7 @@
 
 ## 📄 Research Papers
 
-??? "System Design Research"
+???+ "System Design Research"
     1. [The Google File System](https://research.google/pubs/pub51/) - Distributed storage
     2. [MapReduce: Simplified Data Processing](https://research.google/pubs/pub62/) - Distributed computing
     3. [Bigtable: A Distributed Storage System](https://research.google/pubs/pub27898/) - NoSQL database
@@ -23,7 +23,7 @@
 
 ## ⭐ GitHub Repositories
 
-??? "Important System Design Repos"
+???+ "Important System Design Repos"
     1. [System Design Primer](https://github.com/donnemartin/system-design-primer) - Comprehensive guide
     2. [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) - Scalability resources
     3. [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - Interview prep
@@ -31,7 +31,7 @@
 
 ## 🎥 Videos & Courses
 
-??? "Video Resources"
+???+ "Video Resources"
     1. [Gaurav Sen System Design](https://www.youtube.com/c/GauravSensei) - System design tutorials
     2. [System Design Interview](https://www.youtube.com/c/SystemDesignInterview) - Interview prep
     3. [High Scalability](http://highscalability.com/) - Real-world architectures
@@ -39,7 +39,7 @@
 
 ## 📰 Articles & Blogs
 
-??? "Recommended Blogs"
+???+ "Recommended Blogs"
     1. [High Scalability Blog](http://highscalability.com/) - System architectures
     2. [All Things Distributed](https://www.allthingsdistributed.com/) - Werner Vogels' blog
     3. [The Morning Paper](https://blog.acolyer.org/) - CS paper summaries
@@ -47,7 +47,7 @@
 
 ## 🔗 Recommended Reading
 
-??? "Additional Resources"
+???+ "Additional Resources"
     1. [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e7278f4) - Quick reference
     2. [System Design Patterns](https://github.com/topics/system-design-patterns) - Design patterns
     3. [Distributed Systems Reading List](https://dancres.github.io/Pages/) - Reading list
