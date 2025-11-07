@@ -107,10 +107,54 @@ nav:
       - System Troubleshooting: courses/docker/11-troubleshooting.md
       - Advanced Topics: courses/docker/12-advanced.md
       - Best Practices: courses/docker/13-best-practices.md
-  - Kubernetes Course:
-    - Introduction: courses/kubernetes/01-intro.md
-    - Understanding Pods: courses/kubernetes/02-pods.md
-    - Deployments: courses/kubernetes/03-deployments.md
+  - DevOps Interview Course:
+    - Overview: courses/devops-interview/README.md
+    - Fundamentals:
+      - Introduction: courses/devops-interview/01-introduction.md
+      - Linux Fundamentals: courses/devops-interview/02-linux-fundamentals.md
+      - Shell Scripting: courses/devops-interview/03-shell-scripting.md
+      - Git & Version Control: courses/devops-interview/04-git-version-control.md
+    - Container Technologies:
+      - Docker Deep Dive: courses/devops-interview/05-docker-deep-dive.md
+      - Kubernetes Mastery: courses/devops-interview/06-kubernetes-mastery.md
+      - Container Orchestration: courses/devops-interview/07-container-orchestration.md
+    - CI/CD & Automation:
+      - CI/CD Pipelines: courses/devops-interview/08-cicd-pipelines.md
+      - Jenkins & GitLab CI: courses/devops-interview/09-jenkins-gitlab.md
+      - Infrastructure as Code: courses/devops-interview/10-infrastructure-as-code.md
+    - Cloud & Infrastructure:
+      - AWS Services: courses/devops-interview/11-aws-services.md
+      - Cloud Architecture: courses/devops-interview/12-cloud-architecture.md
+      - Monitoring & Logging: courses/devops-interview/13-monitoring-logging.md
+    - Advanced Topics:
+      - System Design: courses/devops-interview/14-system-design.md
+      - Security Best Practices: courses/devops-interview/15-security.md
+      - Troubleshooting: courses/devops-interview/16-troubleshooting.md
+      - Interview Questions: courses/devops-interview/17-interview-questions.md
+  - eBPF Practical Course:
+    - Overview: courses/ebpf/README.md
+    - Fundamentals:
+      - Introduction to eBPF: courses/ebpf/01-introduction.md
+      - eBPF Architecture: courses/ebpf/02-architecture.md
+      - Development Environment: courses/ebpf/03-development-environment.md
+    - Core Concepts:
+      - eBPF Programs: courses/ebpf/04-ebpf-programs.md
+      - Maps & Data Structures: courses/ebpf/05-maps-data-structures.md
+      - Helper Functions: courses/ebpf/06-helper-functions.md
+    - Practical Examples:
+      - System Monitoring: courses/ebpf/07-system-monitoring.md
+      - Network Tracing: courses/ebpf/08-network-tracing.md
+      - Security & Enforcement: courses/ebpf/09-security-enforcement.md
+      - Performance Profiling: courses/ebpf/10-performance-profiling.md
+    - Advanced Topics:
+      - XDP Programming: courses/ebpf/11-xdp-programming.md
+      - BPF CO-RE: courses/ebpf/12-bpf-core.md
+      - Advanced Techniques: courses/ebpf/13-advanced-techniques.md
+    - Resources & Research:
+      - Research Papers: courses/ebpf/14-research-papers.md
+      - Articles & Blogs: courses/ebpf/15-articles-blogs.md
+      - Recommended Reading: courses/ebpf/16-recommended-reading.md
+      - Tools & Libraries: courses/ebpf/17-tools-libraries.md
 
 plugins:
   - search

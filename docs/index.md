@@ -12,10 +12,13 @@ mindstack provides high-quality, Markdown-based courses on cutting-edge technolo
 Learn deep learning with PyTorch, from tensors to neural networks. Perfect for beginners and those looking to advance their machine learning skills.
 
 ### 🐳 Docker
-Master containerization with Docker. Learn how to build, deploy, and manage containerized applications.
+Master containerization with Docker. Learn how to build, deploy, and manage containerized applications with comprehensive examples and best practices.
 
-### ☸️ Kubernetes
-Understand container orchestration with Kubernetes. Learn to deploy, scale, and manage containerized applications in production.
+### 🚀 DevOps Interview
+Comprehensive DevOps interview preparation course. Master Linux, Docker, Kubernetes, CI/CD, Cloud, and more. Includes 200+ interview questions with detailed answers.
+
+### 🔬 eBPF Practical
+Learn eBPF through hands-on code examples, practical use cases, and extensive resources. Includes research papers, articles, tools, and real-world applications.
 
 ## Getting Started
 
