@@ -124,14 +124,14 @@ Start from [Chapter 1](01-introduction) and progress sequentially. Don't skip ah
 Review fundamentals (Chapters 1-4), then focus on areas you need to strengthen. Use as a reference guide.
 
 ### For Advanced Users
-Jump to specific topics. Use the [Quick Reference](quick-reference.md) for syntax reminders.
+Jump to specific topics. Use the [Quick Reference](quick-reference) for syntax reminders.
 
 ## 🔗 Quick Reference Materials
 
-- **[Quick Reference](quick-reference.md)** - Common operations cheat sheet
-- **[Debugging Checklist](debugging-checklist.md)** - Troubleshooting guide
-- **[Performance Tips](performance-tips.md)** - Optimization strategies
-- **[Complete Guide](GUIDE.md)** - Course summary
+- **[Quick Reference](quick-reference)** - Common operations cheat sheet
+- **[Debugging Checklist](debugging-checklist)** - Troubleshooting guide
+- **[Performance Tips](performance-tips)** - Optimization strategies
+- **[Complete Guide](GUIDE)** - Course summary
 
 ## 🎓 Learning Path
 
