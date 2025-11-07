@@ -56,7 +56,9 @@ print(f"Output shape: {output.shape}")  # [16, 64, 224, 224]
 ```
 
 **Output Size Formula:**
-$$\text{output\_size} = \frac{\text{input\_size} + 2 \times \text{padding} - \text{kernel\_size}}{\text{stride}} + 1$$
+$$
+\text{output\_size} = \frac{\text{input\_size} + 2 \times \text{padding} - \text{kernel\_size}}{\text{stride}} + 1
+$$
 
 ### Understanding Parameters
 

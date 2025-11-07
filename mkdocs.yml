@@ -45,6 +45,8 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
   - admonition
   - pymdownx.details
   - attr_list
