@@ -1,6 +1,22 @@
 # Docker Images
 
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🖼️ Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Understand Docker images and layers</li>
+    <li>Build custom images from Dockerfiles</li>
+    <li>Manage and optimize images</li>
+    <li>Use multi-stage builds</li>
+  </ul>
+</div>
+
 Docker images are read-only templates used to create containers. In this lesson, you'll learn how to manage, build, and work with Docker images.
+
+!!! tip "Image Layers"
+    Docker images are built in layers. Each instruction in a Dockerfile creates a new layer. Layers are cached, so reorder Dockerfile instructions from least to most frequently changing to maximize cache usage.
+
+!!! note "Image Size Matters"
+    Smaller images mean faster pulls, less storage, and better security. Use multi-stage builds, Alpine base images, and `.dockerignore` to minimize image size. Always clean up unused images with `docker image prune`.
 
 ## Understanding Images
 

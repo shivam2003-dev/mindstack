@@ -1,6 +1,22 @@
 # Volumes and Data Management
 
+<div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2rem; border-radius: 10px; color: #333; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: #333;">💾 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem; color: #333;">
+    <li>Understand volume types and use cases</li>
+    <li>Create and manage volumes</li>
+    <li>Backup and restore data</li>
+    <li>Share data between containers</li>
+  </ul>
+</div>
+
 Learn how to manage persistent data in Docker containers.
+
+!!! tip "Volume vs Bind Mount"
+    Use named volumes for production data - they're managed by Docker and portable. Use bind mounts for development when you need direct host access. Named volumes have better performance and are easier to backup.
+
+!!! warning "Data Persistence"
+    Data in containers is ephemeral - it's lost when containers are removed. Always use volumes for important data. Test your backup and restore procedures regularly.
 
 ## Understanding Volumes
 

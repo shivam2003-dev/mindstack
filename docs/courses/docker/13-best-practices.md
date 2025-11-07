@@ -1,6 +1,29 @@
 # Docker Best Practices
 
+<div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2rem; border-radius: 10px; color: #333; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: #333;">🏆 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem; color: #333;">
+    <li>Follow Docker best practices</li>
+    <li>Write production-ready Dockerfiles</li>
+    <li>Organize Docker projects</li>
+    <li>Implement security and optimization</li>
+  </ul>
+</div>
+
 Comprehensive best practices for Docker in production.
+
+!!! success "Best Practices Summary"
+    - Use specific image tags, not `latest`
+    - Run as non-root user
+    - Minimize layers and image size
+    - Use multi-stage builds
+    - Set resource limits
+    - Implement health checks
+    - Scan for vulnerabilities
+    - Document everything
+
+!!! tip "Production Readiness"
+    A production-ready Docker setup includes: security hardening, resource limits, health checks, logging, monitoring, backups, and documentation. Don't skip any of these - they're all critical for reliable operations.
 
 ## Image Best Practices
 

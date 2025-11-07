@@ -1,6 +1,26 @@
 # Performance Optimization
 
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">⚡ Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Optimize image sizes</li>
+    <li>Improve build performance</li>
+    <li>Enhance runtime performance</li>
+    <li>Monitor and benchmark containers</li>
+  </ul>
+</div>
+
 Optimize Docker containers and images for better performance.
+
+!!! tip "Performance Optimization Tips"
+    - Use Alpine or slim base images to reduce size
+    - Leverage build cache by ordering Dockerfile instructions correctly
+    - Use multi-stage builds to exclude build tools from final image
+    - Set appropriate resource limits to prevent resource exhaustion
+    - Use named volumes instead of bind mounts for better I/O performance
+
+!!! note "Build vs Runtime Performance"
+    Optimize builds for CI/CD speed (cache layers, parallel builds). Optimize runtime for production (smaller images, resource limits, efficient storage drivers). Both matter but for different reasons.
 
 ## Image Size Optimization
 

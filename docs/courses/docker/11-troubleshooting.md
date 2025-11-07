@@ -1,6 +1,22 @@
 # System Troubleshooting
 
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🔧 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Diagnose Docker issues systematically</li>
+    <li>Troubleshoot common problems</li>
+    <li>Debug network and performance issues</li>
+    <li>Recover from failures</li>
+  </ul>
+</div>
+
 Comprehensive guide to troubleshooting Docker issues in production systems.
+
+!!! tip "Troubleshooting Methodology"
+    Start with logs (`docker logs`), then inspect containers (`docker inspect`), check system resources (`docker stats`), and verify configuration. Most issues are: port conflicts, resource limits, network problems, or configuration errors.
+
+!!! warning "Emergency Procedures"
+    Know your recovery procedures before you need them. Document common issues and solutions. Keep backups of important data. Test your disaster recovery plan regularly.
 
 ## Diagnostic Tools
 

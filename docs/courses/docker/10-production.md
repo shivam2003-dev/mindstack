@@ -1,6 +1,25 @@
 # Production Deployment
 
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🚀 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Deploy containers to production</li>
+    <li>Implement deployment strategies</li>
+    <li>Set up monitoring and logging</li>
+    <li>Create backup and recovery plans</li>
+  </ul>
+</div>
+
 Deploy Docker containers to production environments.
+
+!!! success "Production Checklist"
+    Before deploying: security scanning, resource limits, health checks, logging, monitoring, backups, and rollback plans. Never deploy without these in place.
+
+!!! tip "Deployment Strategies"
+    - **Blue-Green**: Zero downtime, easy rollback, requires double resources
+    - **Rolling Updates**: Gradual rollout, less resource overhead
+    - **Canary**: Test with small traffic, safest for critical systems
+    Choose based on your requirements and infrastructure.
 
 ## Production Checklist
 

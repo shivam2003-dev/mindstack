@@ -1,6 +1,22 @@
 # Working with Containers
 
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">📦 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Create and run containers</li>
+    <li>Manage container lifecycle</li>
+    <li>Configure port mapping and environment variables</li>
+    <li>Execute commands in running containers</li>
+  </ul>
+</div>
+
 Containers are the running instances of Docker images. In this lesson, you'll learn how to create, manage, and interact with containers.
+
+!!! tip "Container Lifecycle"
+    Containers go through: Created → Running → Stopped → Removed. Use `docker ps -a` to see all containers including stopped ones. Remember to clean up stopped containers with `docker container prune`.
+
+!!! note "Interactive vs Detached Mode"
+    Use `-it` flags for interactive containers (like bash sessions). Use `-d` flag to run containers in the background. Interactive mode is great for debugging, detached mode for production services.
 
 ## Running Containers
 

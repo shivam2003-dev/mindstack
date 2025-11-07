@@ -1,6 +1,22 @@
 # Docker Compose
 
+<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 2rem; border-radius: 10px; color: #333; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: #333;">🎼 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem; color: #333;">
+    <li>Write Docker Compose files</li>
+    <li>Orchestrate multi-container applications</li>
+    <li>Configure services and dependencies</li>
+    <li>Use Compose for development and production</li>
+  </ul>
+</div>
+
 Orchestrate multi-container applications with Docker Compose.
+
+!!! tip "Compose Best Practices"
+    Use version 3.8 for latest features. Separate services logically. Use environment variables for configuration. Use health checks for service dependencies. Keep compose files in version control.
+
+!!! note "Development vs Production"
+    Use override files (`docker-compose.override.yml`) for development-specific settings. Use separate compose files for production. Never commit secrets - use environment files or secrets management.
 
 ## Introduction
 

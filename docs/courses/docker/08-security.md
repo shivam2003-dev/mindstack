@@ -1,6 +1,27 @@
 # Docker Security
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🔒 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Secure Docker images and containers</li>
+    <li>Implement security best practices</li>
+    <li>Scan images for vulnerabilities</li>
+    <li>Manage secrets securely</li>
+  </ul>
+</div>
+
 Secure your Docker containers and deployments.
+
+!!! warning "Security is Critical"
+    Docker security is often overlooked but essential. Run containers as non-root, scan images regularly, use minimal base images, and never commit secrets. A single vulnerability can compromise your entire system.
+
+!!! tip "Security Checklist"
+    - Use official images from trusted sources
+    - Run containers as non-root users
+    - Set resource limits
+    - Scan images with Trivy or Snyk
+    - Keep images updated
+    - Use secrets management, never hardcode credentials
 
 ## Security Fundamentals
 

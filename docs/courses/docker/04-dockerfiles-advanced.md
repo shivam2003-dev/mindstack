@@ -1,6 +1,22 @@
 # Advanced Dockerfiles
 
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">📝 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Write optimized Dockerfiles</li>
+    <li>Use multi-stage builds effectively</li>
+    <li>Implement security best practices</li>
+    <li>Debug and optimize Docker builds</li>
+  </ul>
+</div>
+
 Master the art of writing efficient, secure, and production-ready Dockerfiles.
+
+!!! tip "Dockerfile Optimization"
+    Order instructions from least to most frequently changing. Combine RUN commands to reduce layers. Use `.dockerignore` to exclude unnecessary files. These practices significantly reduce build time and image size.
+
+!!! warning "Security in Dockerfiles"
+    Always run containers as non-root users in production. Use specific image tags instead of `latest`. Scan images for vulnerabilities regularly. Never commit secrets or credentials in Dockerfiles.
 
 ## Dockerfile Best Practices
 

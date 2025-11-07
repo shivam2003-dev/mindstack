@@ -1,6 +1,22 @@
 # Docker Networking
 
+<div style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🌐 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Understand Docker network types</li>
+    <li>Configure container networking</li>
+    <li>Set up port mapping</li>
+    <li>Troubleshoot network issues</li>
+  </ul>
+</div>
+
 Understand Docker's networking capabilities and how containers communicate.
+
+!!! tip "Network Best Practices"
+    Use user-defined bridge networks instead of the default bridge. Containers on custom networks can communicate by name (DNS resolution). Isolate services with separate networks for better security.
+
+!!! note "Port Mapping"
+    The format is `-p host_port:container_port`. Use specific host ports in production. For development, you can let Docker assign random ports with `-p container_port` and check with `docker port`.
 
 ## Network Types
 

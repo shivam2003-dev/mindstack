@@ -1,6 +1,22 @@
 # Advanced Docker Topics
 
+<div style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); padding: 2rem; border-radius: 10px; color: white; margin-bottom: 2rem;">
+  <h2 style="margin: 0; color: white;">🚀 Learning Objectives</h2>
+  <ul style="margin: 1rem 0 0 0; padding-left: 1.5rem;">
+    <li>Use Docker Buildx for multi-platform builds</li>
+    <li>Implement content trust</li>
+    <li>Configure advanced networking</li>
+    <li>Work with custom runtimes</li>
+  </ul>
+</div>
+
 Explore advanced Docker concepts and techniques.
+
+!!! note "When to Use Advanced Features"
+    Advanced features like Buildx, content trust, and custom runtimes are for specific use cases: multi-architecture builds, security-critical deployments, or specialized runtime requirements. Master the basics first.
+
+!!! tip "Buildx for Multi-Platform"
+    Use Buildx to build images for multiple architectures (amd64, arm64). Essential for supporting different platforms. Enable with `docker buildx create --use` and build with `--platform linux/amd64,linux/arm64`.
 
 ## Docker Buildx
 
