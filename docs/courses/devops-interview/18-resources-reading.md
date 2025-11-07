@@ -42,6 +42,22 @@ This chapter compiles comprehensive resources including books, articles, researc
     1. [AWS Certified Solutions Architect Study Guide](https://www.amazon.com/AWS-Certified-Solutions-Architect-Study/dp/1119504219) by Ben Piper, David Clinton
     2. [Cloud Native Patterns](https://www.amazon.com/Cloud-Native-Patterns-Designing-Change-tolerant/dp/1614294296) by Cornelia Davis
 
+??? "Performance Engineering"
+    1. [Systems Performance: Enterprise and the Cloud](https://www.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0136820158) by Brendan Gregg
+    2. [High Performance Browser Networking](https://www.amazon.com/High-Performance-Browser-Networking-performance/dp/1449344763) by Ilya Grigorik
+    3. [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) by Martin Kleppmann
+
+??? "Troubleshooting & System Debugging"
+    1. [The Art of Debugging](https://www.amazon.com/Art-Debugging-illustrated-Debugging-Strategies/dp/1593271743) by Norman Matloff, Peter Jay Salzman
+    2. [Linux Performance and Tuning Guidelines](https://www.redhat.com/en/resources/linux-performance-tuning-guide) - Red Hat (Free)
+    3. [Systems Performance](https://www.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0136820158) by Brendan Gregg
+
+??? "Databases"
+    1. [High Performance MySQL](https://www.amazon.com/High-Performance-MySQL-Optimization-Replication/dp/1449314287) by Baron Schwartz, Peter Zaitsev, Vadim Tkachenko
+    2. [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) by Martin Kleppmann
+    3. [PostgreSQL: Up and Running](https://www.amazon.com/PostgreSQL-Running-Database-Beginners-Developers/dp/1491963411) by Regina Obe, Leo Hsu
+    4. [MongoDB: The Definitive Guide](https://www.amazon.com/MongoDB-Definitive-Powerful-Scalable-Storage/dp/1491954463) by Shannon Bradshaw, Eoin Brazil, Kristina Chodorow
+
 ## 📖 Research Papers
 
 ??? "DevOps & Software Engineering"
@@ -58,6 +74,16 @@ This chapter compiles comprehensive resources including books, articles, researc
     1. [Above the Clouds: A Berkeley View](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf) - Cloud computing fundamentals
     2. [The Datacenter as a Computer](https://sites.google.com/site/datacenterasacomputer/) - Warehouse-scale machines (Free)
     3. [A View of Cloud Computing](https://cacm.acm.org/magazines/2010/4/81493-a-view-of-cloud-computing/fulltext) - Cloud concepts
+
+??? "Performance Engineering"
+    1. [The Tail at Scale](https://research.google/pubs/pub40801/) - Google research on latency
+    2. [Power Laws, Pareto Distributions and Zipf's Law](https://arxiv.org/abs/cond-mat/0412004) - Performance patterns
+    3. [An Analysis of Network Latency](https://www.usenix.org/legacy/event/nsdi08/tech/full_papers/guo/guo.pdf) - Network performance
+
+??? "Database Systems"
+    1. [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem) - Consistency, Availability, Partition tolerance
+    2. [Google Spanner Paper](https://research.google/pubs/pub39966/) - Distributed database
+    3. [Amazon DynamoDB Paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf) - NoSQL database design
 
 ## 📰 Essential Articles & Blog Posts
 
@@ -87,6 +113,24 @@ This chapter compiles comprehensive resources including books, articles, researc
     4. [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/) - AWS Blog
     5. [High Scalability Blog](http://highscalability.com/) - System architectures
 
+??? "Performance Engineering"
+    1. [Brendan Gregg's Blog](https://www.brendangregg.com/) - Systems performance expert
+    2. [High Scalability](http://highscalability.com/) - Performance case studies
+    3. [Google SRE Performance](https://sre.google/sre-book/table-of-contents/) - Performance engineering
+    4. [Netflix Tech Blog - Performance](https://netflixtechblog.com/tagged/performance) - Performance optimization
+
+??? "Troubleshooting & Debugging"
+    1. [Linux Troubleshooting Guide](https://www.redhat.com/sysadmin/linux-troubleshooting) - Red Hat
+    2. [Debugging Production Systems](https://www.usenix.org/conference/srecon19americas/presentation/underwood) - USENIX SRE
+    3. [Kubernetes Troubleshooting](https://kubernetes.io/docs/tasks/debug/) - K8s debugging guide
+    4. [Docker Troubleshooting](https://docs.docker.com/config/troubleshooting/) - Docker debugging
+
+??? "Database Performance"
+    1. [MySQL Performance Blog](https://www.percona.com/blog/) - MySQL optimization
+    2. [PostgreSQL Performance](https://www.postgresql.org/docs/current/performance-tips.html) - PostgreSQL docs
+    3. [MongoDB Performance](https://www.mongodb.com/docs/manual/administration/production-notes/) - MongoDB optimization
+    4. [Database Performance Tuning](https://use-the-index-luke.com/) - SQL indexing guide
+
 ## 🛠️ Essential Tools
 
 ??? "CI/CD Tools"
@@ -114,6 +158,27 @@ This chapter compiles comprehensive resources including books, articles, researc
     3. [ELK Stack](https://www.elastic.co/) - Log aggregation
     4. [Datadog](https://www.datadoghq.com/) - APM and monitoring
     5. [New Relic](https://newrelic.com/) - Application monitoring
+
+??? "Performance Engineering Tools"
+    1. [perf](https://perf.wiki.kernel.org/) - Linux performance analysis
+    2. [FlameGraph](https://github.com/brendangregg/FlameGraph) - Performance visualization
+    3. [Apache Bench](https://httpd.apache.org/docs/2.4/programs/ab.html) - HTTP benchmarking
+    4. [wrk](https://github.com/wg/wrk) - HTTP benchmarking tool
+    5. [sysstat](https://github.com/sysstat/sysstat) - System performance tools
+
+??? "Troubleshooting Tools"
+    1. [strace](https://strace.io/) - System call tracer
+    2. [tcpdump](https://www.tcpdump.org/) - Network packet analyzer
+    3. [Wireshark](https://www.wireshark.org/) - Network protocol analyzer
+    4. [htop](https://htop.dev/) - Interactive process viewer
+    5. [iostat](https://linux.die.net/man/1/iostat) - I/O statistics
+
+??? "Database Tools"
+    1. [MySQL Workbench](https://www.mysql.com/products/workbench/) - MySQL administration
+    2. [pgAdmin](https://www.pgadmin.org/) - PostgreSQL administration
+    3. [MongoDB Compass](https://www.mongodb.com/products/compass) - MongoDB GUI
+    4. [Redis Insight](https://redis.com/redis-enterprise/redis-insight/) - Redis management
+    5. [DBeaver](https://dbeaver.io/) - Universal database tool
 
 ??? "Cloud Platforms"
     1. [AWS](https://aws.amazon.com/) - Amazon Web Services
@@ -214,6 +279,21 @@ This chapter compiles comprehensive resources including books, articles, researc
     1. [DevOps Interview Questions](https://github.com/bregman-arie/devops-interview-questions)
     2. [System Design Interview](https://github.com/checkcheckzz/system-design-interview)
     3. [SRE Interview Prep](https://github.com/bregman-arie/sre-interview-prep)
+
+??? "⚡ Performance Engineering"
+    1. [Awesome Performance](https://github.com/davidmarkclements/awesome-performance)
+    2. [Performance Analysis Tools](https://github.com/brendangregg/linux-perf-examples)
+    3. [System Performance Resources](https://github.com/brendangregg/sysperfbook)
+
+??? "🔧 Troubleshooting & Debugging"
+    1. [Linux Troubleshooting](https://github.com/trimstray/linux-hardening-checklist)
+    2. [Debugging Tools](https://github.com/nir0s/distro-list)
+    3. [System Debugging Resources](https://github.com/0xAX/linux-insides)
+
+??? "🗄️ Databases"
+    1. [Awesome Databases](https://github.com/numetriclabz/awesome-db)
+    2. [Database Performance](https://github.com/rxin/db-readings)
+    3. [SQL Resources](https://github.com/enocht/awesome-sql)
 
 ## 📝 Interview Preparation Resources
 
