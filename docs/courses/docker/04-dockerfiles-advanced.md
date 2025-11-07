@@ -22,22 +22,54 @@ Master the art of writing efficient, secure, and production-ready Dockerfiles.
 
 ### Layer Caching
 
+Docker caches layers to speed up builds. Understanding caching helps you write efficient Dockerfiles.
+
+**Bad example - Poor cache usage:**
 ```dockerfile
 # Bad: Changes invalidate cache
 FROM ubuntu:20.04
 COPY . /app
 RUN apt-get update && apt-get install -y python3
+```
 
+**Why this is bad:**
+- Every time you change ANY file in your code, the `COPY . /app` layer changes
+- This invalidates the cache for the COPY layer
+- The `RUN apt-get` layer also gets rebuilt (even though dependencies didn't change)
+- **Result:** Slow builds, even when only code changes
+
+**Good example - Optimal cache usage:**
+```dockerfile
 # Good: Dependencies first, code last
 FROM ubuntu:20.04
 RUN apt-get update && apt-get install -y python3
 COPY . /app
 ```
 
+**Why this is good:**
+- Dependencies (`RUN apt-get`) are installed first
+- These rarely change, so this layer is cached
+- Code (`COPY . /app`) is copied last
+- When you change code, only the COPY layer rebuilds
+- **Result:** Fast builds, dependencies layer stays cached
+
+**Cache invalidation rule:**
+- If a layer changes, all subsequent layers are invalidated
+- Order matters: put stable operations first, changing operations last
+
 !!! tip "Tip"
     Order Dockerfile instructions from least to most frequently changing.
 
 ### Multi-stage Builds
+
+Multi-stage builds use multiple FROM statements to create smaller final images by excluding build tools and dependencies.
+
+**Understanding the problem:**
+- Building applications requires build tools (compilers, npm, etc.)
+- These tools are large and not needed in production
+- Including them makes images huge and less secure
+
+**Solution - Multi-stage builds:**
 
 ```dockerfile
 # Build stage
@@ -47,7 +79,22 @@ COPY package*.json ./
 RUN npm ci --only=production
 COPY . .
 RUN npm run build
+```
 
+**What happens in build stage:**
+1. `FROM node:16 AS builder`: Start with Node.js image, name this stage "builder"
+   - Node.js image includes npm, build tools (~900MB)
+   - `AS builder` gives this stage a name for reference
+2. `WORKDIR /app`: Set working directory
+3. `COPY package*.json ./`: Copy dependency files first (for caching)
+4. `RUN npm ci`: Install dependencies
+5. `COPY . .`: Copy source code
+6. `RUN npm run build`: Build the application
+   - Creates `dist/` folder with production files
+   - Build tools are still in this stage
+
+**Production stage:**
+```dockerfile
 # Production stage
 FROM nginx:alpine
 COPY --from=builder /app/dist /usr/share/nginx/html
@@ -55,6 +102,29 @@ COPY nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
+
+**What happens in production stage:**
+1. `FROM nginx:alpine`: Start fresh with minimal nginx image (~5MB)
+   - No Node.js, no build tools
+   - Only what's needed to serve files
+2. `COPY --from=builder /app/dist /usr/share/nginx/html`: Copy ONLY built files from builder stage
+   - `--from=builder`: Reference the builder stage
+   - `/app/dist`: Source path in builder stage
+   - `/usr/share/nginx/html`: Destination in nginx image
+3. `COPY nginx.conf`: Copy nginx configuration
+4. `EXPOSE 80`: Document that container uses port 80
+5. `CMD`: Start nginx server
+
+**Result:**
+- Build stage: ~900MB (includes Node.js, npm, build tools)
+- Production stage: ~10MB (only nginx + your built files)
+- **90% size reduction!**
+
+**Why this matters:**
+- Faster image pulls
+- Less storage used
+- Smaller attack surface (fewer tools = fewer vulnerabilities)
+- Faster container startup
 
 !!! success "Benefits"
     - Smaller final image (no build tools)
@@ -65,23 +135,64 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ### Build Arguments
 
+Build arguments (ARG) allow you to pass values into the Dockerfile during build time, making Dockerfiles more flexible.
+
+**Basic usage:**
 ```dockerfile
 ARG NODE_VERSION=16
 FROM node:${NODE_VERSION}
+```
 
+**What this does:**
+- `ARG NODE_VERSION=16`: Defines a build argument with default value 16
+- `FROM node:${NODE_VERSION}`: Uses the argument in the FROM statement
+- Default: Uses Node.js 16 if not specified
+- Can override: Use `--build-arg NODE_VERSION=18` to use Node.js 18
+
+**Advanced example with metadata:**
+```dockerfile
 ARG BUILD_DATE
 ARG VCS_REF
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF
 ```
 
-Build with:
+**What this does:**
+- `ARG BUILD_DATE`: Accepts build date as argument
+- `ARG VCS_REF`: Accepts git commit hash as argument
+- `LABEL`: Adds metadata to the image
+  - Labels are visible in `docker inspect`
+  - Useful for tracking image versions
+  - Common practice for production images
+
+**Build with arguments:**
 ```bash
 docker build \
   --build-arg NODE_VERSION=18 \
   --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') \
+  --build-arg VCS_REF=$(git rev-parse --short HEAD) \
   -t myapp .
 ```
+
+**Breaking down the command:**
+- `--build-arg NODE_VERSION=18`: Override default, use Node.js 18
+- `--build-arg BUILD_DATE=$(date ...)`: Pass current date/time
+  - `$(date -u +'%Y-%m-%dT%H:%M:%SZ')`: Gets current UTC time in ISO format
+- `--build-arg VCS_REF=$(git rev-parse --short HEAD)`: Pass git commit hash
+  - `git rev-parse --short HEAD`: Gets short version of current commit
+- `-t myapp .`: Tag and build
+
+**Use cases for ARG:**
+- Different base image versions
+- Environment-specific configurations
+- Build-time feature flags
+- Version numbers
+- Metadata (dates, commit hashes)
+
+!!! note "ARG vs ENV"
+    - `ARG`: Available only during build time, not in running containers
+    - `ENV`: Available in both build and runtime
+    - Use ARG for build-time configuration, ENV for runtime configuration
 
 ### Health Checks
 
