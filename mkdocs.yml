@@ -166,6 +166,7 @@ nav:
       - System Design: courses/resources-hub/06-system-design.md
       - Security: courses/resources-hub/07-security.md
       - Data Engineering: courses/resources-hub/08-data-engineering.md
+      - AI & ML Graduate Studies: courses/resources-hub/09-ai-ml-graduate-studies.md
 
 plugins:
   - search
