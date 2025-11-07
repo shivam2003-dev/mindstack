@@ -120,7 +120,7 @@ nav:
       - Container Orchestration: courses/devops-interview/07-container-orchestration.md
     - CI/CD & Automation:
       - CI/CD Pipelines: courses/devops-interview/08-cicd-pipelines.md
-      - Jenkins & GitLab CI: courses/devops-interview/09-jenkins-gitlab.md
+      - GitHub Actions & GitLab CI: courses/devops-interview/09-github-actions-gitlab.md
       - Infrastructure as Code: courses/devops-interview/10-infrastructure-as-code.md
     - Cloud & Infrastructure:
       - AWS Services: courses/devops-interview/11-aws-services.md
