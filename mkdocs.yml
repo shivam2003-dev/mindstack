@@ -20,13 +20,14 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
+    - navigation.indexes
     - navigation.top
     - search.suggest
     - search.highlight
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
+  custom_dir: docs/.overrides
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -53,47 +54,46 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Courses:
-    - PyTorch:
-      - Overview: courses/pytorch/README.md
-      - Fundamentals:
-        - Introduction & Installation: courses/pytorch/01-introduction.md
-        - Tensors Basics: courses/pytorch/02-tensors-basics.md
-        - Tensor Operations: courses/pytorch/03-tensor-operations.md
-        - Autograd & Gradients: courses/pytorch/04-autograd.md
-      - Neural Networks:
-        - Building Neural Networks: courses/pytorch/05-neural-networks.md
-        - Loss Functions: courses/pytorch/06-loss-functions.md
-        - Optimizers: courses/pytorch/07-optimizers.md
-        - Training Loop: courses/pytorch/08-training-loop.md
-      - Data Handling:
-        - Datasets & DataLoaders: courses/pytorch/09-datasets-dataloaders.md
-        - Data Transformations: courses/pytorch/10-data-transformations.md
-        - Custom Datasets: courses/pytorch/11-custom-datasets.md
-      - Advanced Architectures:
-        - Convolutional Neural Networks: courses/pytorch/12-cnns.md
-        - Recurrent Neural Networks: courses/pytorch/13-rnns.md
-      - Advanced Topics:
-        - Transfer Learning: courses/pytorch/14-transfer-learning.md
-        - Model Saving & Loading: courses/pytorch/15-model-saving.md
-        - GPU Acceleration: courses/pytorch/16-gpu-acceleration.md
-        - Model Deployment: courses/pytorch/17-deployment.md
-        - Debugging & Visualization: courses/pytorch/18-debugging-visualization.md
-        - Advanced Topics: courses/pytorch/19-advanced-topics.md
-        - Best Practices: courses/pytorch/20-best-practices.md
-      - Quick References:
-        - Quick Reference: courses/pytorch/quick-reference.md
-        - Debugging Checklist: courses/pytorch/debugging-checklist.md
-        - Performance Tips: courses/pytorch/performance-tips.md
-        - Complete Guide: courses/pytorch/GUIDE.md
-    - Docker:
-      - courses/docker/01-intro.md
-      - courses/docker/02-containers.md
-      - courses/docker/03-images.md
-    - Kubernetes:
-      - courses/kubernetes/01-intro.md
-      - courses/kubernetes/02-pods.md
-      - courses/kubernetes/03-deployments.md
+  - PyTorch Course:
+    - Overview: courses/pytorch/README.md
+    - Fundamentals:
+      - Introduction & Installation: courses/pytorch/01-introduction.md
+      - Tensors Basics: courses/pytorch/02-tensors-basics.md
+      - Tensor Operations: courses/pytorch/03-tensor-operations.md
+      - Autograd & Gradients: courses/pytorch/04-autograd.md
+    - Neural Networks:
+      - Building Neural Networks: courses/pytorch/05-neural-networks.md
+      - Loss Functions: courses/pytorch/06-loss-functions.md
+      - Optimizers: courses/pytorch/07-optimizers.md
+      - Training Loop: courses/pytorch/08-training-loop.md
+    - Data Handling:
+      - Datasets & DataLoaders: courses/pytorch/09-datasets-dataloaders.md
+      - Data Transformations: courses/pytorch/10-data-transformations.md
+      - Custom Datasets: courses/pytorch/11-custom-datasets.md
+    - Advanced Architectures:
+      - Convolutional Neural Networks: courses/pytorch/12-cnns.md
+      - Recurrent Neural Networks: courses/pytorch/13-rnns.md
+    - Advanced Topics:
+      - Transfer Learning: courses/pytorch/14-transfer-learning.md
+      - Model Saving & Loading: courses/pytorch/15-model-saving.md
+      - GPU Acceleration: courses/pytorch/16-gpu-acceleration.md
+      - Model Deployment: courses/pytorch/17-deployment.md
+      - Debugging & Visualization: courses/pytorch/18-debugging-visualization.md
+      - Advanced Topics: courses/pytorch/19-advanced-topics.md
+      - Best Practices: courses/pytorch/20-best-practices.md
+    - Quick References:
+      - Quick Reference: courses/pytorch/quick-reference.md
+      - Debugging Checklist: courses/pytorch/debugging-checklist.md
+      - Performance Tips: courses/pytorch/performance-tips.md
+      - Complete Guide: courses/pytorch/GUIDE.md
+  - Docker Course:
+    - Introduction: courses/docker/01-intro.md
+    - Working with Containers: courses/docker/02-containers.md
+    - Docker Images: courses/docker/03-images.md
+  - Kubernetes Course:
+    - Introduction: courses/kubernetes/01-intro.md
+    - Understanding Pods: courses/kubernetes/02-pods.md
+    - Deployments: courses/kubernetes/03-deployments.md
 
 plugins:
   - search

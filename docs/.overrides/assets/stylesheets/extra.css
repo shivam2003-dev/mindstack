@@ -1,0 +1,25 @@
+/* Auto-collapse inactive course sections for less distraction */
+.md-nav--primary .md-nav__list > .md-nav__item--nested {
+  position: relative;
+}
+
+/* Hide nested nav for inactive course sections */
+.md-nav--primary .md-nav__list > .md-nav__item--nested:not(.md-nav__item--active) > .md-nav {
+  display: none !important;
+}
+
+/* Show nested nav only for active course section */
+.md-nav--primary .md-nav__list > .md-nav__item--nested.md-nav__item--active > .md-nav {
+  display: block !important;
+}
+
+/* Style inactive course sections */
+.md-nav--primary .md-nav__list > .md-nav__item--nested:not(.md-nav__item--active) {
+  opacity: 0.8;
+}
+
+/* Smooth transition for active sections */
+.md-nav--primary .md-nav__list > .md-nav__item--nested.md-nav__item--active {
+  opacity: 1;
+}
+
