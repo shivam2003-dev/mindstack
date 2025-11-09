@@ -607,9 +607,32 @@ Continue to [Chapter 17: Mixed Precision & Optimization](17-mixed-precision.md) 
 - ✅ Gradient accumulation simulates larger batches
 - ✅ Always clear GPU cache between experiments
 
----
+## Recommended Reads
 
-**Reference:**
-- [CUDA Semantics](https://pytorch.org/docs/stable/notes/cuda.html)
-- [Distributed Training](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
-- [AMP Documentation](https://pytorch.org/docs/stable/amp.html)
+???+ "📚 Official Documentation"
+    1. [CUDA Semantics](https://pytorch.org/docs/stable/notes/cuda.html) - CUDA operations and memory
+    2. [Distributed Training](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html) - DDP tutorial
+    3. [Automatic Mixed Precision](https://pytorch.org/docs/stable/amp.html) - AMP documentation
+    4. [Multi-GPU Training](https://pytorch.org/tutorials/beginner/dist_overview.html) - Multi-GPU strategies
+
+???+ "📖 Essential Articles"
+    1. [GPU Acceleration Tutorial](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) - GPU basics
+    2. [Distributed Data Parallel](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html) - DDP guide
+    3. [Mixed Precision Training](https://pytorch.org/docs/stable/amp.html) - AMP tutorial
+    4. [GPU Memory Management](https://pytorch.org/docs/stable/notes/cuda.html#memory-management) - Memory optimization
+
+???+ "🎓 Learning Resources"
+    1. [Performance Optimization](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Optimization guide
+    2. [Profiling PyTorch](https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html) - Performance profiling
+    3. [Gradient Accumulation](https://pytorch.org/docs/stable/notes/autograd.html#gradient-accumulation) - Large batch training
+
+???+ "💡 Best Practices"
+    1. [GPU Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Optimization tips
+    2. [Memory Efficient Training](https://pytorch.org/docs/stable/notes/cuda.html#memory-management) - Reducing memory usage
+    3. [Multi-GPU Setup](https://pytorch.org/tutorials/beginner/dist_overview.html) - Setting up multi-GPU
+
+???+ "🔬 Research Papers"
+    1. [Mixed Precision Training](https://arxiv.org/abs/1710.03740) - FP16 training paper
+    2. [Distributed Training](https://arxiv.org/abs/2006.15704) - Large-scale training
+
+---

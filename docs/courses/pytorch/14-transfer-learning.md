@@ -558,8 +558,33 @@ Continue to [Chapter 15: Model Saving & Loading](15-model-saving.md) to learn ab
 - ✅ Use different learning rates for different parts
 - ✅ Always normalize inputs correctly for pre-trained models
 
----
+## Recommended Reads
 
-**Reference:**
-- [Transfer Learning Tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
-- [torchvision.models](https://pytorch.org/vision/stable/models.html)
+???+ "📚 Official Documentation"
+    1. [Transfer Learning Tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - Complete transfer learning guide
+    2. [torchvision.models](https://pytorch.org/vision/stable/models.html) - Pre-trained models
+    3. [Model Zoo](https://pytorch.org/vision/stable/models.html) - Available models
+    4. [Fine-Tuning Guide](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - Fine-tuning strategies
+
+???+ "📖 Essential Articles"
+    1. [Transfer Learning Explained](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - Transfer learning concepts
+    2. [Feature Extraction vs Fine-Tuning](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - When to use each
+    3. [Progressive Unfreezing](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - Advanced techniques
+    4. [Domain Adaptation](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - Adapting to new domains
+
+???+ "🎓 Learning Resources"
+    1. [Computer Vision Transfer Learning](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - CV examples
+    2. [NLP Transfer Learning](https://huggingface.co/transformers/) - Hugging Face transformers
+    3. [Transfer Learning Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Optimization tips
+
+???+ "💡 Best Practices"
+    1. [Learning Rate Selection](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - Choosing LRs for fine-tuning
+    2. [Freezing Layers](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - When to freeze
+    3. [Data Augmentation](https://pytorch.org/vision/stable/transforms.html) - Augmentation for transfer learning
+
+???+ "🔬 Research Papers"
+    1. [How transferable are features in deep neural networks?](https://arxiv.org/abs/1411.1792) - Transfer learning analysis
+    2. [Rethinking ImageNet Pre-training](https://arxiv.org/abs/1811.08883) - Pre-training effectiveness
+    3. [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805) - NLP transfer learning
+
+---

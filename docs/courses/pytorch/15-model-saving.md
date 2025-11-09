@@ -638,8 +638,32 @@ Continue to [Chapter 20: Best Practices](20-best-practices.md) for:
 - ✅ Implement checkpoint management early
 - ✅ Save best model separately from checkpoints
 
----
+## Recommended Reads
 
-**Reference:**
-- [Saving and Loading Models](https://pytorch.org/tutorials/beginner/saving_loading_models.html)
-- [TorchScript Documentation](https://pytorch.org/docs/stable/jit.html)
+???+ "📚 Official Documentation"
+    1. [Saving and Loading Models](https://pytorch.org/tutorials/beginner/saving_loading_models.html) - Model persistence guide
+    2. [TorchScript](https://pytorch.org/docs/stable/jit.html) - TorchScript documentation
+    3. [ONNX Export](https://pytorch.org/docs/stable/onnx.html) - ONNX model export
+    4. [Checkpointing](https://pytorch.org/tutorials/recipes/recipes/saving_and_loading_models_for_inference.html) - Checkpoint management
+
+???+ "📖 Essential Articles"
+    1. [Model Serialization](https://pytorch.org/tutorials/beginner/saving_loading_models.html) - Saving models tutorial
+    2. [TorchScript Tutorial](https://pytorch.org/tutorials/beginner/Intro_to_TorchScript_tutorial.html) - TorchScript introduction
+    3. [ONNX Tutorial](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html) - ONNX export and inference
+    4. [Model Versioning](https://pytorch.org/tutorials/recipes/recipes/saving_and_loading_models_for_inference.html) - Best practices
+
+???+ "🎓 Learning Resources"
+    1. [Production Deployment](https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html) - Deploying models
+    2. [Model Optimization](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Optimizing for production
+    3. [Model Quantization](https://pytorch.org/docs/stable/quantization.html) - Quantization techniques
+
+???+ "💡 Best Practices"
+    1. [Save vs Load Patterns](https://pytorch.org/tutorials/beginner/saving_loading_models.html) - When to save what
+    2. [State Dict vs Full Model](https://pytorch.org/tutorials/beginner/saving_loading_models.html) - Choosing save format
+    3. [Cross-Platform Compatibility](https://pytorch.org/docs/stable/jit.html) - Ensuring compatibility
+
+???+ "🔬 Research Papers"
+    1. [ONNX: Open Neural Network Exchange](https://onnx.ai/) - ONNX format specification
+    2. [Model Compression](https://arxiv.org/abs/1710.09282) - Compression techniques
+
+---

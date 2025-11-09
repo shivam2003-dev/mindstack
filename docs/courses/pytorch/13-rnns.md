@@ -640,8 +640,33 @@ Continue to [Chapter 14: Transfer Learning](14-transfer-learning.md) for:
 - ✅ Attention mechanism improves long sequences
 - ✅ Teacher forcing speeds up training
 
----
+## Recommended Reads
 
-**Reference:**
-- [RNN Documentation](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html)
-- [LSTM Documentation](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
+???+ "📚 Official Documentation"
+    1. [RNN](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html) - RNN layer documentation
+    2. [LSTM](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html) - LSTM layer documentation
+    3. [GRU](https://pytorch.org/docs/stable/generated/torch.nn.GRU.html) - GRU layer documentation
+    4. [Packed Sequences](https://pytorch.org/docs/stable/generated/torch.nn.utils.rnn.pack_padded_sequence.html) - Handling variable-length sequences
+
+???+ "📖 Essential Articles"
+    1. [RNN Tutorial](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html) - Building RNNs
+    2. [LSTM for Time Series](https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html) - Time series forecasting
+    3. [Sequence-to-Sequence Models](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) - Seq2Seq tutorial
+    4. [Attention Mechanisms](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) - Attention in RNNs
+
+???+ "🎓 Learning Resources"
+    1. [NLP with PyTorch](https://pytorch.org/tutorials/beginner/nlp/deep_learning_tutorial.html) - NLP tutorial
+    2. [RNN Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Training tips
+    3. [Gradient Clipping](https://pytorch.org/docs/stable/generated/torch.nn.utils.clip_grad_norm_.html) - Preventing gradient explosion
+
+???+ "💡 Best Practices"
+    1. [Handling Variable-Length Sequences](https://pytorch.org/docs/stable/generated/torch.nn.utils.rnn.pack_padded_sequence.html) - Packed sequences
+    2. [Teacher Forcing](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) - Training strategies
+    3. [Bidirectional RNNs](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html) - Bidirectional processing
+
+???+ "🔬 Research Papers"
+    1. [Long Short-Term Memory](https://www.bioinf.jku.at/publications/older/2604.pdf) - LSTM paper
+    2. [Learning Phrase Representations using RNN Encoder-Decoder](https://arxiv.org/abs/1406.1078) - GRU paper
+    3. [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Transformer architecture
+
+---

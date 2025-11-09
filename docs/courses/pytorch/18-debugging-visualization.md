@@ -649,8 +649,28 @@ Continue to [Chapter 19: Advanced Topics](19-advanced-topics.md) for:
 - ✅ Monitor gradient norms
 - ✅ Profile code to find bottlenecks
 
----
+## Recommended Reads
 
-**Reference:**
-- [PyTorch Debugging](https://pytorch.org/tutorials/recipes/recipes/debugging_recipe.html)
-- [TensorBoard Tutorial](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html)
+???+ "📚 Official Documentation"
+    1. [PyTorch Debugging](https://pytorch.org/tutorials/recipes/recipes/debugging_recipe.html) - Debugging guide
+    2. [TensorBoard](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html) - TensorBoard tutorial
+    3. [Profiler](https://pytorch.org/docs/stable/profiler.html) - Performance profiler
+    4. [Visualization Tools](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html) - Visualization utilities
+
+???+ "📖 Essential Articles"
+    1. [Debugging Techniques](https://pytorch.org/tutorials/recipes/recipes/debugging_recipe.html) - Common debugging strategies
+    2. [TensorBoard Integration](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html) - Using TensorBoard
+    3. [Gradient Checking](https://pytorch.org/tutorials/beginner/examples_autograd/two_layer_net_custom_function.html) - Verifying gradients
+    4. [Model Inspection](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Inspecting models
+
+???+ "🎓 Learning Resources"
+    1. [Visualization Best Practices](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html) - Visualization tips
+    2. [Performance Profiling](https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html) - Profiling guide
+    3. [Debugging Workflows](https://pytorch.org/tutorials/recipes/recipes/debugging_recipe.html) - Debugging workflows
+
+???+ "💡 Best Practices"
+    1. [Common Debugging Issues](https://pytorch.org/tutorials/recipes/recipes/debugging_recipe.html) - Troubleshooting
+    2. [Monitoring Training](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html) - Training monitoring
+    3. [Visualization Tools](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html) - Tool selection
+
+---

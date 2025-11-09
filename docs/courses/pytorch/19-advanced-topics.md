@@ -594,9 +594,33 @@ You've completed the advanced topics! Keep learning:
 - ✅ Interpretability tools explain model decisions
 - ✅ Stay updated with latest research
 
----
+## Recommended Reads
 
-**Reference:**
-- [PyTorch Lightning](https://www.pytorchlightning.ai/)
-- [Weights & Biases](https://wandb.ai/)
-- [Ray Tune](https://docs.ray.io/en/latest/tune/index.html)
+???+ "📚 Official Documentation"
+    1. [PyTorch Lightning](https://www.pytorchlightning.ai/) - High-level training framework
+    2. [Weights & Biases](https://wandb.ai/) - Experiment tracking
+    3. [Ray Tune](https://docs.ray.io/en/latest/tune/index.html) - Hyperparameter tuning
+    4. [Hugging Face Transformers](https://huggingface.co/transformers/) - Pre-trained transformers
+
+???+ "📖 Essential Articles"
+    1. [PyTorch Lightning Tutorial](https://pytorch-lightning.readthedocs.io/) - Lightning guide
+    2. [Experiment Tracking](https://wandb.ai/site) - W&B tutorial
+    3. [Hyperparameter Tuning](https://docs.ray.io/en/latest/tune/index.html) - Tuning strategies
+    4. [Advanced Architectures](https://pytorch.org/tutorials/beginner/introyt/introyt1_tutorial.html) - Modern architectures
+
+???+ "🎓 Learning Resources"
+    1. [Vision Transformers](https://pytorch.org/vision/stable/models.html) - ViT tutorial
+    2. [Model Interpretability](https://pytorch.org/tutorials/beginner/introyt/introyt1_tutorial.html) - Explainability
+    3. [Advanced Training Techniques](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Advanced methods
+
+???+ "💡 Best Practices"
+    1. [Framework Selection](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Choosing frameworks
+    2. [Experiment Management](https://wandb.ai/site) - Managing experiments
+    3. [Staying Updated](https://pytorch.org/blog/) - Following latest research
+
+???+ "🔬 Research Papers"
+    1. [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929) - Vision Transformer
+    2. [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805) - BERT paper
+    3. [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Transformer architecture
+
+---

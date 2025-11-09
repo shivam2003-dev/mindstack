@@ -914,8 +914,32 @@ You've completed the PyTorch cheatsheet! Now you can:
 
 **Congratulations!** You now have a comprehensive understanding of PyTorch. Keep building and learning! 🚀
 
-**Helpful Resources:**
-- [PyTorch Documentation](https://pytorch.org/docs/)
-- [PyTorch Tutorials](https://pytorch.org/tutorials/)
-- [PyTorch Forums](https://discuss.pytorch.org/)
-- [Papers with Code](https://paperswithcode.com/)
+## Recommended Reads
+
+???+ "📚 Official Documentation"
+    1. [PyTorch Documentation](https://pytorch.org/docs/) - Complete API reference
+    2. [PyTorch Tutorials](https://pytorch.org/tutorials/) - Official tutorials
+    3. [Best Practices Guide](https://pytorch.org/tutorials/recipes/recipes_index.html) - PyTorch recipes
+    4. [Performance Tuning](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Optimization guide
+
+???+ "📖 Essential Articles"
+    1. [PyTorch Best Practices](https://pytorch.org/tutorials/recipes/recipes_index.html) - Official best practices
+    2. [Common Mistakes](https://github.com/Kaixhin/grokking-pytorch) - Common pitfalls
+    3. [Production Deployment](https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html) - Deployment guide
+    4. [Code Organization](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Project structure
+
+???+ "🎓 Learning Resources"
+    1. [PyTorch Forums](https://discuss.pytorch.org/) - Community discussions
+    2. [Papers with Code](https://paperswithcode.com/) - Research implementations
+    3. [PyTorch Blog](https://pytorch.org/blog/) - Latest updates and tutorials
+
+???+ "💡 Best Practices"
+    1. [Reproducibility](https://pytorch.org/docs/stable/notes/randomness.html) - Ensuring reproducibility
+    2. [Code Quality](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Writing clean code
+    3. [Testing Strategies](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Testing models
+
+???+ "🔬 Research Papers"
+    1. [PyTorch: An Imperative Style Deep Learning Library](https://papers.nips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library) - PyTorch paper
+    2. [Deep Learning Best Practices](https://arxiv.org/abs/1706.02677) - Training deep networks
+
+---

@@ -772,9 +772,32 @@ You've completed the PyTorch deployment guide! Practice by:
 - ✅ Version control your models
 - ✅ Test thoroughly before deploying
 
----
+## Recommended Reads
 
-**Reference:**
-- [TorchScript Documentation](https://pytorch.org/docs/stable/jit.html)
-- [ONNX Documentation](https://onnx.ai/)
-- [TorchServe](https://pytorch.org/serve/)
+???+ "📚 Official Documentation"
+    1. [TorchScript](https://pytorch.org/docs/stable/jit.html) - TorchScript documentation
+    2. [ONNX Export](https://pytorch.org/docs/stable/onnx.html) - ONNX model export
+    3. [TorchServe](https://pytorch.org/serve/) - Model serving framework
+    4. [Model Optimization](https://pytorch.org/docs/stable/quantization.html) - Quantization and optimization
+
+???+ "📖 Essential Articles"
+    1. [TorchScript Tutorial](https://pytorch.org/tutorials/beginner/Intro_to_TorchScript_tutorial.html) - TorchScript guide
+    2. [ONNX Tutorial](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html) - ONNX export
+    3. [Model Deployment](https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html) - REST API deployment
+    4. [Production Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Production tips
+
+???+ "🎓 Learning Resources"
+    1. [Deployment Tutorials](https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html) - Deployment examples
+    2. [Model Serving](https://pytorch.org/serve/) - Serving models at scale
+    3. [Edge Deployment](https://pytorch.org/mobile/home/) - Mobile and edge deployment
+
+???+ "💡 Best Practices"
+    1. [Model Optimization](https://pytorch.org/docs/stable/quantization.html) - Quantization strategies
+    2. [Performance Monitoring](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Monitoring deployed models
+    3. [Version Control](https://pytorch.org/tutorials/recipes/recipes/saving_and_loading_models_for_inference.html) - Model versioning
+
+???+ "🔬 Research Papers"
+    1. [ONNX: Open Neural Network Exchange](https://onnx.ai/) - ONNX specification
+    2. [Model Compression](https://arxiv.org/abs/1710.09282) - Compression techniques
+
+---
