@@ -472,7 +472,32 @@ Continue to [Chapter 3: Tensor Operations](03-tensor-operations.md) to learn abo
 - ✅ Support indexing and slicing similar to NumPy
 - ✅ Can move tensors between CPU and GPU with `.to(device)`
 
----
+## Recommended Reads
 
-**Reference:**
-- [PyTorch Tensors Documentation](https://pytorch.org/docs/stable/tensors.html)
+???+ "📚 Official Documentation"
+    1. [PyTorch Tensors](https://pytorch.org/docs/stable/tensors.html) - Complete tensor API reference
+    2. [Tensor Creation](https://pytorch.org/docs/stable/torch.html#creation-ops) - All tensor creation functions
+    3. [Tensor Attributes](https://pytorch.org/docs/stable/tensors.html#tensor-attributes) - Understanding tensor properties
+    4. [Indexing and Slicing](https://pytorch.org/docs/stable/tensor_view.html) - Advanced indexing operations
+
+???+ "📖 Essential Articles"
+    1. [Understanding PyTorch Tensors](https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html) - Official tensor tutorial
+    2. [Tensors vs NumPy Arrays](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html) - Comparison guide
+    3. [Tensor Data Types](https://pytorch.org/docs/stable/tensor_attributes.html#torch-dtype) - Choosing the right dtype
+    4. [GPU Tensors](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#tensors) - Working with CUDA tensors
+
+???+ "🎓 Learning Resources"
+    1. [NumPy to PyTorch](https://pytorch.org/tutorials/beginner/former_torchies/tensor_tutorial.html) - Transition guide
+    2. [Tensor Operations Cheat Sheet](https://pytorch.org/docs/stable/torch.html) - Quick reference
+    3. [Advanced Indexing](https://pytorch.org/docs/stable/tensor_view.html#advanced-indexing) - Complex indexing patterns
+
+???+ "💡 Best Practices"
+    1. [Memory Management](https://pytorch.org/docs/stable/notes/cuda.html#memory-management) - Efficient tensor memory usage
+    2. [Tensor Performance Tips](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Optimization strategies
+    3. [Avoiding Common Tensor Errors](https://pytorch.org/docs/stable/notes/broadcasting.html) - Broadcasting pitfalls
+
+???+ "🔬 Research Papers"
+    1. [Array Programming with NumPy](https://www.nature.com/articles/s41586-020-2649-2) - Understanding array operations
+    2. [GPU Computing](https://developer.nvidia.com/cuda-toolkit) - CUDA programming concepts
+
+---

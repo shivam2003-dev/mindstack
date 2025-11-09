@@ -726,8 +726,28 @@ Continue to [Chapter 12: CNNs](12-cnns.md) to learn about:
 - ✅ Use samplers for imbalanced data
 - ✅ Implement custom collate functions for variable-length data
 
----
+## Recommended Reads
 
-**Reference:**
-- [Data Loading Tutorial](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html)
-- [Dataset Documentation](https://pytorch.org/docs/stable/data.html)
+???+ "📚 Official Documentation"
+    1. [Dataset](https://pytorch.org/docs/stable/data.html#torch.utils.data.Dataset) - Dataset base class
+    2. [DataLoader](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader) - Data loading utility
+    3. [Built-in Datasets](https://pytorch.org/vision/stable/datasets.html) - torchvision datasets
+    4. [Samplers](https://pytorch.org/docs/stable/data.html#torch.utils.data.Sampler) - Custom sampling strategies
+
+???+ "📖 Essential Articles"
+    1. [Data Loading Tutorial](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html) - Official data loading guide
+    2. [DataLoader Performance](https://pytorch.org/docs/stable/data.html#single-and-multi-process-data-loading) - Optimizing data loading
+    3. [Custom Datasets](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html) - Creating custom datasets
+    4. [Data Loading Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Performance tips
+
+???+ "🎓 Learning Resources"
+    1. [Working with Data](https://pytorch.org/tutorials/beginner/introyt/introyt1_tutorial.html) - Data handling tutorial
+    2. [Advanced Data Loading](https://pytorch.org/tutorials/recipes/recipes/tensorboard.html) - Advanced techniques
+    3. [Data Pipeline Optimization](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Performance optimization
+
+???+ "💡 Best Practices"
+    1. [Multi-Process Data Loading](https://pytorch.org/docs/stable/data.html#multi-process-data-loading) - Using num_workers
+    2. [Memory Pinning](https://pytorch.org/docs/stable/data.html#memory-pinning) - pin_memory for GPU
+    3. [Persistent Workers](https://pytorch.org/docs/stable/data.html#persistent-workers) - Keeping workers alive
+
+---

@@ -617,8 +617,33 @@ Continue to [Chapter 6: Loss Functions](06-loss-functions.md) to learn about:
 - ✅ Initialize weights properly
 - ✅ Inspect model architecture before training
 
----
+## Recommended Reads
 
-**Reference:**
-- [nn.Module Documentation](https://pytorch.org/docs/stable/generated/torch.nn.Module.html)
-- [Layer Documentation](https://pytorch.org/docs/stable/nn.html)
+???+ "📚 Official Documentation"
+    1. [nn.Module](https://pytorch.org/docs/stable/generated/torch.nn.Module.html) - Base class for all models
+    2. [Neural Network Layers](https://pytorch.org/docs/stable/nn.html) - All available layers
+    3. [Activation Functions](https://pytorch.org/docs/stable/nn.html#non-linear-activations-weighted-sum-nonlinearity) - Activation functions
+    4. [Weight Initialization](https://pytorch.org/docs/stable/nn.init.html) - Initialization methods
+
+???+ "📖 Essential Articles"
+    1. [Building Neural Networks](https://pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html) - Official tutorial
+    2. [Understanding nn.Module](https://pytorch.org/tutorials/beginner/introyt/modelsyt_tutorial.html) - Module deep dive
+    3. [Layer Types Guide](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) - Layer selection guide
+    4. [Activation Functions Comparison](https://pytorch.org/docs/stable/nn.html#non-linear-activations-weighted-sum-nonlinearity) - Choosing activations
+
+???+ "🎓 Learning Resources"
+    1. [Neural Networks from Scratch](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html) - Building blocks
+    2. [Model Architecture Patterns](https://pytorch.org/tutorials/beginner/introyt/modelsyt_tutorial.html) - Design patterns
+    3. [Weight Initialization Strategies](https://pytorch.org/docs/stable/nn.init.html) - Initialization best practices
+
+???+ "💡 Best Practices"
+    1. [Model Design Guidelines](https://pytorch.org/tutorials/recipes/recipes/defining_a_neural_network.html) - Architecture guidelines
+    2. [Module Organization](https://pytorch.org/docs/stable/nn.html#module) - Structuring complex models
+    3. [Parameter Management](https://pytorch.org/docs/stable/nn.html#parameters) - Working with parameters
+
+???+ "🔬 Research Papers"
+    1. [Deep Residual Learning](https://arxiv.org/abs/1512.03385) - ResNet paper
+    2. [Batch Normalization](https://arxiv.org/abs/1502.03167) - BN paper
+    3. [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Transformer architecture
+
+---

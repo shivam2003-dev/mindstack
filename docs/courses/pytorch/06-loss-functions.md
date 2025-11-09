@@ -643,7 +643,33 @@ Continue to [Chapter 7: Optimizers](07-optimizers.md) to learn about:
 - ✅ Can create custom losses by inheriting from nn.Module
 - ✅ Use class weights for imbalanced datasets
 
----
+## Recommended Reads
 
-**Reference:**
-- [Loss Functions Documentation](https://pytorch.org/docs/stable/nn.html#loss-functions)
+???+ "📚 Official Documentation"
+    1. [Loss Functions](https://pytorch.org/docs/stable/nn.html#loss-functions) - Complete loss function reference
+    2. [Regression Losses](https://pytorch.org/docs/stable/nn.html#loss-functions) - MSE, MAE, Huber loss
+    3. [Classification Losses](https://pytorch.org/docs/stable/nn.html#loss-functions) - CrossEntropy, BCE, Focal loss
+    4. [Custom Loss Functions](https://pytorch.org/docs/stable/nn.html#module) - Creating custom losses
+
+???+ "📖 Essential Articles"
+    1. [Understanding Loss Functions](https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html) - Loss function tutorial
+    2. [Choosing the Right Loss](https://pytorch.org/docs/stable/nn.html#loss-functions) - Loss selection guide
+    3. [Focal Loss for Imbalanced Data](https://arxiv.org/abs/1708.02002) - Handling class imbalance
+    4. [Loss Function Comparison](https://pytorch.org/docs/stable/nn.html#loss-functions) - When to use which loss
+
+???+ "🎓 Learning Resources"
+    1. [Loss Functions Explained](https://pytorch.org/tutorials/beginner/introyt/trainingyt.html) - Deep dive into losses
+    2. [Custom Loss Implementation](https://pytorch.org/tutorials/beginner/examples_autograd/two_layer_net_custom_function.html) - Building custom losses
+    3. [Multi-Task Learning Losses](https://pytorch.org/tutorials/beginner/introyt/trainingyt.html) - Combining losses
+
+???+ "💡 Best Practices"
+    1. [Loss Function Selection](https://pytorch.org/tutorials/recipes/recipes/defining_a_neural_network.html) - Choosing appropriate losses
+    2. [Class Weighting](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html) - Handling imbalanced data
+    3. [Loss Normalization](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Normalizing loss values
+
+???+ "🔬 Research Papers"
+    1. [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002) - Focal loss paper
+    2. [Dice Loss for Segmentation](https://arxiv.org/abs/1706.05721) - Dice coefficient loss
+    3. [Triplet Loss for Face Recognition](https://arxiv.org/abs/1503.03832) - Metric learning losses
+
+---

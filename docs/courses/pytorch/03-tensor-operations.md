@@ -632,7 +632,32 @@ Continue to [Chapter 4: Autograd & Gradients](04-autograd.md) to learn about:
 - ✅ Reduction operations: sum, mean, max, min with keepdim option
 - ✅ Matrix operations: mm, bmm, matmul for different scenarios
 
----
+## Recommended Reads
 
-**Reference:**
-- [PyTorch Operations Documentation](https://pytorch.org/docs/stable/torch.html)
+???+ "📚 Official Documentation"
+    1. [PyTorch Operations](https://pytorch.org/docs/stable/torch.html) - Complete operations reference
+    2. [Tensor Operations](https://pytorch.org/docs/stable/torch.html#math-operations) - Mathematical operations
+    3. [Matrix Operations](https://pytorch.org/docs/stable/torch.html#blas-and-lapack-operations) - Linear algebra functions
+    4. [Reduction Operations](https://pytorch.org/docs/stable/torch.html#reduction-ops) - Sum, mean, max, min, etc.
+
+???+ "📖 Essential Articles"
+    1. [Understanding Broadcasting](https://pytorch.org/docs/stable/notes/broadcasting.html) - Broadcasting rules and examples
+    2. [Tensor Reshaping Guide](https://pytorch.org/docs/stable/tensor_view.html) - View, reshape, and memory layout
+    3. [Efficient Tensor Operations](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Performance optimization
+    4. [Matrix Multiplication Guide](https://pytorch.org/docs/stable/generated/torch.matmul.html) - When to use mm, bmm, matmul
+
+???+ "🎓 Learning Resources"
+    1. [NumPy Operations in PyTorch](https://pytorch.org/tutorials/beginner/former_torchies/tensor_tutorial.html) - NumPy to PyTorch mapping
+    2. [Linear Algebra with PyTorch](https://pytorch.org/tutorials/beginner/introyt/tensors_deeper_tutorial.html) - Advanced tensor operations
+    3. [Broadcasting Tutorial](https://pytorch.org/tutorials/beginner/introyt/tensors_deeper_tutorial.html#broadcasting) - Broadcasting examples
+
+???+ "💡 Best Practices"
+    1. [In-Place Operations](https://pytorch.org/docs/stable/tensors.html#in-place-operations) - When to use in-place ops
+    2. [Memory Efficient Operations](https://pytorch.org/docs/stable/notes/cuda.html#memory-management) - Reducing memory usage
+    3. [Vectorization Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Optimizing operations
+
+???+ "🔬 Research Papers"
+    1. [Array Programming with NumPy](https://www.nature.com/articles/s41586-020-2649-2) - Understanding array operations
+    2. [BLAS and LAPACK](https://www.netlib.org/blas/) - Linear algebra libraries
+
+---

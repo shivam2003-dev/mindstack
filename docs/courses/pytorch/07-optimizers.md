@@ -760,8 +760,33 @@ Continue to [Chapter 8: Training Loop](08-training-loop.md) to learn about:
 - ✅ Different learning rates for different layers (fine-tuning)
 - ✅ Monitor learning rate during training
 
----
+## Recommended Reads
 
-**Reference:**
-- [Optimizers Documentation](https://pytorch.org/docs/stable/optim.html)
-- [Learning Rate Schedulers](https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate)
+???+ "📚 Official Documentation"
+    1. [Optimizers](https://pytorch.org/docs/stable/optim.html) - Complete optimizer reference
+    2. [SGD Optimizer](https://pytorch.org/docs/stable/generated/torch.optim.SGD.html) - Stochastic gradient descent
+    3. [Adam Optimizer](https://pytorch.org/docs/stable/generated/torch.optim.Adam.html) - Adaptive moment estimation
+    4. [Learning Rate Schedulers](https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate) - LR scheduling
+
+???+ "📖 Essential Articles"
+    1. [Optimization Tutorial](https://pytorch.org/tutorials/beginner/basics/optimization_tutorial.html) - Official optimization guide
+    2. [Choosing an Optimizer](https://pytorch.org/docs/stable/optim.html) - Optimizer selection guide
+    3. [Learning Rate Scheduling](https://pytorch.org/tutorials/beginner/introyt/trainingyt.html) - LR scheduling strategies
+    4. [Gradient Clipping](https://pytorch.org/docs/stable/generated/torch.nn.utils.clip_grad_norm_.html) - Preventing gradient explosion
+
+???+ "🎓 Learning Resources"
+    1. [Optimization Algorithms](https://pytorch.org/tutorials/beginner/introyt/trainingyt.html) - Understanding optimizers
+    2. [Learning Rate Finder](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Finding optimal LR
+    3. [Warmup Strategies](https://pytorch.org/docs/stable/optim.html) - Learning rate warmup
+
+???+ "💡 Best Practices"
+    1. [Optimizer Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Optimization tips
+    2. [Parameter Groups](https://pytorch.org/docs/stable/optim.html#per-parameter-options) - Different LRs for layers
+    3. [Gradient Accumulation](https://pytorch.org/docs/stable/notes/autograd.html#gradient-accumulation) - Simulating larger batches
+
+???+ "🔬 Research Papers"
+    1. [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980) - Adam optimizer paper
+    2. [Decoupled Weight Decay Regularization](https://arxiv.org/abs/1711.05101) - AdamW paper
+    3. [SGDR: Stochastic Gradient Descent with Warm Restarts](https://arxiv.org/abs/1608.03983) - Cosine annealing
+
+---

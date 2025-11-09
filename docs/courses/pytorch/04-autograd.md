@@ -575,8 +575,33 @@ Continue to [Chapter 5: Building Neural Networks](05-neural-networks.md) to lear
 - ✅ Computational graph is built dynamically
 - ✅ Gradients accumulate by default
 
----
+## Recommended Reads
 
-**Reference:**
-- [Autograd Documentation](https://pytorch.org/docs/stable/autograd.html)
-- [Autograd Mechanics](https://pytorch.org/docs/stable/notes/autograd.html)
+???+ "📚 Official Documentation"
+    1. [Autograd Documentation](https://pytorch.org/docs/stable/autograd.html) - Complete autograd API
+    2. [Autograd Mechanics](https://pytorch.org/docs/stable/notes/autograd.html) - How autograd works internally
+    3. [Gradient Computation](https://pytorch.org/docs/stable/autograd.html#gradient-computation) - Understanding gradients
+    4. [Function API](https://pytorch.org/docs/stable/autograd.html#function) - Custom autograd functions
+
+???+ "📖 Essential Articles"
+    1. [Understanding Autograd](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html) - Official autograd tutorial
+    2. [Computation Graphs](https://pytorch.org/docs/stable/notes/autograd.html#automatic-differentiation-package) - Graph construction
+    3. [Gradient Accumulation](https://pytorch.org/docs/stable/notes/autograd.html#gradient-accumulation) - Accumulating gradients
+    4. [Custom Autograd Functions](https://pytorch.org/tutorials/beginner/examples_autograd/two_layer_net_custom_function.html) - Creating custom functions
+
+???+ "🎓 Learning Resources"
+    1. [Backpropagation Explained](https://pytorch.org/tutorials/beginner/introyt/autogradyt_tutorial.html) - Deep dive into backprop
+    2. [Automatic Differentiation](https://pytorch.org/tutorials/beginner/introyt/autogradyt_tutorial.html) - AD fundamentals
+    3. [Gradient Checking](https://pytorch.org/tutorials/beginner/examples_autograd/two_layer_net_custom_function.html) - Verifying gradients
+
+???+ "💡 Best Practices"
+    1. [Gradient Management](https://pytorch.org/docs/stable/autograd.html#gradient-checkpointing) - Efficient gradient computation
+    2. [No Grad Context](https://pytorch.org/docs/stable/autograd.html#locally-disabling-gradient-computation) - When to disable gradients
+    3. [Gradient Clipping](https://pytorch.org/docs/stable/generated/torch.nn.utils.clip_grad_norm_.html) - Preventing exploding gradients
+
+???+ "🔬 Research Papers"
+    1. [Automatic Differentiation in Machine Learning](https://arxiv.org/abs/1502.05767) - AD survey paper
+    2. [Backpropagation Through Time](https://www.cs.cmu.edu/~bhiksha/courses/deeplearning/Fall.2016/pdfs/Werbos.backprop.pdf) - BPTT algorithm
+    3. [Gradient-Based Learning](https://www.iro.umontreal.ca/~lisa/pointeurs/bengio+lecun2007.pdf) - Deep learning foundations
+
+---

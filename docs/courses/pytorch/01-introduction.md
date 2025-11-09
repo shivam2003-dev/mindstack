@@ -297,12 +297,35 @@ Now that you have PyTorch installed and understand the basics, proceed to:
 - [Chapter 2: Tensors Basics](02-tensors-basics.md) - Learn about PyTorch tensors
 - [Chapter 3: Tensor Operations](03-tensor-operations.md) - Master tensor manipulations
 
-## Resources
+## Recommended Reads
 
-- 📖 [Official PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
-- 🎓 [PyTorch Tutorials](https://pytorch.org/tutorials/)
-- 💬 [PyTorch Forums](https://discuss.pytorch.org/)
-- 📺 [PyTorch YouTube Channel](https://www.youtube.com/c/PyTorch)
+???+ "📚 Official Documentation"
+    1. [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) - Complete API reference
+    2. [PyTorch Tutorials](https://pytorch.org/tutorials/) - Official tutorials and examples
+    3. [PyTorch Installation Guide](https://pytorch.org/get-started/locally/) - Detailed installation instructions
+    4. [PyTorch Beginner's Guide](https://pytorch.org/tutorials/beginner/basics/intro.html) - Getting started tutorial
+
+???+ "📖 Essential Articles"
+    1. [Why PyTorch?](https://pytorch.org/blog/pytorch-1.0-released/) - PyTorch 1.0 announcement and philosophy
+    2. [PyTorch vs TensorFlow](https://www.analyticsvidhya.com/blog/2021/06/pytorch-vs-tensorflow/) - Framework comparison
+    3. [Dynamic vs Static Graphs](https://pytorch.org/blog/exploring-pytorch/) - Understanding computation graphs
+    4. [PyTorch Ecosystem](https://pytorch.org/ecosystem/) - Overview of PyTorch tools and libraries
+
+???+ "🎓 Learning Resources"
+    1. [PyTorch Deep Learning Course](https://www.learnpytorch.io/) - Comprehensive course
+    2. [Fast.ai Practical Deep Learning](https://course.fast.ai/) - Practical deep learning course
+    3. [PyTorch for Deep Learning & Machine Learning](https://www.udemy.com/course/pytorch-for-deep-learning/) - Udemy course
+    4. [Deep Learning with PyTorch](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf) - Official book
+
+???+ "💡 Best Practices & Tips"
+    1. [PyTorch Best Practices](https://pytorch.org/tutorials/recipes/recipes_index.html) - Official recipes
+    2. [Common PyTorch Mistakes](https://github.com/Kaixhin/grokking-pytorch) - Common pitfalls
+    3. [PyTorch Performance Tuning](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Performance optimization
+    4. [PyTorch Debugging Guide](https://pytorch.org/tutorials/recipes/debugging.html) - Debugging techniques
+
+???+ "🔬 Research Papers"
+    1. [Automatic Differentiation in Machine Learning](https://arxiv.org/abs/1502.05767) - Understanding autograd
+    2. [PyTorch: An Imperative Style Deep Learning Library](https://papers.nips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library) - PyTorch design paper
 
 ---
 

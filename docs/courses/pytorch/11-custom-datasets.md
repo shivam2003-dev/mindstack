@@ -688,8 +688,28 @@ Continue to [Chapter 13: Recurrent Neural Networks](13-rnns.md) to learn:
 - ✅ Use weighted sampling for imbalanced datasets
 - ✅ Handle errors gracefully in `__getitem__`
 
----
+## Recommended Reads
 
-**Reference:**
-- [Dataset Documentation](https://pytorch.org/docs/stable/data.html#torch.utils.data.Dataset)
-- [DataLoader Documentation](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader)
+???+ "📚 Official Documentation"
+    1. [Dataset](https://pytorch.org/docs/stable/data.html#torch.utils.data.Dataset) - Dataset base class
+    2. [DataLoader](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader) - Data loading utility
+    3. [IterableDataset](https://pytorch.org/docs/stable/data.html#torch.utils.data.IterableDataset) - Streaming datasets
+    4. [Collate Functions](https://pytorch.org/docs/stable/data.html#dataloader-collate-fn) - Custom batching
+
+???+ "📖 Essential Articles"
+    1. [Custom Dataset Tutorial](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html) - Creating custom datasets
+    2. [Advanced Data Loading](https://pytorch.org/tutorials/recipes/recipes/tensorboard.html) - Advanced techniques
+    3. [Handling Large Datasets](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Memory-efficient loading
+    4. [Variable-Length Sequences](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html) - Sequence data
+
+???+ "🎓 Learning Resources"
+    1. [Dataset Design Patterns](https://pytorch.org/tutorials/beginner/introyt/introyt1_tutorial.html) - Design best practices
+    2. [Data Loading Optimization](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Performance tips
+    3. [Error Handling](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Robust data loading
+
+???+ "💡 Best Practices"
+    1. [Lazy Loading](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Memory-efficient datasets
+    2. [Caching Strategies](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - When to cache data
+    3. [Sampling Strategies](https://pytorch.org/docs/stable/data.html#torch.utils.data.Sampler) - Custom samplers
+
+---

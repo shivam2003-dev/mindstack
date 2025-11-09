@@ -692,7 +692,33 @@ Continue to [Chapter 9: Datasets & DataLoaders](09-datasets-dataloaders.md) to l
 - ✅ Use TensorBoard for visualization
 - ✅ Set random seeds for reproducibility
 
----
+## Recommended Reads
 
-**Reference:**
-- [Training Neural Networks](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+???+ "📚 Official Documentation"
+    1. [Training Neural Networks](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) - Complete training example
+    2. [Training Loop Best Practices](https://pytorch.org/tutorials/recipes/recipes_index.html) - Training recipes
+    3. [Checkpointing](https://pytorch.org/tutorials/beginner/saving_loading_models.html) - Saving and loading models
+    4. [Early Stopping](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Preventing overfitting
+
+???+ "📖 Essential Articles"
+    1. [Training Your First Model](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html) - Quick start guide
+    2. [Complete Training Pipeline](https://pytorch.org/tutorials/beginner/introyt/trainingyt.html) - Full training example
+    3. [Validation and Testing](https://pytorch.org/tutorials/beginner/introyt/trainingyt.html) - Model evaluation
+    4. [Monitoring Training](https://pytorch.org/tutorials/recipes/recipes/tensorboard.html) - Using TensorBoard
+
+???+ "🎓 Learning Resources"
+    1. [Training Deep Networks](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) - Deep learning tutorial
+    2. [Model Evaluation](https://pytorch.org/tutorials/beginner/introyt/trainingyt.html) - Evaluation metrics
+    3. [Hyperparameter Tuning](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Tuning strategies
+
+???+ "💡 Best Practices"
+    1. [Training Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Optimization tips
+    2. [Reproducibility](https://pytorch.org/docs/stable/notes/randomness.html) - Setting random seeds
+    3. [Memory Management](https://pytorch.org/docs/stable/notes/cuda.html#memory-management) - Efficient training
+
+???+ "🔬 Research Papers"
+    1. [Deep Residual Learning](https://arxiv.org/abs/1512.03385) - Training deep networks
+    2. [Batch Normalization](https://arxiv.org/abs/1502.03167) - Normalization techniques
+    3. [Dropout: A Simple Way to Prevent Overfitting](https://arxiv.org/abs/1207.0580) - Regularization
+
+---

@@ -565,8 +565,34 @@ Continue to [Chapter 14: Transfer Learning](14-transfer-learning.md) to learn ab
 - ✅ Use pretrained models when possible
 - ✅ Modern architectures: ResNet, EfficientNet, Vision Transformers
 
----
+## Recommended Reads
 
-**Reference:**
-- [CNN Tutorial](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
-- [torchvision.models](https://pytorch.org/vision/stable/models.html)
+???+ "📚 Official Documentation"
+    1. [CNN Layers](https://pytorch.org/docs/stable/nn.html#convolution-layers) - Convolutional layers
+    2. [torchvision.models](https://pytorch.org/vision/stable/models.html) - Pre-trained models
+    3. [Pooling Layers](https://pytorch.org/docs/stable/nn.html#pooling-layers) - Pooling operations
+    4. [Batch Normalization](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html) - Normalization layers
+
+???+ "📖 Essential Articles"
+    1. [CNN Tutorial](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) - Building CNNs
+    2. [Transfer Learning](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - Using pre-trained models
+    3. [Vision Transformers](https://pytorch.org/vision/stable/models.html) - Modern architectures
+    4. [CNN Architecture Guide](https://pytorch.org/tutorials/beginner/introyt/introyt1_tutorial.html) - Architecture design
+
+???+ "🎓 Learning Resources"
+    1. [Computer Vision with PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) - CV tutorial
+    2. [Modern CNN Architectures](https://pytorch.org/vision/stable/models.html) - ResNet, EfficientNet, etc.
+    3. [CNN Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Training tips
+
+???+ "💡 Best Practices"
+    1. [CNN Design Patterns](https://pytorch.org/tutorials/beginner/introyt/introyt1_tutorial.html) - Architecture patterns
+    2. [Data Augmentation for CNNs](https://pytorch.org/vision/stable/transforms.html) - Augmentation strategies
+    3. [Fine-Tuning Pre-trained Models](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) - Transfer learning
+
+???+ "🔬 Research Papers"
+    1. [ImageNet Classification with Deep CNNs](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) - AlexNet
+    2. [Deep Residual Learning](https://arxiv.org/abs/1512.03385) - ResNet paper
+    3. [EfficientNet: Rethinking Model Scaling](https://arxiv.org/abs/1905.11946) - EfficientNet paper
+    4. [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929) - Vision Transformer
+
+---

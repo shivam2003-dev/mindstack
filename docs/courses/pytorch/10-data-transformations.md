@@ -567,8 +567,33 @@ Continue to [Chapter 11: Custom Datasets](11-custom-datasets.md) to learn:
 - ✅ Visualize augmentations before training
 - ✅ Test-Time Augmentation can boost accuracy
 
----
+## Recommended Reads
 
-**Reference:**
-- [torchvision.transforms](https://pytorch.org/vision/stable/transforms.html)
-- [Albumentations](https://albumentations.ai/)
+???+ "📚 Official Documentation"
+    1. [torchvision.transforms](https://pytorch.org/vision/stable/transforms.html) - Complete transforms reference
+    2. [Transforms API](https://pytorch.org/vision/stable/transforms.html#transforms-on-pil-image) - All available transforms
+    3. [Functional Transforms](https://pytorch.org/vision/stable/transforms.html#functional-transforms) - Functional API
+    4. [Custom Transforms](https://pytorch.org/vision/stable/transforms.html#custom-transforms) - Creating custom transforms
+
+???+ "📖 Essential Articles"
+    1. [Data Augmentation Tutorial](https://pytorch.org/tutorials/beginner/basics/transforms_tutorial.html) - Official transforms guide
+    2. [Image Augmentation Strategies](https://pytorch.org/vision/stable/transforms.html) - Augmentation techniques
+    3. [Albumentations Library](https://albumentations.ai/) - Advanced augmentation library
+    4. [MixUp and CutMix](https://pytorch.org/vision/stable/transforms.html) - Modern augmentation techniques
+
+???+ "🎓 Learning Resources"
+    1. [Data Preprocessing](https://pytorch.org/tutorials/beginner/introyt/introyt1_tutorial.html) - Preprocessing tutorial
+    2. [Augmentation Best Practices](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - When to use augmentation
+    3. [Test-Time Augmentation](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - TTA techniques
+
+???+ "💡 Best Practices"
+    1. [Normalization Strategies](https://pytorch.org/vision/stable/transforms.html#transforms-on-pil-image) - Normalizing images
+    2. [Augmentation Selection](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Choosing augmentations
+    3. [Performance Optimization](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) - Fast transforms
+
+???+ "🔬 Research Papers"
+    1. [AutoAugment: Learning Augmentation Strategies](https://arxiv.org/abs/1805.09501) - AutoAugment paper
+    2. [MixUp: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412) - MixUp paper
+    3. [CutMix: Regularization Strategy](https://arxiv.org/abs/1905.04899) - CutMix paper
+
+---
