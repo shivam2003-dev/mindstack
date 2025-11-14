@@ -156,6 +156,27 @@ nav:
       - Articles & Blogs: courses/ebpf/15-articles-blogs.md
       - Recommended Reading: courses/ebpf/16-recommended-reading.md
       - Tools & Libraries: courses/ebpf/17-tools-libraries.md
+  - AI & ML Research Guide:
+    - Overview: courses/ai-ml-research-guide/README.md
+    - Quick Reference: courses/ai-ml-research-guide/quick-reference.md
+    - Beginner Level:
+      - Introduction to Research: courses/ai-ml-research-guide/01-introduction.md
+      - How to Read Research Papers: courses/ai-ml-research-guide/02-reading-papers.md
+      - Finding and Organizing Resources: courses/ai-ml-research-guide/03-finding-resources.md
+      - Research Topics Selection: courses/ai-ml-research-guide/04-topic-selection.md
+      - Basic Research Methodology: courses/ai-ml-research-guide/05-basic-methodology.md
+    - Intermediate Level:
+      - Literature Review: courses/ai-ml-research-guide/06-literature-review.md
+      - Research Design & Experimental Setup: courses/ai-ml-research-guide/07-research-design.md
+      - Data Collection & Management: courses/ai-ml-research-guide/08-data-management.md
+      - Reproducing Research Papers: courses/ai-ml-research-guide/09-reproducing-papers.md
+      - Research Tools & Platforms: courses/ai-ml-research-guide/10-research-tools.md
+    - Advanced Level:
+      - Writing Research Papers: courses/ai-ml-research-guide/11-writing-papers.md
+      - Publication Process: courses/ai-ml-research-guide/12-publication-process.md
+      - Research Ethics & Best Practices: courses/ai-ml-research-guide/13-ethics-practices.md
+      - Advanced Research Topics: courses/ai-ml-research-guide/14-advanced-topics.md
+      - Career in Research: courses/ai-ml-research-guide/15-career-guidance.md
   - Resources Hub:
       - Overview: courses/resources-hub/README.md
       - Machine Learning: courses/resources-hub/01-machine-learning.md
