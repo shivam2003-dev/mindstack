@@ -29,22 +29,22 @@
 
 ???+ "📋 Essential Survey Papers"
     1. **"Attention Mechanisms in Computer Vision: A Survey" (2022)**
-       - Authors: Guo, Han, Cheng, et al.
-       - Link: https://arxiv.org/abs/2111.07624
-       - Why: Comprehensive vision attention survey
-       - Difficulty: Intermediate
+        - **Authors**: Guo, Han, Cheng, et al.
+        - **Link**: https://arxiv.org/abs/2111.07624
+        - **Why**: Comprehensive vision attention survey
+        - **Difficulty**: Intermediate
     
     2. **"Efficient Transformers: A Survey" (2020)**
-       - Authors: Tay, Dehghani, Bahri, Metzler
-       - Link: https://arxiv.org/abs/2009.06732
-       - Why: Survey of efficient transformer variants
-       - Difficulty: Intermediate
+        - **Authors**: Tay, Dehghani, Bahri, Metzler
+        - **Link**: https://arxiv.org/abs/2009.06732
+        - **Why**: Survey of efficient transformer variants
+        - **Difficulty**: Intermediate
     
     3. **"A Survey of Transformers" (2022)**
-       - Authors: Lin, Wang, Liu, et al.
-       - Link: https://arxiv.org/abs/2106.04554
-       - Why: Comprehensive transformer survey
-       - Difficulty: Intermediate
+        - **Authors**: Lin, Wang, Liu, et al.
+        - **Link**: https://arxiv.org/abs/2106.04554
+        - **Why**: Comprehensive transformer survey
+        - **Difficulty**: Intermediate
 
 !!! success "Start with Surveys"
     Surveys help understand the landscape before diving into specific architectures.
@@ -53,112 +53,112 @@
 
 ???+ "⭐ Foundational Papers"
     1. **"Attention Is All You Need" (2017) - Transformer**
-       - Authors: Vaswani, Shazeer, Parmar, et al.
-       - Link: https://arxiv.org/abs/1706.03762
-       - Code: https://github.com/tensorflow/tensor2tensor
-       - Impact: Started transformer revolution
-       - Difficulty: Medium (but essential)
+        - **Authors**: Vaswani, Shazeer, Parmar, et al.
+        - **Link**: https://arxiv.org/abs/1706.03762
+        - **Code**: https://github.com/tensorflow/tensor2tensor
+        - **Impact**: Started transformer revolution
+        - **Difficulty**: Medium (but essential)
     
     2. **"Squeeze-and-Excitation Networks" (2017)**
-       - Authors: Hu, Shen, Sun
-       - Link: https://arxiv.org/abs/1709.01507
-       - Code: https://github.com/hujie-frank/SENet
-       - Impact: Popular attention in CNNs
-       - Difficulty: Easy-Medium
+        - **Authors**: Hu, Shen, Sun
+        - **Link**: https://arxiv.org/abs/1709.01507
+        - **Code**: https://github.com/hujie-frank/SENet
+        - **Impact**: Popular attention in CNNs
+        - **Difficulty**: Easy-Medium
     
     3. **"CBAM: Convolutional Block Attention Module" (2018)**
-       - Authors: Woo, Park, Lee, Kweon
-       - Link: https://arxiv.org/abs/1807.06521
-       - Code: https://github.com/Jongchan/attention-module
-       - Impact: Easy to add to any CNN
-       - Difficulty: Easy
+        - **Authors**: Woo, Park, Lee, Kweon
+        - **Link**: https://arxiv.org/abs/1807.06521
+        - **Code**: https://github.com/Jongchan/attention-module
+        - **Impact**: Easy to add to any CNN
+        - **Difficulty**: Easy
 
 ## 🚀 Modern Papers (Recent & Important)
 
 ???+ "🔥 Recent Important Papers"
     1. **"An Image is Worth 16x16 Words: Transformers for Image Recognition" (2020) - ViT**
-       - Authors: Dosovitskiy, Beyer, Kolesnikov, et al.
-       - Link: https://arxiv.org/abs/2010.11929
-       - Code: https://github.com/google-research/vision_transformer
-       - Venue: ICLR 2021
-       - Difficulty: Medium
+        - **Authors**: Dosovitskiy, Beyer, Kolesnikov, et al.
+        - **Link**: https://arxiv.org/abs/2010.11929
+        - **Code**: https://github.com/google-research/vision_transformer
+        - **Venue**: ICLR 2021
+        - **Difficulty**: Medium
     
     2. **"Swin Transformer: Hierarchical Vision Transformer" (2021)**
-       - Authors: Liu, Lin, Cao, et al.
-       - Link: https://arxiv.org/abs/2103.14030
-       - Code: https://github.com/microsoft/Swin-Transformer
-       - Venue: ICCV 2021
-       - Difficulty: Medium
+        - **Authors**: Liu, Lin, Cao, et al.
+        - **Link**: https://arxiv.org/abs/2103.14030
+        - **Code**: https://github.com/microsoft/Swin-Transformer
+        - **Venue**: ICCV 2021
+        - **Difficulty**: Medium
     
     3. **"EfficientNetV2: Smaller Models and Faster Training" (2021)**
-       - Authors: Tan, Le
-       - Link: https://arxiv.org/abs/2104.00298
-       - Code: https://github.com/google/automl/tree/master/efficientnetv2
-       - Venue: ICML 2021
-       - Difficulty: Medium
+        - **Authors**: Tan, Le
+        - **Link**: https://arxiv.org/abs/2104.00298
+        - **Code**: https://github.com/google/automl/tree/master/efficientnetv2
+        - **Venue**: ICML 2021
+        - **Difficulty**: Medium
     
     4. **"MobileViT: Light-weight Vision Transformer" (2021)**
-       - Authors: Mehta, Rastegari
-       - Link: https://arxiv.org/abs/2110.02178
-       - Code: https://github.com/apple/ml-cvnets
-       - Venue: ICLR 2022
-       - Difficulty: Medium
+        - **Authors**: Mehta, Rastegari
+        - **Link**: https://arxiv.org/abs/2110.02178
+        - **Code**: https://github.com/apple/ml-cvnets
+        - **Venue**: ICLR 2022
+        - **Difficulty**: Medium
 
 ## 📝 Tutorial Papers (Beginner-Friendly)
 
 ???+ "🎓 Tutorial & Educational Papers"
     1. **"The Illustrated Transformer" - Jay Alammar**
-       - Link: http://jalammar.github.io/illustrated-transformer/
-       - Why: Best visual explanation of transformers
-       - Difficulty: Beginner-friendly
+        - **Link**: http://jalammar.github.io/illustrated-transformer/
+        - **Why**: Best visual explanation of transformers
+        - **Difficulty**: Beginner-friendly
     
     2. **"The Annotated Transformer" - Harvard NLP**
-       - Link: http://nlp.seas.harvard.edu/annotated-transformer/
-       - Why: Code + explanation
-       - Difficulty: Intermediate
+        - **Link**: http://nlp.seas.harvard.edu/annotated-transformer/
+        - **Why**: Code + explanation
+        - **Difficulty**: Intermediate
     
     3. **"Vision Transformer Explained" - Papers With Code**
-       - Link: https://paperswithcode.com/method/vision-transformer
-       - Why: Clear explanation with code
-       - Difficulty: Beginner-friendly
+        - **Link**: https://paperswithcode.com/method/vision-transformer
+        - **Why**: Clear explanation with code
+        - **Difficulty**: Beginner-friendly
     
     4. **"PyTorch Transformer Tutorial"**
-       - Link: https://pytorch.org/tutorials/beginner/transformer_tutorial.html
-       - Why: Official PyTorch tutorial
-       - Difficulty: Intermediate
+        - **Link**: https://pytorch.org/tutorials/beginner/transformer_tutorial.html
+        - **Why**: Official PyTorch tutorial
+        - **Difficulty**: Intermediate
 
 ## 💻 Code Implementation Papers
 
 ???+ "🔧 Papers with Excellent Code"
     1. **"Transformer" (Original)**
-       - Code: https://github.com/tensorflow/tensor2tensor
-       - Framework: TensorFlow
-       - Quality: Official
+        - **Code**: https://github.com/tensorflow/tensor2tensor
+        - **Framework**: TensorFlow
+        - **Quality**: Official
     
     2. **"Vision Transformer (ViT)"**
-       - Code: https://github.com/google-research/vision_transformer
-       - Framework: JAX/Flax
-       - Quality: Official, well-documented
+        - **Code**: https://github.com/google-research/vision_transformer
+        - **Framework**: JAX/Flax
+        - **Quality**: Official, well-documented
     
     3. **"Swin Transformer"**
-       - Code: https://github.com/microsoft/Swin-Transformer
-       - Framework: PyTorch
-       - Quality: Official
+        - **Code**: https://github.com/microsoft/Swin-Transformer
+        - **Framework**: PyTorch
+        - **Quality**: Official
     
     4. **"Hugging Face Transformers"**
-       - Code: https://github.com/huggingface/transformers
-       - Framework: PyTorch/TensorFlow
-       - Quality: Industry standard, many models
+        - **Code**: https://github.com/huggingface/transformers
+        - **Framework**: PyTorch/TensorFlow
+        - **Quality**: Industry standard, many models
     
     5. **"CBAM" (Easy to implement)**
-       - Code: https://github.com/Jongchan/attention-module
-       - Framework: PyTorch
-       - Quality: Simple, well-documented
+        - **Code**: https://github.com/Jongchan/attention-module
+        - **Framework**: PyTorch
+        - **Quality**: Simple, well-documented
     
     6. **"SE-Net"**
-       - Code: https://github.com/hujie-frank/SENet
-       - Framework: PyTorch
-       - Quality: Official
+        - **Code**: https://github.com/hujie-frank/SENet
+        - **Framework**: PyTorch
+        - **Quality**: Official
 
 !!! tip "Start with CBAM or SE-Net"
     These are easiest to understand and implement. Then move to full transformers.
@@ -169,27 +169,27 @@
 
 ???+ "🔍 Paper Discovery"
     1. **Papers With Code - Transformers**
-       - URL: https://paperswithcode.com/method/transformer
-       - Features: Papers with code, leaderboards
-       - Best for: Finding implementations
+        - **URL**: https://paperswithcode.com/method/transformer
+        - **Features**: Papers with code, leaderboards
+        - **Best for**: Finding implementations
     
     2. **Papers With Code - Vision Transformer**
-       - URL: https://paperswithcode.com/method/vision-transformer
-       - Features: ViT papers and code
-       - Best for: Vision transformer research
+        - **URL**: https://paperswithcode.com/method/vision-transformer
+        - **Features**: ViT papers and code
+        - **Best for**: Vision transformer research
     
     3. **arXiv - Machine Learning**
-       - URL: https://arxiv.org/list/cs.LG/recent
-       - Search: "transformer" OR "attention"
-       - Best for: Latest papers
+        - **URL**: https://arxiv.org/list/cs.LG/recent
+        - **Search**: "transformer" OR "attention"
+        - **Best for**: Latest papers
     
     4. **Google Scholar**
-       - Search: "transformer" OR "attention mechanism"
-       - Best for: Comprehensive search
+        - **Search**: "transformer" OR "attention mechanism"
+        - **Best for**: Comprehensive search
     
     5. **Connected Papers**
-       - Start with: "Attention Is All You Need"
-       - Best for: Exploring transformer area
+        - **Start with**: "Attention Is All You Need"
+        - **Best for**: Exploring transformer area
 
 ### Conference Proceedings
 
@@ -235,8 +235,8 @@
        - Check "All versions" for free PDFs
     
     5. **Author Websites**
-       - Many authors post PDFs
-       - Check personal pages
+        - Many authors post PDFs
+        - Check personal pages
 
 !!! tip "Getting Papers"
     Most transformer papers are on arXiv (free). Very accessible.
@@ -247,35 +247,35 @@
 
 ???+ "🎓 Courses"
     1. **CS224n - Stanford NLP**
-       - URL: https://web.stanford.edu/class/cs224n/
-       - Focus: Transformers for NLP
-       - Level: Intermediate
+        - **URL**: https://web.stanford.edu/class/cs224n/
+        - **Focus**: Transformers for NLP
+        - **Level**: Intermediate
     
     2. **CS231n - Stanford Vision**
-       - URL: https://cs231n.stanford.edu/
-       - Focus: Vision transformers
-       - Level: Intermediate
+        - **URL**: https://cs231n.stanford.edu/
+        - **Focus**: Vision transformers
+        - **Level**: Intermediate
     
     3. **Hugging Face Course**
-       - URL: https://huggingface.co/course
-       - Focus: Transformers practical
-       - Level: Beginner to Intermediate
+        - **URL**: https://huggingface.co/course
+        - **Focus**: Transformers practical
+        - **Level**: Beginner to Intermediate
 
 ### Blogs & Articles
 
 ???+ "📰 Blogs"
     1. **Jay Alammar's Blog**
-       - URL: http://jalammar.github.io/
-       - Focus: Transformers, BERT, GPT explained
-       - Why: Best visual explanations
+        - **URL**: http://jalammar.github.io/
+        - **Focus**: Transformers, BERT, GPT explained
+        - **Why**: Best visual explanations
     
     2. **Lil'Log by Lilian Weng**
-       - URL: https://lilianweng.github.io/
-       - Focus: Attention, transformers summaries
+        - **URL**: https://lilianweng.github.io/
+        - **Focus**: Attention, transformers summaries
     
     3. **The Gradient**
-       - URL: https://thegradient.pub/
-       - Focus: Transformer research articles
+        - **URL**: https://thegradient.pub/
+        - **Focus**: Transformer research articles
 
 ## 🎯 Reading Strategy
 
@@ -313,28 +313,28 @@
 
 ???+ "📡 Alerts"
     1. **arXiv RSS Feed**
-       - URL: https://arxiv.org/list/cs.LG/recent
-       - Search: "transformer" OR "attention"
-       - Check: Daily
+        - **URL**: https://arxiv.org/list/cs.LG/recent
+        - **Search**: "transformer" OR "attention"
+        - **Check**: Daily
     
     2. **Google Scholar Alerts**
-       - Setup: Alert for "vision transformer"
-       - Frequency: Weekly
+        - **Setup**: Alert for "vision transformer"
+        - **Frequency**: Weekly
     
     3. **Papers With Code Newsletter**
-       - URL: https://paperswithcode.com/newsletter
-       - Frequency: Weekly
+        - **URL**: https://paperswithcode.com/newsletter
+        - **Frequency**: Weekly
 
 ### Social Media
 
 ???+ "📱 Social Tracking"
     1. **Twitter/X**
-       - Follow: @paperswithcode, @huggingface
-       - Hashtag: #Transformers, #VisionTransformer
+        - **Follow**: @paperswithcode, @huggingface
+        - **Hashtag**: #Transformers, #VisionTransformer
     
     2. **Reddit**
-       - r/MachineLearning
-       - Search: Transformer, attention
+        - r/MachineLearning
+        - **Search**: Transformer, attention
 
 ## 📋 To-Do Checklist
 

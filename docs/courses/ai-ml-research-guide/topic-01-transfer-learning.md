@@ -27,23 +27,24 @@
 ## 📖 Survey Papers (Start Here!)
 
 ???+ "📋 Essential Survey Papers"
+    
     1. **"A Survey on Transfer Learning" (2009)**
-       - Authors: Pan, Yang
-       - Link: https://ieeexplore.ieee.org/document/5288526
-       - Why: Classic survey, foundational concepts
-       - Difficulty: Beginner-friendly
+        - **Authors**: Pan, Yang
+        - **Link**: https://ieeexplore.ieee.org/document/5288526
+        - **Why**: Classic survey, foundational concepts
+        - **Difficulty**: Beginner-friendly
     
     2. **"Transfer Learning for Computer Vision Tasks: A Survey" (2022)**
-       - Authors: Zhuang, Zhai, Yamins
-       - Link: https://arxiv.org/abs/2201.04844
-       - Why: Comprehensive modern survey
-       - Difficulty: Intermediate
+        - **Authors**: Zhuang, Zhai, Yamins
+        - **Link**: https://arxiv.org/abs/2201.04844
+        - **Why**: Comprehensive modern survey
+        - **Difficulty**: Intermediate
     
     3. **"A Comprehensive Survey on Transfer Learning" (2020)**
-       - Authors: Zhuang, Qi, Duan, et al.
-       - Link: https://arxiv.org/abs/1911.02685
-       - Why: Very comprehensive, covers all aspects
-       - Difficulty: Intermediate
+        - **Authors**: Zhuang, Qi, Duan, et al.
+        - **Link**: https://arxiv.org/abs/1911.02685
+        - **Why**: Very comprehensive, covers all aspects
+        - **Difficulty**: Intermediate
 
 !!! success "Start with Surveys"
     Always start with survey papers to get overview of the field before diving into specific papers.
@@ -51,103 +52,104 @@
 ## 🏛️ Classic Papers (Must Read)
 
 ???+ "⭐ Foundational Papers"
+    
     1. **"ImageNet Classification with Deep Convolutional Neural Networks" (2012)**
-       - Authors: Krizhevsky, Sutskever, Hinton
-       - Link: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
-       - Code: https://github.com/pytorch/vision/tree/main/torchvision/models
-       - Impact: Started transfer learning revolution
-       - Difficulty: Beginner-friendly
+        - **Authors**: Krizhevsky, Sutskever, Hinton
+        - **Link**: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
+        - **Code**: https://github.com/pytorch/vision/tree/main/torchvision/models
+        - **Impact**: Started transfer learning revolution
+        - **Difficulty**: Beginner-friendly
     
     2. **"How transferable are features in deep neural networks?" (2014)**
-       - Authors: Yosinski, Clune, Bengio, Lipson
-       - Link: https://arxiv.org/abs/1411.1792
-       - Code: https://github.com/yosinski/transfer-learning-survey
-       - Impact: Explained what transfers and why
-       - Difficulty: Beginner-friendly
+        - **Authors**: Yosinski, Clune, Bengio, Lipson
+        - **Link**: https://arxiv.org/abs/1411.1792
+        - **Code**: https://github.com/yosinski/transfer-learning-survey
+        - **Impact**: Explained what transfers and why
+        - **Difficulty**: Beginner-friendly
     
     3. **"Deep Residual Learning for Image Recognition" (2015)**
-       - Authors: He, Zhang, Ren, Sun
-       - Link: https://arxiv.org/abs/1512.03385
-       - Code: https://github.com/pytorch/vision/tree/main/torchvision/models
-       - Impact: ResNet became standard backbone
-       - Difficulty: Intermediate
+        - **Authors**: He, Zhang, Ren, Sun
+        - **Link**: https://arxiv.org/abs/1512.03385
+        - **Code**: https://github.com/pytorch/vision/tree/main/torchvision/models
+        - **Impact**: ResNet became standard backbone
+        - **Difficulty**: Intermediate
 
 ## 🚀 Modern Papers (Recent & Important)
 
 ???+ "🔥 Recent Important Papers"
     1. **"BERT: Pre-training of Deep Bidirectional Transformers" (2018)**
-       - Authors: Devlin, Chang, Lee, Toutanova
-       - Link: https://arxiv.org/abs/1810.04805
-       - Code: https://github.com/google-research/bert
-       - Venue: NAACL 2019
-       - Difficulty: Intermediate
+        - **Authors**: Devlin, Chang, Lee, Toutanova
+        - **Link**: https://arxiv.org/abs/1810.04805
+        - **Code**: https://github.com/google-research/bert
+        - **Venue**: NAACL 2019
+        - **Difficulty**: Intermediate
     
     2. **"An Image is Worth 16x16 Words: Transformers for Image Recognition" (2020)**
-       - Authors: Dosovitskiy, Beyer, Kolesnikov, et al.
-       - Link: https://arxiv.org/abs/2010.11929
-       - Code: https://github.com/google-research/vision_transformer
-       - Venue: ICLR 2021
-       - Difficulty: Intermediate
+        - **Authors**: Dosovitskiy, Beyer, Kolesnikov, et al.
+        - **Link**: https://arxiv.org/abs/2010.11929
+        - **Code**: https://github.com/google-research/vision_transformer
+        - **Venue**: ICLR 2021
+        - **Difficulty**: Intermediate
     
     3. **"LoRA: Low-Rank Adaptation of Large Language Models" (2021)**
-       - Authors: Hu, Shen, Wallis, et al.
-       - Link: https://arxiv.org/abs/2106.09685
-       - Code: https://github.com/microsoft/LoRA
-       - Venue: ICLR 2022
-       - Difficulty: Intermediate
+        - **Authors**: Hu, Shen, Wallis, et al.
+        - **Link**: https://arxiv.org/abs/2106.09685
+        - **Code**: https://github.com/microsoft/LoRA
+        - **Venue**: ICLR 2022
+        - **Difficulty**: Intermediate
     
     4. **"EfficientNet: Rethinking Model Scaling" (2019)**
-       - Authors: Tan, Le
-       - Link: https://arxiv.org/abs/1905.11946
-       - Code: https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet
-       - Venue: ICML 2019
-       - Difficulty: Intermediate
+        - **Authors**: Tan, Le
+        - **Link**: https://arxiv.org/abs/1905.11946
+        - **Code**: https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet
+        - **Venue**: ICML 2019
+        - **Difficulty**: Intermediate
 
 ## 📝 Tutorial Papers (Beginner-Friendly)
 
 ???+ "🎓 Tutorial & Educational Papers"
     1. **"Transfer Learning Tutorial" (2018)**
-       - Link: https://github.com/jindongwang/transferlearning-tutorial
-       - Why: Comprehensive tutorial with code
-       - Difficulty: Beginner
+        - **Link**: https://github.com/jindongwang/transferlearning-tutorial
+        - **Why**: Comprehensive tutorial with code
+        - **Difficulty**: Beginner
     
     2. **"Fine-tuning Deep Networks" - Fast.ai Course**
-       - Link: https://course.fast.ai/
-       - Why: Practical tutorial with code
-       - Difficulty: Beginner
+        - **Link**: https://course.fast.ai/
+        - **Why**: Practical tutorial with code
+        - **Difficulty**: Beginner
     
     3. **"Transfer Learning in Computer Vision" - PyTorch Tutorial**
-       - Link: https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
-       - Why: Step-by-step implementation
-       - Difficulty: Beginner
+        - **Link**: https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
+        - **Why**: Step-by-step implementation
+        - **Difficulty**: Beginner
 
 ## 💻 Code Implementation Papers
 
 ???+ "🔧 Papers with Excellent Code"
     1. **"Vision Transformer (ViT)"**
-       - Code: https://github.com/google-research/vision_transformer
-       - Framework: JAX/Flax
-       - Quality: Official, well-documented
+        - **Code**: https://github.com/google-research/vision_transformer
+        - **Framework**: JAX/Flax
+        - **Quality**: Official, well-documented
     
     2. **"BERT"**
-       - Code: https://github.com/google-research/bert
-       - Framework: TensorFlow
-       - Quality: Official implementation
+        - **Code**: https://github.com/google-research/bert
+        - **Framework**: TensorFlow
+        - **Quality**: Official implementation
     
     3. **"LoRA"**
-       - Code: https://github.com/microsoft/LoRA
-       - Framework: PyTorch
-       - Quality: Official, easy to use
+        - **Code**: https://github.com/microsoft/LoRA
+        - **Framework**: PyTorch
+        - **Quality**: Official, easy to use
     
     4. **"EfficientNet"**
-       - Code: https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet
-       - Framework: TensorFlow
-       - Quality: Official
+        - **Code**: https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet
+        - **Framework**: TensorFlow
+        - **Quality**: Official
     
     5. **"Hugging Face Transformers"**
-       - Code: https://github.com/huggingface/transformers
-       - Framework: PyTorch/TensorFlow
-       - Quality: Industry standard, many models
+        - **Code**: https://github.com/huggingface/transformers
+        - **Framework**: PyTorch/TensorFlow
+        - **Quality**: Industry standard, many models
 
 !!! tip "Code First Approach"
     For beginners, start with code implementations to understand concepts, then read papers.
@@ -158,29 +160,29 @@
 
 ???+ "🔍 Paper Discovery"
     1. **Papers With Code - Transfer Learning**
-       - URL: https://paperswithcode.com/task/transfer-learning
-       - Features: Papers with code, leaderboards, SOTA tracking
-       - Best for: Finding implementations
+        - **URL**: https://paperswithcode.com/task/transfer-learning
+        - **Features**: Papers with code, leaderboards, SOTA tracking
+        - **Best for**: Finding implementations
     
     2. **arXiv - Machine Learning**
-       - URL: https://arxiv.org/list/cs.LG/recent
-       - Features: Latest preprints, daily updates
-       - Best for: Latest papers
+        - **URL**: https://arxiv.org/list/cs.LG/recent
+        - **Features**: Latest preprints, daily updates
+        - **Best for**: Latest papers
     
     3. **Google Scholar**
-       - URL: https://scholar.google.com/
-       - Search: "transfer learning" OR "fine-tuning" OR "domain adaptation"
-       - Best for: Comprehensive search
+        - **URL**: https://scholar.google.com/
+        - **Search**: "transfer learning" OR "fine-tuning" OR "domain adaptation"
+        - **Best for**: Comprehensive search
     
     4. **Semantic Scholar**
-       - URL: https://www.semanticscholar.org/
-       - Features: AI-powered recommendations
-       - Best for: Finding related papers
+        - **URL**: https://www.semanticscholar.org/
+        - **Features**: AI-powered recommendations
+        - **Best for**: Finding related papers
     
     5. **Connected Papers**
-       - URL: https://www.connectedpapers.com/
-       - Features: Visual paper graphs
-       - Best for: Exploring research area
+        - **URL**: https://www.connectedpapers.com/
+        - **Features**: Visual paper graphs
+        - **Best for**: Exploring research area
 
 ### Conference Proceedings
 
@@ -243,40 +245,40 @@
 
 ???+ "🎓 Courses"
     1. **Fast.ai - Practical Deep Learning**
-       - URL: https://course.fast.ai/
-       - Focus: Transfer learning practical
-       - Level: Beginner-friendly
+        - **URL**: https://course.fast.ai/
+        - **Focus**: Transfer learning practical
+        - **Level**: Beginner-friendly
     
     2. **CS231n - Stanford**
-       - URL: https://cs231n.stanford.edu/
-       - Focus: Computer vision, transfer learning
-       - Level: Intermediate
+        - **URL**: https://cs231n.stanford.edu/
+        - **Focus**: Computer vision, transfer learning
+        - **Level**: Intermediate
     
     3. **Hugging Face Course**
-       - URL: https://huggingface.co/course
-       - Focus: Transformers, fine-tuning
-       - Level: Beginner to Intermediate
+        - **URL**: https://huggingface.co/course
+        - **Focus**: Transformers, fine-tuning
+        - **Level**: Beginner to Intermediate
 
 ### Books
 
 ???+ "📖 Books"
     1. **"Deep Learning" by Goodfellow, Bengio, Courville**
-       - Free: https://www.deeplearningbook.org/
-       - Chapter: Transfer learning concepts
+        - **Free**: https://www.deeplearningbook.org/
+        - **Chapter**: Transfer learning concepts
     
     2. **"Hands-On Machine Learning" by Aurélien Géron**
-       - Chapter: Transfer learning practical guide
+        - **Chapter**: Transfer learning practical guide
 
 ### Blogs & Articles
 
 ???+ "📰 Blogs"
     1. **Jay Alammar's Blog**
-       - URL: http://jalammar.github.io/
-       - Focus: Transformers, BERT explained
+        - **URL**: http://jalammar.github.io/
+        - **Focus**: Transformers, BERT explained
     
     2. **Lil'Log by Lilian Weng**
-       - URL: https://lilianweng.github.io/
-       - Focus: Research summaries, transfer learning
+        - **URL**: https://lilianweng.github.io/
+        - **Focus**: Research summaries, transfer learning
 
 ## 🎯 Reading Strategy
 
@@ -309,31 +311,31 @@
 
 ???+ "📡 Alerts"
     1. **arXiv RSS Feed**
-       - URL: https://arxiv.org/list/cs.LG/recent?show=100
-       - Subscribe: RSS reader (Feedly, etc.)
-       - Check: Daily
+        - **URL**: https://arxiv.org/list/cs.LG/recent?show=100
+        - **Subscribe**: RSS reader (Feedly, etc.)
+        - **Check**: Daily
     
     2. **Google Scholar Alerts**
-       - Setup: Alert for "transfer learning"
-       - Frequency: Weekly digest
+        - **Setup**: Alert for "transfer learning"
+        - **Frequency**: Weekly digest
     
     3. **Papers With Code Newsletter**
-       - URL: https://paperswithcode.com/newsletter
-       - Frequency: Weekly
+        - **URL**: https://paperswithcode.com/newsletter
+        - **Frequency**: Weekly
 
 ### Social Media
 
 ???+ "📱 Social Tracking"
     1. **Twitter/X**
-       - Follow: @paperswithcode, researchers
-       - Hashtag: #TransferLearning, #FineTuning
+        - **Follow**: @paperswithcode, researchers
+        - **Hashtag**: #TransferLearning, #FineTuning
     
     2. **Reddit**
-       - r/MachineLearning
-       - r/learnmachinelearning
+        - r/MachineLearning
+        - r/learnmachinelearning
     
     3. **LinkedIn**
-       - Follow: Research groups, companies
+        - **Follow**: Research groups, companies
 
 ## 📋 To-Do Checklist
 
