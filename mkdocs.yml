@@ -159,6 +159,11 @@ nav:
   - AI & ML Research Guide:
     - Overview: courses/ai-ml-research-guide/README.md
     - Quick Reference: courses/ai-ml-research-guide/quick-reference.md
+    - Research Prompts Guide: courses/ai-ml-research-guide/research-prompts-guide.md
+    - Research Topics:
+      - Transfer Learning & Fine-tuning: courses/ai-ml-research-guide/topic-01-transfer-learning.md
+      - Data Augmentation: courses/ai-ml-research-guide/topic-02-data-augmentation.md
+      - Attention & Transformers: courses/ai-ml-research-guide/topic-03-attention-transformers.md
     - Beginner Level:
       - Introduction to Research: courses/ai-ml-research-guide/01-introduction.md
       - How to Read Research Papers: courses/ai-ml-research-guide/02-reading-papers.md
