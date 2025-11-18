@@ -184,13 +184,13 @@ nav:
       - Career in Research: courses/ai-ml-research-guide/15-career-guidance.md
   - Quantum Computing & Machine Learning:
     - Overview: courses/quantum-computing-ml/README.md
-    - Module 1: Introduction to Quantum Computing: courses/quantum-computing-ml/01-introduction.md
-    - Module 2: Postulates of Quantum Computing: courses/quantum-computing-ml/02-postulates.md
-    - Module 3: Introduction to Quantum Algorithms: courses/quantum-computing-ml/03-quantum-algorithms.md
-    - Module 4: Quantum Fourier Transform: courses/quantum-computing-ml/04-quantum-fourier-transform.md
-    - Module 5: Quantum Machine Learning: courses/quantum-computing-ml/05-quantum-ml.md
-    - Module 6: Quantum Deep Learning: courses/quantum-computing-ml/06-quantum-deep-learning.md
-    - Module 7: Variational Optimization: courses/quantum-computing-ml/07-variational-optimization.md
+    - "Module 1: Introduction to Quantum Computing": courses/quantum-computing-ml/01-introduction.md
+    - "Module 2: Postulates of Quantum Computing": courses/quantum-computing-ml/02-postulates.md
+    - "Module 3: Introduction to Quantum Algorithms": courses/quantum-computing-ml/03-quantum-algorithms.md
+    - "Module 4: Quantum Fourier Transform": courses/quantum-computing-ml/04-quantum-fourier-transform.md
+    - "Module 5: Quantum Machine Learning": courses/quantum-computing-ml/05-quantum-ml.md
+    - "Module 6: Quantum Deep Learning": courses/quantum-computing-ml/06-quantum-deep-learning.md
+    - "Module 7: Variational Optimization": courses/quantum-computing-ml/07-variational-optimization.md
     - Projects: courses/quantum-computing-ml/08-projects.md
     - Terminology Guide: courses/quantum-computing-ml/09-terminology.md
     - Resources & Career Guide: courses/quantum-computing-ml/10-resources-career.md
