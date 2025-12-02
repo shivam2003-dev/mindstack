@@ -194,6 +194,35 @@ nav:
     - Projects: courses/quantum-computing-ml/08-projects.md
     - Terminology Guide: courses/quantum-computing-ml/09-terminology.md
     - Resources & Career Guide: courses/quantum-computing-ml/10-resources-career.md
+  - Advanced Kubernetes Troubleshooting:
+    - Overview: courses/advanced-kubernetes-troubleshooting/README.md
+    - "Part 1: Advanced Architecture & Internals":
+      - Advanced Architecture Deep Dive: courses/advanced-kubernetes-troubleshooting/01-advanced-architecture.md
+      - API Server & Authentication: courses/advanced-kubernetes-troubleshooting/02-api-server-auth.md
+      - etcd Operations & Troubleshooting: courses/advanced-kubernetes-troubleshooting/03-etcd-operations.md
+      - Scheduler & Controller Manager: courses/advanced-kubernetes-troubleshooting/04-scheduler-controllers.md
+    - "Part 2: Advanced Networking & Service Mesh":
+      - Advanced Networking & CNI: courses/advanced-kubernetes-troubleshooting/05-advanced-networking.md
+      - Service Mesh Deep Dive: courses/advanced-kubernetes-troubleshooting/06-service-mesh.md
+      - Ingress & Load Balancing: courses/advanced-kubernetes-troubleshooting/07-ingress-loadbalancing.md
+    - "Part 3: Storage & Stateful Workloads":
+      - Advanced Storage Patterns: courses/advanced-kubernetes-troubleshooting/08-advanced-storage.md
+      - StatefulSets & Operators: courses/advanced-kubernetes-troubleshooting/09-statefulsets-operators.md
+    - "Part 4: Performance & Resource Management":
+      - Resource Management & Limits: courses/advanced-kubernetes-troubleshooting/10-resource-management.md
+      - Performance Tuning: courses/advanced-kubernetes-troubleshooting/11-performance-tuning.md
+      - HPA & VPA Deep Dive: courses/advanced-kubernetes-troubleshooting/12-hpa-vpa.md
+    - "Part 5: Security & Compliance":
+      - Advanced Security Hardening: courses/advanced-kubernetes-troubleshooting/13-security-hardening.md
+      - Compliance & Auditing: courses/advanced-kubernetes-troubleshooting/14-compliance-auditing.md
+    - "Part 6: Observability & Troubleshooting":
+      - Advanced Monitoring & Metrics: courses/advanced-kubernetes-troubleshooting/15-advanced-monitoring.md
+      - Logging & Tracing: courses/advanced-kubernetes-troubleshooting/16-logging-tracing.md
+      - Troubleshooting Methodology: courses/advanced-kubernetes-troubleshooting/17-troubleshooting-methodology.md
+    - "Part 7: Multi-Cluster & Operations":
+      - Multi-Cluster Management: courses/advanced-kubernetes-troubleshooting/18-multi-cluster.md
+      - Disaster Recovery & Backup: courses/advanced-kubernetes-troubleshooting/19-disaster-recovery.md
+      - Day-2 Operations: courses/advanced-kubernetes-troubleshooting/20-day2-operations.md
   - Resources Hub:
       - Overview: courses/resources-hub/README.md
       - Machine Learning: courses/resources-hub/01-machine-learning.md
