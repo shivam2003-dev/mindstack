@@ -56,7 +56,7 @@ Welcome to the **most comprehensive DevOps Interview course**! This course is de
 12. **[Cloud Architecture](12-cloud-architecture)** - Design scalable systems
 13. **[Monitoring & Logging](13-monitoring-logging)** - Observability and troubleshooting
 
-### Part 5: Advanced Topics (Chapters 14-17)
+### Part 5: Advanced Topics (Chapters 14-19)
 
 !!! success "Interview Ready"
     Advanced concepts and real interview questions.
@@ -66,6 +66,7 @@ Welcome to the **most comprehensive DevOps Interview course**! This course is de
 16. **[Troubleshooting](16-troubleshooting)** - Debug production issues
 17. **[Interview Questions](17-interview-questions)** - 200+ questions with answers
 18. **[Resources & Reading](18-resources-reading)** - Books, articles, papers, tools
+19. **[SRE AIML Resources](19-sre-aiml-resources)** - Site Reliability Engineering for AI/ML systems
 
 ## 🚀 Quick Start
 
@@ -102,12 +103,13 @@ Welcome to the **most comprehensive DevOps Interview course**! This course is de
 ## 🏆 Course Features
 
 !!! success "What Makes This Course Special"
-    - ✅ **17 comprehensive chapters** covering all DevOps topics
+    - ✅ **19 comprehensive chapters** covering all DevOps topics
     - ✅ **200+ interview questions** with detailed answers
     - ✅ **Practical examples** and hands-on exercises
     - ✅ **Real-world scenarios** from top tech companies
     - ✅ **Beginner-friendly** explanations of advanced concepts
     - ✅ **Interview tips** and strategies throughout
+    - ✅ **SRE for AI/ML** specialized resources for AIML roles
 
 ## 📝 Notes & Tips Throughout
 
@@ -141,6 +143,7 @@ By the end of this course, you will be able to:
 
 ### Recommended Reading
 - See [Resources & Recommended Reading](18-resources-reading.md) chapter for comprehensive list
+- See [SRE AIML Resources](19-sre-aiml-resources.md) for AI/ML SRE specialization
 - Research papers on DevOps practices
 - Industry articles and blog posts
 - Books and comprehensive guides
