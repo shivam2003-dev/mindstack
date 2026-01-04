@@ -60,6 +60,16 @@
   </ul>
 </div>
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+  <h3 style="margin: 0 0 1rem 0; color: white; font-size: 1.5rem;">📊 Quant Trading Course</h3>
+  <p style="margin: 0 0 1rem 0; opacity: 0.95;">Complete beginner's guide to Quantitative Research & Trading. Learn mathematics, financial markets, Python, trading strategies, risk management, and build your own trading systems.</p>
+  <ul style="margin: 0; padding-left: 1.2rem; opacity: 0.9;">
+    <li>18 comprehensive chapters</li>
+    <li>Complete roadmap for beginners</li>
+    <li>Practical trading strategies</li>
+  </ul>
+</div>
+
 <div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2rem; border-radius: 10px; color: #333; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
   <h3 style="margin: 0 0 1rem 0; color: #333; font-size: 1.5rem;">📚 Resources Hub</h3>
   <p style="margin: 0 0 1rem 0; color: #555;">Comprehensive resource collection organized by subject. Find books, research papers, GitHub repositories, videos, articles, and recommended reading.</p>
@@ -142,6 +152,7 @@
 <li><strong>Containerization</strong>: Docker, Kubernetes, container orchestration, and production deployment</li>
 <li><strong>DevOps</strong>: CI/CD, Infrastructure as Code, Cloud platforms, monitoring, and automation</li>
 <li><strong>System Programming</strong>: eBPF, kernel programming, system monitoring, and performance optimization</li>
+<li><strong>Quantitative Finance</strong>: Trading strategies, risk management, portfolio optimization, and algorithmic trading</li>
 <li><strong>Performance Engineering</strong>: System optimization, troubleshooting, and database performance</li>
 </ul>
 
