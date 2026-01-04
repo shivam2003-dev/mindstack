@@ -60,7 +60,8 @@
   </ul>
 </div>
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+<a href="courses/quant-research-trader/" style="text-decoration: none; color: inherit;">
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)'">
   <h3 style="margin: 0 0 1rem 0; color: white; font-size: 1.5rem;">📊 Quant Trading Course</h3>
   <p style="margin: 0 0 1rem 0; opacity: 0.95;">Complete beginner's guide to Quantitative Research & Trading. Learn mathematics, financial markets, Python, trading strategies, risk management, and build your own trading systems.</p>
   <ul style="margin: 0; padding-left: 1.2rem; opacity: 0.9;">
@@ -68,7 +69,9 @@
     <li>Complete roadmap for beginners</li>
     <li>Practical trading strategies</li>
   </ul>
+  <p style="margin: 1rem 0 0 0; opacity: 0.9; font-weight: bold;">→ Start Learning</p>
 </div>
+</a>
 
 <div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2rem; border-radius: 10px; color: #333; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
   <h3 style="margin: 0 0 1rem 0; color: #333; font-size: 1.5rem;">📚 Resources Hub</h3>
