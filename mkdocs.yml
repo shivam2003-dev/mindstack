@@ -225,7 +225,7 @@ nav:
       - Multi-Cluster Management: courses/advanced-kubernetes-troubleshooting/18-multi-cluster.md
       - Disaster Recovery & Backup: courses/advanced-kubernetes-troubleshooting/19-disaster-recovery.md
       - Day-2 Operations: courses/advanced-kubernetes-troubleshooting/20-day2-operations.md
-  - Quant Research & Trading:
+  - Quant Trading:
     - Overview: courses/quant-research-trader/README.md
     - Fundamentals:
       - Introduction: courses/quant-research-trader/01-introduction.md
