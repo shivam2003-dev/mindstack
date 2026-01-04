@@ -1,6 +1,7 @@
 site_name: mindstack
 site_description: A comprehensive learning platform for modern technologies
 site_author: mindstack
+# Updated: Added Quantitative Research & Trading course
 
 theme:
   name: material
