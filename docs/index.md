@@ -20,7 +20,8 @@
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
 
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+<a href="courses/pytorch/" style="text-decoration: none; color: inherit;">
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)'">
   <h3 style="margin: 0 0 1rem 0; color: white; font-size: 1.5rem;">🧠 PyTorch Course</h3>
   <p style="margin: 0 0 1rem 0; opacity: 0.95;">Learn deep learning with PyTorch, from tensors to neural networks. Perfect for beginners and those looking to advance their machine learning skills.</p>
   <ul style="margin: 0; padding-left: 1.2rem; opacity: 0.9;">
@@ -28,9 +29,12 @@
     <li>Hands-on examples</li>
     <li>Best practices & tips</li>
   </ul>
+  <p style="margin: 1rem 0 0 0; opacity: 0.9; font-weight: bold;">→ Start Learning</p>
 </div>
+</a>
 
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+<a href="courses/docker/" style="text-decoration: none; color: inherit;">
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)'">
   <h3 style="margin: 0 0 1rem 0; color: white; font-size: 1.5rem;">🐳 Docker Course</h3>
   <p style="margin: 0 0 1rem 0; opacity: 0.95;">Master containerization with Docker. Learn how to build, deploy, and manage containerized applications with comprehensive examples and best practices.</p>
   <ul style="margin: 0; padding-left: 1.2rem; opacity: 0.9;">
@@ -38,9 +42,12 @@
     <li>Production-ready practices</li>
     <li>System troubleshooting</li>
   </ul>
+  <p style="margin: 1rem 0 0 0; opacity: 0.9; font-weight: bold;">→ Start Learning</p>
 </div>
+</a>
 
-<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+<a href="courses/devops-interview/" style="text-decoration: none; color: inherit;">
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)'">
   <h3 style="margin: 0 0 1rem 0; color: white; font-size: 1.5rem;">🚀 DevOps Interview Course</h3>
   <p style="margin: 0 0 1rem 0; opacity: 0.95;">Comprehensive DevOps interview preparation course. Master Linux, Docker, Kubernetes, CI/CD, Cloud, and more. Includes 200+ interview questions with detailed answers.</p>
   <ul style="margin: 0; padding-left: 1.2rem; opacity: 0.9;">
@@ -48,9 +55,12 @@
     <li>200+ interview questions</li>
     <li>Real-world scenarios</li>
   </ul>
+  <p style="margin: 1rem 0 0 0; opacity: 0.9; font-weight: bold;">→ Start Learning</p>
 </div>
+</a>
 
-<div style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+<a href="courses/ebpf/" style="text-decoration: none; color: inherit;">
+<div style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)'">
   <h3 style="margin: 0 0 1rem 0; color: white; font-size: 1.5rem;">🔬 eBPF Practical Course</h3>
   <p style="margin: 0 0 1rem 0; opacity: 0.95;">Learn eBPF through hands-on code examples, practical use cases, and extensive resources. Includes research papers, articles, tools, and real-world applications.</p>
   <ul style="margin: 0; padding-left: 1.2rem; opacity: 0.9;">
@@ -58,7 +68,9 @@
     <li>Code-based examples</li>
     <li>Research papers & resources</li>
   </ul>
+  <p style="margin: 1rem 0 0 0; opacity: 0.9; font-weight: bold;">→ Start Learning</p>
 </div>
+</a>
 
 <a href="courses/quant-research-trader/" style="text-decoration: none; color: inherit;">
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)'">
@@ -73,7 +85,8 @@
 </div>
 </a>
 
-<div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2rem; border-radius: 10px; color: #333; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+<a href="courses/resources-hub/" style="text-decoration: none; color: inherit;">
+<div style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); padding: 2rem; border-radius: 10px; color: #333; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.1)'">
   <h3 style="margin: 0 0 1rem 0; color: #333; font-size: 1.5rem;">📚 Resources Hub</h3>
   <p style="margin: 0 0 1rem 0; color: #555;">Comprehensive resource collection organized by subject. Find books, research papers, GitHub repositories, videos, articles, and recommended reading.</p>
   <ul style="margin: 0; padding-left: 1.2rem; color: #555;">
@@ -81,7 +94,9 @@
     <li>Curated resources</li>
     <li>AI & ML Graduate Studies</li>
   </ul>
+  <p style="margin: 1rem 0 0 0; color: #555; font-weight: bold;">→ Explore Resources</p>
 </div>
+</a>
 
 </div>
 
