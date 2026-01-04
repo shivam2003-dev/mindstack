@@ -224,6 +224,30 @@ nav:
       - Multi-Cluster Management: courses/advanced-kubernetes-troubleshooting/18-multi-cluster.md
       - Disaster Recovery & Backup: courses/advanced-kubernetes-troubleshooting/19-disaster-recovery.md
       - Day-2 Operations: courses/advanced-kubernetes-troubleshooting/20-day2-operations.md
+  - Quantitative Research & Trading:
+    - Overview: courses/quant-research-trader/README.md
+    - Fundamentals:
+      - Introduction: courses/quant-research-trader/01-introduction.md
+      - Mathematics Fundamentals: courses/quant-research-trader/02-mathematics-fundamentals.md
+      - Financial Markets Basics: courses/quant-research-trader/03-financial-markets-basics.md
+      - Python for Quantitative Finance: courses/quant-research-trader/04-python-quant-finance.md
+      - Financial Data Analysis: courses/quant-research-trader/05-financial-data-analysis.md
+    - Trading Strategies:
+      - Technical Analysis: courses/quant-research-trader/06-technical-analysis.md
+      - Statistical Concepts for Trading: courses/quant-research-trader/07-statistical-concepts.md
+      - Trading Strategies: courses/quant-research-trader/08-trading-strategies.md
+      - Risk Management: courses/quant-research-trader/09-risk-management.md
+    - Advanced Topics:
+      - Advanced Trading Strategies: courses/quant-research-trader/10-advanced-strategies.md
+      - Backtesting & Validation: courses/quant-research-trader/11-backtesting-validation.md
+      - Portfolio Management: courses/quant-research-trader/12-portfolio-management.md
+      - Options & Derivatives: courses/quant-research-trader/13-options-derivatives.md
+    - Research & Production:
+      - Quantitative Research Methods: courses/quant-research-trader/14-quantitative-research.md
+      - Machine Learning for Trading: courses/quant-research-trader/15-machine-learning-trading.md
+      - Paper Trading & Live Trading: courses/quant-research-trader/16-paper-trading-live.md
+      - Performance Analysis: courses/quant-research-trader/17-performance-analysis.md
+      - Resources & Further Learning: courses/quant-research-trader/18-resources.md
   - Resources Hub:
       - Overview: courses/resources-hub/README.md
       - Machine Learning: courses/resources-hub/01-machine-learning.md
